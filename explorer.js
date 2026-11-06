@@ -1,6 +1,8 @@
 import { RustApi } from './rustapi.js';
 
-const api = new RustApi();
+// Auf Projekt-Pages liegt die API unter /<repo>/ - Basis aus der aktuellen URL ableiten.
+const basePath = new URL('.', window.location.href).pathname.replace(/\/$/, '');
+const api = new RustApi({ staticBase: basePath });
 const input = /** @type {HTMLInputElement} */ (document.getElementById('q'));
 const typeSelect = /** @type {HTMLSelectElement} */ (document.getElementById('type'));
 const status = /** @type {HTMLElement} */ (document.getElementById('status'));

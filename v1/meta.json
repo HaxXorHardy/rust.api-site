@@ -2,14 +2,14 @@
   "data": {
     "apiVersion": "v1",
     "build": {
-      "bytes": 59782260,
+      "bytes": 59782457,
       "files": 2177,
       "largest": {
         "bytes": 4662971,
         "path": "v1/export/upstream/items.jsonl.gz"
       }
     },
-    "buildId": "43756aac228e719f",
+    "buildId": "7aaad50d722672c1",
     "counts": {
       "buildings": 113,
       "catalog": 1317,
