@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rust API - statische Spieldaten</title>
+<meta name="description" content="Inoffizielle, read-only API fuer Rust-Spieldaten: Items, Crafting, Recycling, Raid-Kosten, Monumente, Skins, Updates und Konsolenbefehle.">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header>
+  <h1>Rust API</h1>
+  <p class="badge">Snapshot 2026-11 - 2026-11-05T05:52:09+00:00</p>
+  <p class="muted">Inoffizielle, read-only API auf Basis eines archivierten Snapshots von
+  <a href="https://rusthelp.com" rel="noopener">rusthelp.com</a>. Keine Verbindung zu Facepunch oder rusthelp.com.</p>
+</header>
+
+<main>
+<section>
+  <h2>Was ist das?</h2>
+  <p>Ein statischer Dateibaum mit JSON-Ressourcen und optional einem Cloudflare Worker fuer
+  Suche und Filter. Alle Details liegen als Datei auf einem CDN, deshalb sind sie schnell,
+  cachebar und brauchen keinen Server.</p>
+  <ul class="facts">
+    <li><strong>2026-11</strong> Snapshot</li>
+    <li>Items, Building, World, Monumente, Skins, Updates, Befehle</li>
+    <li>Kein API-Key, CORS offen, ETag und 304</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Erste Schritte</h2>
+  <pre><code># Metadaten
+curl -s https://haxxorhardy.github.io/rust.api-site/v1/meta.json
+
+# Ein Item
+curl -s https://haxxorhardy.github.io/rust.api-site/v1/items/raw-beef.json
+
+# Alle Items (Summaries)
+curl -s https://haxxorhardy.github.io/rust.api-site/v1/items/index.json
+
+# Raid-Kosten aller Bauteile
+curl -s https://haxxorhardy.github.io/rust.api-site/v1/building/raid-costs.json</code></pre>
+  <p class="muted">Alle Pfade enden auf <code>.json</code>. Query-Parameter gibt es nur beim
+  Worker; statisch sind die wichtigsten Ansichten vorgebaut
+  (<code>by-category</code>, <code>craftable</code>, <code>by-tech-tree</code>).</p>
+</section>
+
+<section>
+  <h2>Explorer</h2>
+  <p class="muted">Durchsucht den kompletten Datensatz direkt im Browser. Der Suchindex
+  (<code>v1/search/index.json</code>) wird einmal geladen und lokal ausgewertet.</p>
+  <div class="controls">
+    <input id="q" type="search" placeholder="z. B. beef, rocket, outpost, cctv" autocomplete="off">
+    <select id="type">
+      <option value="">Alle Typen</option>
+      <option value="item">Items</option>
+      <option value="skin">Skins</option>
+      <option value="building">Building</option>
+      <option value="world">World</option>
+      <option value="monument">Monumente</option>
+      <option value="update">Updates</option>
+      <option value="command">Befehle</option>
+    </select>
+  </div>
+  <p id="status" class="muted"></p>
+  <ul id="results"></ul>
+  <pre id="detail" hidden></pre>
+</section>
+
+<section>
+  <h2>Weiter</h2>
+  <ul class="links">
+    <li><a href="./docs.html">Referenz aller Endpunkte</a></li>
+    <li><a href="./openapi.json">openapi.json</a> (Postman, Insomnia, Swagger)</li>
+    <li><a href="./v1/meta.json">v1/meta.json</a></li>
+    <li><a href="./v1/export/items.csv">items.csv</a></li>
+    <li><a href="./client/rustapi.py">Python-Client</a></li>
+  </ul>
+</section>
+</main>
+
+<footer>
+  <p>Daten: <a href="https://rusthelp.com" rel="noopener">rusthelp.com</a> - Attribution erforderlich.
+  Code: MIT. Bilder werden nur verlinkt, nicht gespiegelt.</p>
+  <p class="muted">Dynamische Endpunkte: <span id="dynamic"></span></p>
+</footer>
+
+<script type="module" src="./explorer.js"></script>
+</body>
+</html>

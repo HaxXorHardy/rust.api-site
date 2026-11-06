@@ -1,0 +1,3045 @@
+{
+  "components": {
+    "schemas": {
+      "Cost": {
+        "properties": {
+          "amount": {
+            "example": 20,
+            "type": "number"
+          },
+          "item": {
+            "$ref": "#/components/schemas/ItemRef"
+          }
+        },
+        "type": "object"
+      },
+      "ItemDetail": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/ItemSummary"
+          },
+          {
+            "properties": {
+              "consumption": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "craft": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "deployableInfo": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "description": {
+                "type": "string"
+              },
+              "extras": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "flags": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "links": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "lootContainers": {
+                "items": {
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "meta": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "obtainedFrom": {
+                "items": {
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "raid": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "recycle": {
+                "items": {
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "recycledFrom": {
+                "items": {
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "usedInCrafting": {
+                "items": {
+                  "type": "object"
+                },
+                "type": "array"
+              }
+            },
+            "type": "object"
+          }
+        ]
+      },
+      "ItemList": {
+        "items": {
+          "$ref": "#/components/schemas/ItemSummary"
+        },
+        "type": "array"
+      },
+      "ItemRef": {
+        "properties": {
+          "id": {
+            "example": "metal-fragments",
+            "type": "string"
+          },
+          "name": {
+            "example": "Metal Fragments",
+            "type": "string"
+          },
+          "path": {
+            "example": "/v1/items/metal-fragments.json",
+            "type": "string"
+          },
+          "slug": {
+            "example": "metal-fragments",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "ItemSummary": {
+        "properties": {
+          "categories": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "category": {
+            "example": "Food",
+            "type": "string"
+          },
+          "consumable": {
+            "type": "boolean"
+          },
+          "craftable": {
+            "type": "boolean"
+          },
+          "deployable": {
+            "type": "boolean"
+          },
+          "hasSkins": {
+            "type": "boolean"
+          },
+          "iconUrl": {
+            "format": "uri",
+            "type": "string"
+          },
+          "id": {
+            "example": "beefmeat",
+            "type": "string"
+          },
+          "ingameId": {
+            "example": -201824959,
+            "type": "integer"
+          },
+          "name": {
+            "example": "Raw Beef",
+            "type": "string"
+          },
+          "path": {
+            "example": "/v1/items/raw-beef.json",
+            "type": "string"
+          },
+          "recyclable": {
+            "type": "boolean"
+          },
+          "shortName": {
+            "example": "beefmeat",
+            "type": "string"
+          },
+          "slug": {
+            "example": "raw-beef",
+            "type": "string"
+          },
+          "stackSize": {
+            "example": 20,
+            "type": "integer"
+          },
+          "techTreeIndex": {
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "Meta": {
+        "properties": {
+          "apiVersion": {
+            "const": "v1",
+            "type": "string"
+          },
+          "buildId": {
+            "type": "string"
+          },
+          "dataset": {
+            "properties": {
+              "createdAt": {
+                "format": "date-time",
+                "type": "string"
+              },
+              "previousVersion": {
+                "nullable": true,
+                "type": "string"
+              },
+              "version": {
+                "example": "2026-11",
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "schemaVersion": {
+            "const": 1,
+            "type": "integer"
+          },
+          "source": {
+            "properties": {
+              "name": {
+                "example": "rusthelp.com",
+                "type": "string"
+              },
+              "url": {
+                "format": "uri",
+                "type": "string"
+              }
+            },
+            "type": "object"
+          }
+        },
+        "required": [
+          "apiVersion",
+          "schemaVersion",
+          "dataset"
+        ],
+        "type": "object"
+      },
+      "Problem": {
+        "properties": {
+          "detail": {
+            "type": "string"
+          },
+          "instance": {
+            "type": "string"
+          },
+          "links": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "requestId": {
+            "type": "string"
+          },
+          "status": {
+            "example": 404,
+            "type": "integer"
+          },
+          "title": {
+            "example": "Not Found",
+            "type": "string"
+          },
+          "type": {
+            "example": "https://httpstatuses.io/404",
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "title",
+          "status"
+        ],
+        "type": "object"
+      },
+      "RaidAttack": {
+        "properties": {
+          "craftCost": {
+            "items": {
+              "properties": {
+                "amount": {
+                  "example": 20,
+                  "type": "number"
+                },
+                "item": {
+                  "$ref": "#/components/schemas/ItemRef"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "crafts": {
+            "example": 8,
+            "type": "integer"
+          },
+          "damagePerItem": {
+            "example": 275,
+            "type": "number"
+          },
+          "derived": {
+            "additionalProperties": {
+              "type": "boolean"
+            },
+            "type": "object"
+          },
+          "item": {
+            "$ref": "#/components/schemas/ItemRef"
+          },
+          "requiredItems": {
+            "example": 8,
+            "type": "integer"
+          },
+          "totalCost": {
+            "items": {
+              "properties": {
+                "amount": {
+                  "example": 20,
+                  "type": "number"
+                },
+                "item": {
+                  "$ref": "#/components/schemas/ItemRef"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "description": "Read-only API auf Basis eines archivierten Snapshots von rusthelp.com.\nStatische Ressourcen liegen als JSON-Dateien auf einem CDN, dynamische Filter\nlaufen optional ueber einen Cloudflare Worker.\n\nDatenquelle: https://rusthelp.com - inoffiziell, keine Verbindung zu Facepunch oder rusthelp.com.\nAttribution ist erforderlich; Bilder werden nur verlinkt, nicht gespiegelt.",
+    "license": {
+      "identifier": "MIT",
+      "name": "MIT (Code) / Quell-Daten: siehe Attribution"
+    },
+    "summary": "Statische API fuer Rust-Spieldaten (Snapshot 1099 Items).",
+    "title": "Rust API (inoffiziell)",
+    "version": "v1.1"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/v1/building/index.json": {
+      "get": {
+        "description": "Alle Bauteile mit Grade, Health und Pfad.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Building",
+        "tags": [
+          "Building"
+        ]
+      }
+    },
+    "/v1/building/raid-costs.json": {
+      "get": {
+        "description": "Raid-Tabelle ueber alle Bauteile (requiredItems aus dem Upstream).",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Raid-Kosten",
+        "tags": [
+          "Building"
+        ]
+      }
+    },
+    "/v1/building/raid-costs/by-damage-type/{type}.json": {
+      "get": {
+        "description": "explosive, bullet oder melee.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "type",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Raid-Kosten je Schadensart",
+        "tags": [
+          "Building"
+        ]
+      }
+    },
+    "/v1/building/{slug}.json": {
+      "get": {
+        "description": "Bauteil inkl. Baukosten, Upkeep, Reparatur und Raid-Tabelle.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Building-Detail",
+        "tags": [
+          "Building"
+        ]
+      }
+    },
+    "/v1/catalog.json": {
+      "get": {
+        "description": "Alle Katalogeintraege inklusive unveroeffentlichter Prefabs.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Item-Katalog",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/categories.json": {
+      "get": {
+        "description": "Kategoriebaum mit Item-Counts.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Kategorien",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/changes.json": {
+      "get": {
+        "description": "Neue, entfernte und geaenderte Items gegenueber der Vorgaengerversion.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Aenderungen",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/commands/all.json": {
+      "get": {
+        "description": "Alle Befehle mit Beschreibung, Default und Flags.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Befehle (vollstaendig)",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/commands/command-list.txt": {
+      "get": {
+        "description": "Alle fullNames, eine pro Zeile.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Befehlsliste",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/commands/duplicates.json": {
+      "get": {
+        "description": "Doppelte fullNames aus dem Upstream.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Befehls-Dubletten",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/commands/index.json": {
+      "get": {
+        "description": "Alle Konsolenbefehle als kompakte Liste.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Befehle",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/datasets.json": {
+      "get": {
+        "description": "Alle Snapshot-Versionen mit Counts und Veroeffentlichungsstatus.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Versionen",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/export/items.csv": {
+      "get": {
+        "description": "Flache Item-Tabelle (UTF-8 mit BOM).",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "text/csv": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "CSV-Export",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/export/upstream/{file}": {
+      "get": {
+        "description": "Unveraenderte Snapshot-Datei (gzip). (nur mit --raw bulk|items|all)",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "file",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Rohdaten",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/items/by-category/{category}.json": {
+      "get": {
+        "description": "Summaries einer Kategorie.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Items je Kategorie",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/items/by-tech-tree/{tree}.json": {
+      "get": {
+        "description": "Items eines Tech-Trees.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "tree",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Items je Tech-Tree",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/items/craftable.json": {
+      "get": {
+        "description": "Alle Items mit Crafting-Rezept.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Craftbare Items",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/items/deployable.json": {
+      "get": {
+        "description": "Alle platzierbaren Items.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Deployables",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/items/index.json": {
+      "get": {
+        "description": "Alle Item-Summaries, nach Name sortiert.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ItemList"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Items",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/items/recyclable.json": {
+      "get": {
+        "description": "Alle Items, die im Recycler verwertbar sind.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Recycelbare Items",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/items/{slug}.json": {
+      "get": {
+        "description": "Vollstaendiges Item inkl. Crafting, Recycling, Loot und Flags.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ItemDetail"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Item-Detail",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/items/{slug}.raw.json": {
+      "get": {
+        "description": "Unveraenderter Upstream-Datensatz. (nur mit --raw items|all)",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Item-Rohdaten",
+        "tags": [
+          "Items"
+        ]
+      }
+    },
+    "/v1/meta.json": {
+      "get": {
+        "description": "Dataset-Version, Counts, Endpunkte und Attribution.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Meta"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Metadaten",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/monuments/index.json": {
+      "get": {
+        "description": "Alle Monumente mit Kategorie und Typ.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Monumente",
+        "tags": [
+          "Monuments"
+        ]
+      }
+    },
+    "/v1/monuments/{slug}.json": {
+      "get": {
+        "description": "Monument inkl. Stats, Spawns und Verweisen.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Monument-Detail",
+        "tags": [
+          "Monuments"
+        ]
+      }
+    },
+    "/v1/recycler/index.json": {
+      "get": {
+        "description": "Recycler-Items und verfuegbare Recycler.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Recycler",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/recycler/{item}.json": {
+      "get": {
+        "description": "Ausbeute je Recycler.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Recycler-Item",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/resolve.json": {
+      "get": {
+        "description": "slug/id/shortName/ingameId sowie Building- und World-Slugs auf Pfade abbilden.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "ID-Landkarte",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/search/index.json": {
+      "get": {
+        "description": "Docs, Tokens und Postings fuer die Client-Suche.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Suchindex",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/skins/by-item/{item}.json": {
+      "get": {
+        "description": "Alle Skins eines Items.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Skins je Item",
+        "tags": [
+          "Skins"
+        ]
+      }
+    },
+    "/v1/skins/index.json": {
+      "get": {
+        "description": "Alle Skins mit Preis, Item-Verknuepfung und Flags.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Skins",
+        "tags": [
+          "Skins"
+        ]
+      }
+    },
+    "/v1/skins/unmatched.json": {
+      "get": {
+        "description": "Bundles und Packs ohne eindeutige Item-Zuordnung.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Skins ohne Item",
+        "tags": [
+          "Skins"
+        ]
+      }
+    },
+    "/v1/store/rotation.json": {
+      "get": {
+        "description": "Aktuelle Rotation mit Skins, Preisen und Item-Verweisen.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Store-Rotation",
+        "tags": [
+          "Skins"
+        ]
+      }
+    },
+    "/v1/store/rotations.json": {
+      "get": {
+        "description": "Alle Rotations-IDs mit Startzeit.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Rotationshistorie",
+        "tags": [
+          "Skins"
+        ]
+      }
+    },
+    "/v1/tech-tree/index.json": {
+      "get": {
+        "description": "Workbench1-3 und IoTable mit Knotenzahl.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Tech-Trees",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/tech-tree/{tree}.json": {
+      "get": {
+        "description": "Knoten inkl. Kosten, Ein- und Ausgaben.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "tree",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Tech-Tree",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/updates/index.json": {
+      "get": {
+        "description": "Devblogs mit Datum und Item-Anzahl.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Updates",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/updates/{id}.json": {
+      "get": {
+        "description": "Devblog inkl. aller Item-Verweise.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "Update-Detail",
+        "tags": [
+          "Meta"
+        ]
+      }
+    },
+    "/v1/world/index.json": {
+      "get": {
+        "description": "NPCs, Loot-Container, Ressourcen, Fahrzeuge, Missionen.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "World",
+        "tags": [
+          "World"
+        ]
+      }
+    },
+    "/v1/world/{slug}.json": {
+      "get": {
+        "description": "World-Eintrag mit aufgeloesten Verweisen.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {},
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Erfolg"
+          },
+          "304": {
+            "description": "Unveraendert (If-None-Match)"
+          },
+          "400": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Ungueltige Anfrage"
+          },
+          "404": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Nicht gefunden"
+          },
+          "429": {
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            },
+            "description": "Rate-Limit erreicht (nur Worker)"
+          }
+        },
+        "summary": "World-Detail",
+        "tags": [
+          "World"
+        ]
+      }
+    }
+  },
+  "servers": [
+    {
+      "description": "Statische API (CDN)",
+      "url": "https://haxxorhardy.github.io/rust.api-site"
+    }
+  ],
+  "tags": [
+    {
+      "description": "Items, Crafting, Recycling, Loot",
+      "name": "Items"
+    },
+    {
+      "description": "Bauteile und Raid-Kosten",
+      "name": "Building"
+    },
+    {
+      "description": "NPCs, Loot, Fahrzeuge, Ressourcen",
+      "name": "World"
+    },
+    {
+      "description": "Monumente",
+      "name": "Monuments"
+    },
+    {
+      "description": "Skins und Store-Preise",
+      "name": "Skins"
+    },
+    {
+      "description": "Versionen, Aenderungen, Katalog",
+      "name": "Meta"
+    }
+  ]
+}

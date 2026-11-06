@@ -1,0 +1,1100 @@
+﻿slug,displayName,shortName,ingameId,category,stackSize,despawnSeconds,maxCondition,isConsumable,calories,hydration,poison,spoilTimeHours,spoilsInto,techTreeIndex,canBeRecycled,isADeployable,url
+12-gauge-buckshot,12 Gauge Buckshot,ammo.shotgun,-1685290200,Ammo,64,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/12-gauge-buckshot
+12-gauge-incendiary-shell,12 Gauge Incendiary Shell,ammo.shotgun.fire,-1036635990,Ammo,64,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/12-gauge-incendiary-shell
+12-gauge-slug,12 Gauge Slug,ammo.shotgun.slug,-727717969,Ammo,32,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/12-gauge-slug
+40mm-he-grenade,40mm HE Grenade,ammo.grenadelauncher.he,349762871,Ammo,12,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/40mm-he-grenade
+40mm-shotgun-round,40mm Shotgun Round,ammo.grenadelauncher.buckshot,1055319033,Ammo,24,300,0,False,,,,,,,True,False,https://rusthelp.com/items/40mm-shotgun-round
+40mm-smoke-grenade,40mm Smoke Grenade,ammo.grenadelauncher.smoke,915408809,Ammo,12,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/40mm-smoke-grenade
+556-rifle-ammo,5.56 Rifle Ammo,ammo.rifle,-1211166256,Ammo,128,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/556-rifle-ammo
+8x-zoom-scope,8x Zoom Scope,weapon.mod.small.scope,567235583,Weapons,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/8x-zoom-scope
+a-barrel-costume,A Barrel Costume,barrelcostume,-1215166612,Clothes,1,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/a-barrel-costume
+above-ground-pool,Above Ground Pool,abovegroundpool,1840570710,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/above-ground-pool
+abyss-horizontal-storage-tank,Abyss Horizontal Storage Tank,abyss.barrel.horizontal,-880494890,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/abyss-horizontal-storage-tank
+abyss-vertical-storage-tank,Abyss Vertical Storage Tank,abyss.barrel.vertical,-919882824,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/abyss-vertical-storage-tank
+accelerated-workbench-upgrade,Accelerated Workbench Upgrade,workbench.upgrade.accelerated,798382300,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/accelerated-workbench-upgrade
+acoustic-guitar,Acoustic Guitar,fun.guitar,-2124352573,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/acoustic-guitar
+advanced-anti-rad-tea,Advanced Anti-Rad Tea,radiationresisttea.advanced,-1729415579,Food,10,2400,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-anti-rad-tea
+advanced-cooling-tea,Advanced Cooling Tea,advancedcoolingtea,-1498613415,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-cooling-tea
+advanced-crafting-quality-tea,Advanced Crafting Quality Tea,advancedcraftingtea_quality,-652889722,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-crafting-quality-tea
+advanced-harvesting-tea,Advanced Harvesting Tea,advanceharvestingtea,-1385721419,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-harvesting-tea
+advanced-healing-tea,Advanced Healing Tea,healingtea.advanced,-2123125470,Food,10,2400,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-healing-tea
+advanced-max-health-tea,Advanced Max Health Tea,maxhealthtea.advanced,603811464,Food,10,2400,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-max-health-tea
+advanced-ore-tea,Advanced Ore Tea,oretea.advanced,2063916636,Food,10,2400,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-ore-tea
+advanced-scrap-tea,Advanced Scrap Tea,scraptea.advanced,524678627,Food,10,2400,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-scrap-tea
+advanced-warming-tea,Advanced Warming Tea,advancedwarmingtea,-334418777,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-warming-tea
+advanced-wood-tea,Advanced Wood Tea,woodtea.advanced,-541206665,Food,10,2400,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/advanced-wood-tea
+advent-calendar,Advent Calendar,xmas.advent,-2027793839,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/advent-calendar
+aiming-module,Aiming Module,aiming.module.mlrs,343045591,Component,1,3600,1,False,,,,,,,True,False,https://rusthelp.com/items/aiming-module
+alien-costume,Alien Costume,alien.costume,1930628359,Clothes,1,300,80,False,,,,,,,True,False,https://rusthelp.com/items/alien-costume
+anchor,Anchor,anchor,829641693,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/anchor
+anchovy,Anchovy,fish.anchovy,342438846,Food,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/anchovy
+and-switch,AND Switch,electric.andswitch,1171735914,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/and-switch
+animal-fat,Animal Fat,fat.animal,-1018587433,Resources,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/animal-fat
+animal-fence,Animal Fence,wall.animal.fence,-1814195745,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/animal-fence
+animal-fence-gate,Animal Fence Gate,wall.animal.fence.gate,1143376304,Construction,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/animal-fence-gate
+anti-radiation-pills,Anti-Radiation Pills,antiradpills,-1432674913,Medical,10,300,0,True,,-5,,-1,,,False,False,https://rusthelp.com/items/anti-radiation-pills
+apartment-key,Apartment Key,apartment.master_key,1664052604,Misc,1,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/apartment-key
+apple,Apple,apple,1548091822,Food,10,300,0,True,30,15,,48,spoiled-produce,,False,False,https://rusthelp.com/items/apple
+apple-pie,Apple Pie,pie.apple,4384538,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/apple-pie
+arctic-scientist-suit,Arctic Scientist Suit,hazmatsuit_scientist_arctic,1107575710,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/arctic-scientist-suit
+arctic-suit,Arctic Suit,hazmatsuit.arcticsuit,-470439097,Clothes,1,2400,450,False,,,,,,,True,False,https://rusthelp.com/items/arctic-suit
+armored-cockpit-vehicle-module,Armored Cockpit Vehicle Module,vehicle.1mod.cockpit.armored,1874610722,Component,1,2400,700,False,,,,,,,True,False,https://rusthelp.com/items/armored-cockpit-vehicle-module
+armored-door,Armored Door,door.hinged.toptier,1353298668,Construction,1,3600,100,False,,,,,,,True,True,https://rusthelp.com/items/armored-door
+armored-double-door,Armored Double Door,door.double.hinged.toptier,1221063409,Construction,1,3600,100,False,,,,,,,True,True,https://rusthelp.com/items/armored-double-door
+armored-ladder-hatch,Armored Ladder Hatch,floor.ladder.hatch.toptier,607785075,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/armored-ladder-hatch
+armored-passenger-vehicle-module,Armored Passenger Vehicle Module,vehicle.1mod.passengers.armored,-1615281216,Component,1,2400,675,False,,,,,,,True,False,https://rusthelp.com/items/armored-passenger-vehicle-module
+armored-triangle-ladder-hatch,Armored Triangle Ladder Hatch,floor.triangle.ladder.hatch.toptier,-478923685,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/armored-triangle-ladder-hatch
+artist-canvas-large,Artist Canvas Large,sign.artistcanvas.m,-946599113,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/artist-canvas-large
+artist-canvas-medium,Artist Canvas Medium,sign.artistcanvas.s,-946599131,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/artist-canvas-medium
+artist-canvas-small,Artist Canvas Small,sign.artistcanvas.xs,1609921845,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/artist-canvas-small
+artist-canvas-standing,Artist Canvas Standing,sign.artistcanvas.l,-946599114,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/artist-canvas-standing
+artist-canvas-xl,Artist Canvas XL,sign.artistcanvas.xl,1562867678,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/artist-canvas-xl
+artist-canvas-xxl,Artist Canvas XXL,sign.artistcanvas.xxl,-816769770,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/artist-canvas-xxl
+asbestos-armor-insert,Asbestos Armor Insert,clothing.mod.armorinsert_asbestos,-903796529,Items,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/asbestos-armor-insert
+assault-rifle,Assault Rifle,rifle.ak,1545779598,Weapons,1,3600,150,False,,,,,,,True,False,https://rusthelp.com/items/assault-rifle
+audio-alarm,Audio Alarm,electric.audioalarm,2100007442,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/audio-alarm
+auto-turret,Auto Turret,autoturret,-2139580305,Electrical,1,3600,100,False,,,,,,,True,True,https://rusthelp.com/items/auto-turret
+ballista,Ballista,ballista.static,1714509152,Weapons,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/ballista
+ballistic-helmet,Ballistic helmet,ballistic.helmet,1127732084,Clothes,1,3600,800,False,,,,,,,True,False,https://rusthelp.com/items/ballistic-helmet
+ballistic-leg-armour,Ballistic leg armour,ballistic.legarmor,1983541158,Clothes,1,3600,150,False,,,,,,,True,False,https://rusthelp.com/items/ballistic-leg-armour
+ballistic-vest,Ballistic vest,ballistic.vest,-1780402255,Clothes,1,3600,300,False,,,,,,,True,False,https://rusthelp.com/items/ballistic-vest
+bamboo-barrel,Bamboo Barrel,bamboo.barrel,-1652561344,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/bamboo-barrel
+bamboo-wall-shelves,Bamboo Wall Shelves,single.shallow.wall.shelves,-193519904,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/bamboo-wall-shelves
+bandage,Bandage,bandage,-2072273936,Medical,3,300,0,True,,,-2,-1,,,True,False,https://rusthelp.com/items/bandage
+bandana-mask,Bandana Mask,mask.bandana,-702051347,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/bandana-mask
+bandit-guard-gear,Bandit Guard Gear,attire.banditguard,-1622110948,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/bandit-guard-gear
+bar-games-minifridge,Bar Games Minifridge,gamesroom.minifridge,352442426,Electrical,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/bar-games-minifridge
+bar-games-shotgun-trap,Bar Games Shotgun Trap,gamesroom.shotgun.trap,399522257,Traps,1,2400,200,False,,,,,,,True,True,https://rusthelp.com/items/bar-games-shotgun-trap
+barbed-wooden-barricade,Barbed Wooden Barricade,barricade.woodwire,1382263453,Construction,10,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/barbed-wooden-barricade
+barbeque,Barbeque,bbq,1099314009,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/barbeque
+baseball-bat,Baseball Bat,mace.baseballbat,-2026042603,Weapons,1,1200,200,False,,,,,,,True,False,https://rusthelp.com/items/baseball-bat
+baseball-cap,Baseball Cap,hat.cap,-1022661119,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/baseball-cap
+basic-anti-rad-tea,Basic Anti-Rad Tea,radiationresisttea,-487356515,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-anti-rad-tea
+basic-cooling-tea,Basic Cooling Tea,coolingtea,-1260229965,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-cooling-tea
+basic-crafting-quality-tea,Basic Crafting Quality Tea,craftingtea_quality,368008432,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-crafting-quality-tea
+basic-harvesting-tea,Basic Harvesting Tea,harvestingtea,1516531815,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-harvesting-tea
+basic-healing-tea,Basic Healing Tea,healingtea,-929092070,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-healing-tea
+basic-horse-shoes,Basic Horse Shoes,horse.shoes.basic,-1211268013,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/basic-horse-shoes
+basic-max-health-tea,Basic Max Health Tea,maxhealthtea,-1184406448,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-max-health-tea
+basic-ore-tea,Basic Ore Tea,oretea,1480022580,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-ore-tea
+basic-scrap-tea,Basic Scrap Tea,scraptea,263834859,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-scrap-tea
+basic-warming-tea,Basic Warming Tea,warmingtea,-1142222427,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-warming-tea
+basic-wood-tea,Basic Wood Tea,woodtea,-649128577,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/basic-wood-tea
+bath-tub-planter,Bath Tub Planter,bathtub.planter,-1274093662,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/bath-tub-planter
+battering-ram,Battering Ram,batteringram,-187304968,Weapons,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/battering-ram
+battery-small,Battery - Small,battery.small,609049394,Resources,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/battery-small
+bdu-pants,BDU pants,bdu.pants,1468749025,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/bdu-pants
+bdu-shirt,BDU shirt,bdu.shirt,-2127311451,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/bdu-shirt
+beach-chair,Beach Chair,beachchair,-321431890,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/beach-chair
+beach-parasol,Beach Parasol,beachparasol,-1621539785,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/beach-parasol
+beach-table,Beach Table,beachtable,657352755,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/beach-table
+beach-towel,Beach Towel,beachtowel,-8312704,Fun,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/beach-towel
+beancan-grenade,Beancan Grenade,grenade.beancan,1840822026,Weapons,4,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/beancan-grenade
+bear-pie,Bear Pie,pie.bear,2039177180,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/bear-pie
+bed,Bed,bed,-1273339005,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/bed
+bee-catapult-bomb,Bee Catapult Bomb,catapult.ammo.bee,1954597876,Ammo,4,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/bee-catapult-bomb
+bee-grenade,Bee Grenade,grenade.bee,1168916338,Weapons,3,300,0,False,,,,,,,True,False,https://rusthelp.com/items/bee-grenade
+beef-pie,Beef Pie,pie.beef,782269436,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/beef-pie
+beehive,Beehive,beehive,184516676,Construction,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/beehive
+beehive-nucleus,Beehive Nucleus,nucleus,-1811234677,Resources,1,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/beehive-nucleus
+beenie-hat,Beenie Hat,hat.beenie,1675639563,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/beenie-hat
+big-cat-pie,Big Cat Pie,pie.bigcat,309017792,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/big-cat-pie
+binoculars,Binoculars,tool.binoculars,-1262185308,Tool,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/binoculars
+biofuel-generator,Biofuel Generator,generator.biofuel,-1661343913,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/biofuel-generator
+birthday-cake,Birthday Cake,cakefiveyear,1973165031,Tool,1,300,10,True,100,1,,-1,,,False,False,https://rusthelp.com/items/birthday-cake
+birthday-candle-hat,Birthday Candle Hat,hat.candle.birthday,1633553557,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/birthday-candle-hat
+black-berry,Black Berry,black.berry,1771755747,Food,20,1200,0,True,5,2,,48,spoiled-produce,,False,False,https://rusthelp.com/items/black-berry
+black-berry-clone,Black Berry Clone,clone.black.berry,122783240,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/black-berry-clone
+black-berry-seed,Black Berry Seed,seed.black.berry,1911552868,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/black-berry-seed
+black-raspberries,Black Raspberries,black.raspberries,1931713481,Food,20,1200,0,True,40,20,-5,48,spoiled-produce,,False,False,https://rusthelp.com/items/black-raspberries
+bleach,Bleach,bleach,1553078977,Component,20,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/bleach
+blocker,Blocker,electric.blocker,-690968985,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/blocker
+blood,Blood,blood,1776460938,Medical,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/blood
+blow-pipe,Blow Pipe,blowpipe,-851288382,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/blow-pipe
+blue-berry,Blue Berry,blue.berry,1112162468,Food,20,1200,0,True,5,2,,48,spoiled-produce,,False,False,https://rusthelp.com/items/blue-berry
+blue-berry-clone,Blue Berry Clone,clone.blue.berry,838831151,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/blue-berry-clone
+blue-berry-seed,Blue Berry Seed,seed.blue.berry,803954639,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/blue-berry-seed
+blue-boomer,Blue Boomer,firework.boomer.blue,1744298439,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/blue-boomer
+blue-jumpsuit,Blue Jumpsuit,jumpsuit.suit.blue,1601468620,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/blue-jumpsuit
+blue-keycard,Blue Keycard,keycard_blue,-484206264,Misc,1,2400,4,False,,,,,,,False,False,https://rusthelp.com/items/blue-keycard
+blue-roman-candle,Blue Roman Candle,firework.romancandle.blue,-515830359,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/blue-roman-candle
+blueberries,Blueberries,blueberries,-586342290,Food,20,1200,0,True,30,20,-5,48,spoiled-produce,,False,False,https://rusthelp.com/items/blueberries
+blueprint-book,Blueprint Book,blueprintbook,-1896395719,Component,100,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/blueprint-book
+blueprint-fragment,Blueprint Fragment,blueprintfragment,-143481979,Component,100,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/blueprint-fragment
+blueprint-page,Blueprint Page,blueprintpage,-1716287874,Component,100,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/blueprint-page
+boat-building-plan,Boat Building Plan,boat.planner,-321247698,Construction,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/boat-building-plan
+boat-building-station,Boat Building Station,boatbuildingstation,1993693904,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/boat-building-station
+bolt-action-rifle,Bolt Action Rifle,rifle.bolt,1588298435,Weapons,1,3600,100,False,,,,,,,True,False,https://rusthelp.com/items/bolt-action-rifle
+bone-armor,Bone Armor,bone.armor.suit,1746956556,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/bone-armor
+bone-arrow,Bone Arrow,arrow.bone,215754713,Ammo,64,300,0,False,,,,,,,True,False,https://rusthelp.com/items/bone-arrow
+bone-club,Bone Club,bone.club,1711033574,Weapons,1,300,80,False,,,,,,,True,False,https://rusthelp.com/items/bone-club
+bone-fragments,Bone Fragments,bone.fragments,1719978075,Resources,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/bone-fragments
+bone-helmet,Bone Helmet,deer.skull.mask,-1903165497,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/bone-helmet
+bone-knife,Bone Knife,knife.bone,1814288539,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/bone-knife
+boogie-board,Boogie Board,boogieboard,-1478094705,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/boogie-board
+boom-box,Boom Box,boombox,-1113501606,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/boom-box
+boomerang,Boomerang,boomerang,1680793490,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/boomerang
+boonie-hat,Boonie Hat,hat.boonie,-23994173,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/boonie-hat
+boots,Boots,shoes.boots,-1549739227,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/boots
+bota-bag,Bota Bag,botabag,613961768,Items,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/bota-bag
+bowless-crossbow,Bowless Crossbow,crossbowbowless,2022157467,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/bowless-crossbow
+bread-loaf,Bread Loaf,bread.loaf,281099360,Food,10,300,0,True,150,10,,-1,,,False,False,https://rusthelp.com/items/bread-loaf
+brioche-bread,Brioche Bread,bread.brioche.loaf,-909588488,Food,10,300,0,True,190,13,,-1,,,False,False,https://rusthelp.com/items/brioche-bread
+bronze-egg,Bronze Egg,easter.bronzeegg,844440409,Misc,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/bronze-egg
+bucket-helmet,Bucket Helmet,bucket.helmet,850280505,Clothes,1,1200,200,False,,,,,,,True,False,https://rusthelp.com/items/bucket-helmet
+building-plan,Building Plan,building.planner,1525520776,Construction,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/building-plan
+bulb-string-lights,Bulb String Lights,electric.bulbstringlights,104856514,Electrical,150,300,100,False,,,,,,,True,True,https://rusthelp.com/items/bulb-string-lights
+bunny-costume,Bunny Costume,bunny.suit,1285226495,Clothes,1,300,80,False,,,,,,,True,False,https://rusthelp.com/items/bunny-costume
+bunny-ears,Bunny Ears,attire.bunnyears,-1004426654,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/bunny-ears
+bunny-hat,Bunny Hat,hat.bunnyhat,23391694,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/bunny-hat
+bunny-onesie,Bunny Onesie,attire.bunny.onesie,-1266045928,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/bunny-onesie
+burlap-gloves,Burlap Gloves,burlap.gloves.new,21402876,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/burlap-gloves
+burlap-headwrap,Burlap Headwrap,burlap.headwrap,1877339384,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/burlap-headwrap
+burlap-shirt,Burlap Shirt,burlap.shirt,602741290,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/burlap-shirt
+burlap-shoes,Burlap Shoes,burlap.shoes,-761829530,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/burlap-shoes
+burlap-trousers,Burlap Trousers,burlap.trousers,1992974553,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/burlap-trousers
+burnt-bear-meat,Burnt Bear Meat,bearmeat.burned,-989755543,Food,20,300,0,True,25,,,-1,,,False,False,https://rusthelp.com/items/burnt-bear-meat
+burnt-chicken,Burnt Chicken,chicken.burned,1973684065,Food,20,300,0,True,10,,,-1,,,False,False,https://rusthelp.com/items/burnt-chicken
+burnt-deer-meat,Burnt Deer Meat,deermeat.burned,-78533081,Food,20,300,0,True,10,,,-1,,,False,False,https://rusthelp.com/items/burnt-deer-meat
+burnt-horse-meat,Burnt Horse Meat,horsemeat.burned,1917703890,Food,20,300,0,True,10,,,-1,,,False,False,https://rusthelp.com/items/burnt-horse-meat
+burnt-human-meat,Burnt Human Meat,humanmeat.burned,-682687162,Food,20,300,0,True,6,-30,,-1,,,False,False,https://rusthelp.com/items/burnt-human-meat
+burnt-pork,Burnt Pork,meat.pork.burned,1391703481,Food,20,300,0,True,15,,,-1,,,False,False,https://rusthelp.com/items/burnt-pork
+burnt-wolf-meat,Burnt Wolf Meat,wolfmeat.burned,1827479659,Food,20,300,0,True,15,,,-1,,,False,False,https://rusthelp.com/items/burnt-wolf-meat
+burst-module,Burst Module,weapon.mod.burstmodule,838308300,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/burst-module
+butcher-knife,Butcher Knife,knife.butcher,-194509282,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/butcher-knife
+button,Button,electric.button,-1778897469,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/button
+cable-tunnel,Cable Tunnel,electric.cabletunnel,1835946060,Electrical,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/cable-tunnel
+cactus-flesh,Cactus Flesh,cactusflesh,1783512007,Food,10,300,0,True,5,20,,48,spoiled-produce,,False,False,https://rusthelp.com/items/cactus-flesh
+camera,Camera,tool.camera,-1316706473,Tool,1,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/camera
+camp-fire,Camp Fire,campfire,1946219319,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/camp-fire
+camper-vehicle-module,Camper Vehicle Module,vehicle.2mod.camper,-1040518150,Component,1,2400,525,False,,,,,,,True,False,https://rusthelp.com/items/camper-vehicle-module
+can-of-beans,Can of Beans,can.beans,-700591459,Food,10,300,0,True,100,25,,-1,,,False,False,https://rusthelp.com/items/can-of-beans
+can-of-tuna,Can of Tuna,can.tuna,-1941646328,Food,10,300,0,True,50,15,,-1,,,False,False,https://rusthelp.com/items/can-of-tuna
+canbourine,Canbourine,fun.tambourine,-1379036069,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/canbourine
+cancer-research-uk-2026-plushie,Cancer Research UK 2026 Plushie,charity.plushy.04,2130820927,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/cancer-research-uk-2026-plushie
+cancer-research-uk-plushie,Cancer Research UK Plushie,charity.plushy.01,2130820932,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/cancer-research-uk-plushie
+candle-hat,Candle Hat,hat.candle,1714496074,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/candle-hat
+candy-cane,Candy Cane,candycane,1121925526,Food,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/candy-cane
+candy-cane-club,Candy Cane Club,candycaneclub,1789825282,Weapons,1,300,100,True,300,100,,-1,,,False,False,https://rusthelp.com/items/candy-cane-club
+cannon,Cannon,cannon,-34498533,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/cannon
+cannonball,Cannonball,cannonball,-411735114,Ammo,6,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/cannonball
+captains-log,Captain's Log,captainslog,1230691307,Misc,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/captains-log
+car-radio,Car Radio,vehicle.car_radio,721798950,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/car-radio
+carvable-pumpkin,Carvable Pumpkin,carvable.pumpkin,1524980732,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/carvable-pumpkin
+cassette-long,Cassette - Long,cassette,476066818,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/cassette-long
+cassette-medium,Cassette - Medium,cassette.medium,-912398867,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/cassette-medium
+cassette-recorder,Cassette Recorder,fun.casetterecorder,-1530414568,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/cassette-recorder
+cassette-short,Cassette - Short,cassette.short,1523403414,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/cassette-short
+catapult,Catapult,catapult,1145722690,Weapons,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/catapult
+catfish,Catfish,fish.catfish,-587989372,Food,5,300,0,False,,,,,,,False,False,https://rusthelp.com/items/catfish
+cctv-camera,CCTV Camera,cctv.camera,634478325,Resources,64,3600,0,False,,,,,,,True,True,https://rusthelp.com/items/cctv-camera
+ceiling-light,Ceiling Light,ceilinglight,1142993169,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/ceiling-light
+chainlink-fence,Chainlink Fence,wall.frame.fence,-1117626326,Construction,10,300,100,False,,,,,,,True,True,https://rusthelp.com/items/chainlink-fence
+chainlink-fence-gate,Chainlink Fence Gate,wall.frame.fence.gate,1451568081,Construction,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/chainlink-fence-gate
+chainsaw,Chainsaw,chainsaw,1104520648,Tool,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/chainsaw
+chair,Chair,chair,1534542921,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/chair
+champagne-boomer,Champagne Boomer,firework.boomer.champagne,1324203999,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/champagne-boomer
+chandelier,Chandelier,electric.chandelier,-1510616686,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/chandelier
+charcoal,Charcoal,charcoal,-1938052175,Resources,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/charcoal
+chicken-coop,Chicken Coop,chickencoop,-2018158920,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/chicken-coop
+chicken-costume,Chicken Costume,chicken.costume,-152332823,Clothes,1,300,80,False,,,,,,,True,False,https://rusthelp.com/items/chicken-costume
+chicken-pie,Chicken Pie,pie.chicken,120820987,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/chicken-pie
+chinese-lantern,Chinese Lantern,chineselantern,-1916473915,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/chinese-lantern
+chinese-lantern-white,Chinese Lantern White,chineselanternwhite,-770304148,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/chinese-lantern-white
+chippy-arcade-game,Chippy Arcade Game,arcade.machine.chippy,359723196,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/chippy-arcade-game
+chocolate-bar,Chocolate Bar,chocolate,-965336208,Food,10,300,0,True,100,1,,-1,,,False,False,https://rusthelp.com/items/chocolate-bar
+christmas-door-wreath,Christmas Door Wreath,xmasdoorwreath,2009734114,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/christmas-door-wreath
+christmas-lights,Christmas Lights,xmas.lightstring,1058261682,Items,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/christmas-lights
+christmas-tree,Christmas Tree,xmas.tree,794443127,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/christmas-tree
+circle-balloon,Circle Balloon,circleballoon2025,-105343718,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/circle-balloon
+clan-table,Clan Table,clantable,486661382,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/clan-table
+clatter-helmet,Clatter Helmet,clatter.helmet,968019378,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/clatter-helmet
+cloth,Cloth,cloth,-858312878,Resources,1000,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/cloth
+clothing-mannequin,Clothing Mannequin,mannequin,-1035206446,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/clothing-mannequin
+clump-of-latex-balloons,Clump of Latex Balloons,latexclumpballoon2025,-1440443161,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/clump-of-latex-balloons
+clump-of-mixed-balloons,Clump of Mixed Balloons,mixedclumpballoon2025,571949408,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/clump-of-mixed-balloons
+coal,Coal :(,coal,204391461,Resources,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/coal
+cockpit-vehicle-module,Cockpit Vehicle Module,vehicle.1mod.cockpit,-1501451746,Component,1,2400,360,False,,,,,,,True,False,https://rusthelp.com/items/cockpit-vehicle-module
+cockpit-with-engine-vehicle-module,Cockpit With Engine Vehicle Module,vehicle.1mod.cockpit.with.engine,170758448,Component,1,2400,425,False,,,,,,,True,False,https://rusthelp.com/items/cockpit-with-engine-vehicle-module
+coconut,Coconut,coconut,-24571537,Food,20,300,0,True,15,50,,-1,,,False,False,https://rusthelp.com/items/coconut
+code-lock,Code Lock,lock.code,1159991980,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/code-lock
+coffee-can-helmet,Coffee Can Helmet,coffeecan.helmet,-803263829,Clothes,1,1200,200,False,,,,,,,True,False,https://rusthelp.com/items/coffee-can-helmet
+coffin,Coffin,coffin.storage,573676040,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/coffin
+combat-knife,Combat Knife,knife.combat,2040726127,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/combat-knife
+comfort-workbench-upgrade,Comfort Workbench Upgrade,workbench.upgrade.comfort,-770390391,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/comfort-workbench-upgrade
+command-block,Command Block,command.block,-1247485104,Electrical,64,300,0,False,,,,,,,False,True,https://rusthelp.com/items/command-block
+compass,Compass,compass,594041190,Tool,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/compass
+composter,Composter,composter,-1488398114,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/composter
+compound-bow,Compound Bow,bow.compound,884424049,Weapons,1,1200,60,False,,,,,,,True,False,https://rusthelp.com/items/compound-bow
+computer-station,Computer Station,computerstation,-1588628467,Electrical,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/computer-station
+concrete-barricade,Concrete Barricade,barricade.concrete,-1950721390,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/concrete-barricade
+confetti-cannon,Confetti Cannon,confetticannon,1603174987,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/confetti-cannon
+connected-speaker,Connected Speaker,connected.speaker,968421290,Fun,5,300,100,False,,,,,,,True,True,https://rusthelp.com/items/connected-speaker
+cooked-bear-meat,Cooked Bear Meat,bearmeat.cooked,1873897110,Food,20,1200,0,True,100,1,,24,bearmeat-spoiled,,False,False,https://rusthelp.com/items/cooked-bear-meat
+cooked-beef,Cooked Beef,beefmeat.cooked,718346230,Food,20,1200,0,True,120,1,,24,beefmeat-spoiled,,False,False,https://rusthelp.com/items/cooked-beef
+cooked-big-cat-meat,Cooked Big Cat Meat,bigcatmeat.cooked,-1318837358,Food,20,1200,0,True,120,1,,24,bigcatmeat-spoiled,,False,False,https://rusthelp.com/items/cooked-big-cat-meat
+cooked-chicken,Cooked Chicken,chicken.cooked,-1848736516,Food,20,1200,0,True,40,3,,24,chicken-spoiled,,False,False,https://rusthelp.com/items/cooked-chicken
+cooked-crocodile-meat,Cooked Crocodile Meat,crocodilemeat.cooked,392828520,Food,20,1200,0,True,100,1,,24,crocodilemeat-spoiled,,False,False,https://rusthelp.com/items/cooked-crocodile-meat
+cooked-deer-meat,Cooked Deer Meat,deermeat.cooked,-1509851560,Food,20,1200,0,True,40,3,,24,deermeat-spoiled,,False,False,https://rusthelp.com/items/cooked-deer-meat
+cooked-fish,Cooked Fish,fish.cooked,1668129151,Food,20,300,0,True,60,15,,24,fish-spoiled,,False,False,https://rusthelp.com/items/cooked-fish
+cooked-horse-meat,Cooked Horse Meat,horsemeat.cooked,-1162759543,Food,20,1200,0,True,45,3,,24,horsemeat-spoiled,,False,False,https://rusthelp.com/items/cooked-horse-meat
+cooked-human-meat,Cooked Human Meat,humanmeat.cooked,1536610005,Food,20,300,0,True,30,-30,,24,humanmeat-spoiled,,False,False,https://rusthelp.com/items/cooked-human-meat
+cooked-mutton,Cooked Mutton,muttonmeat.cooked,-319133397,Food,20,1200,0,True,120,1,,24,muttonmeat-spoiled,,False,False,https://rusthelp.com/items/cooked-mutton
+cooked-pork,Cooked Pork,meat.pork.cooked,-242084766,Food,20,1200,0,True,60,1,,24,porkmeat-spoiled,,False,False,https://rusthelp.com/items/cooked-pork
+cooked-snake-meat,Cooked Snake Meat,snakemeat.cooked,-170436364,Food,20,1200,0,True,100,1,,24,snakemeat-spoiled,,False,False,https://rusthelp.com/items/cooked-snake-meat
+cooked-wolf-meat,Cooked Wolf Meat,wolfmeat.cooked,813023040,Food,20,1200,0,True,60,1,,24,wolfmeat-spoiled,,False,False,https://rusthelp.com/items/cooked-wolf-meat
+cooking-workbench,Cooking Workbench,cookingworkbench,1456143403,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/cooking-workbench
+corn,Corn,corn,1367190888,Food,20,1200,0,True,75,10,,48,spoiled-produce,,False,False,https://rusthelp.com/items/corn
+corn-clone,Corn Clone,clone.corn,-778875547,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/corn-clone
+corn-seed,Corn Seed,seed.corn,998894949,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/corn-seed
+counter,Counter,electric.counter,-216999575,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/counter
+cowbell,Cowbell,fun.cowbell,-1049881973,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/cowbell
+crate-costume,Crate Costume,cratecostume,1189981699,Clothes,1,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/crate-costume
+cream,Cream,cream,1185218972,Food,10,300,0,True,30,9,,48,spoiled-produce,,False,False,https://rusthelp.com/items/cream
+creamy-pure-anti-rad-tea,Creamy Pure Anti-Rad Tea,radiationresisttea.pure.creamy,-1882497808,Food,10,3600,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-anti-rad-tea
+creamy-pure-cooling-tea,Creamy Pure Cooling Tea,purecoolingtea.creamy,1527700610,Food,10,1200,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-cooling-tea
+creamy-pure-harvesting-tea,Creamy Pure Harvesting Tea,pureharvestingtea.creamy,-1661676046,Food,10,1200,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-harvesting-tea
+creamy-pure-healing-tea,Creamy Pure Healing Tea,healingtea.pure.creamy,-132349657,Food,10,3600,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-healing-tea
+creamy-pure-max-health-tea,Creamy Pure Max Health Tea,maxhealthtea.pure.creamy,-1244746477,Food,10,3600,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-max-health-tea
+creamy-pure-ore-tea,Creamy Pure Ore Tea,oretea.pure.creamy,-744942541,Food,10,3600,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-ore-tea
+creamy-pure-scrap-tea,Creamy Pure Scrap Tea,scraptea.pure.creamy,1519395656,Food,10,3600,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-scrap-tea
+creamy-pure-warming-tea,Creamy Pure Warming Tea,purewarmingtea.creamy,556232090,Food,10,1200,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-warming-tea
+creamy-pure-wood-tea,Creamy Pure Wood Tea,woodtea.pure.creamy,-844428380,Food,10,3600,0,True,45,30,,-1,,,False,False,https://rusthelp.com/items/creamy-pure-wood-tea
+crocodile-pie,Crocodile Pie,pie.crocodile,54265286,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/crocodile-pie
+crossbow,Crossbow,crossbow,1965232394,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/crossbow
+crude-oil,Crude Oil,crude.oil,-321733511,Resources,500,300,0,True,-50,-50,10,-1,,,False,False,https://rusthelp.com/items/crude-oil
+cultist-deer-torch,Cultist Deer Torch,torch.torch.skull,-1175656359,Tool,1,30,50,False,,,,,,,True,False,https://rusthelp.com/items/cultist-deer-torch
+cursed-cauldron,Cursed Cauldron,cursedcauldron,1242522330,Misc,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/cursed-cauldron
+custom-smg,Custom SMG,smg.2,1796682209,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/custom-smg
+dart-board,Dart Board,dartboard,-872679147,Fun,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/dart-board
+decorative-baubels,Decorative Baubels,xmas.decoration.baubels,-1667224349,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/decorative-baubels
+decorative-gingerbread-men,Decorative Gingerbread Men,xmas.decoration.gingerbreadmen,1686524871,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/decorative-gingerbread-men
+decorative-pinecones,Decorative Pinecones,xmas.decoration.pinecone,-129230242,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/decorative-pinecones
+decorative-plastic-candy-canes,Decorative Plastic Candy Canes,xmas.decoration.candycanes,-209869746,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/decorative-plastic-candy-canes
+decorative-tinsel,Decorative Tinsel,xmas.decoration.tinsel,2106561762,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/decorative-tinsel
+defensive-workbench-upgrade,Defensive Workbench Upgrade,workbench.upgrade.defensive,-1953279770,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/defensive-workbench-upgrade
+deluxe-christmas-lights,Deluxe Christmas Lights,xmas.lightstring.advanced,-151387974,Electrical,150,300,100,False,,,,,,,True,True,https://rusthelp.com/items/deluxe-christmas-lights
+diesel-fuel,Diesel Fuel,diesel_barrel,1568388703,Resources,20,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/diesel-fuel
+digital-clock,Digital Clock,electric.digitalclock,1619039771,Electrical,10,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/digital-clock
+disco-ball,Disco Ball,discoball,1895235349,Fun,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/disco-ball
+disco-floor,Disco Floor,discofloor,286648290,Fun,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/disco-floor
+discord-trophy,Discord Trophy,discord.trophy,1494014226,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/discord-trophy
+diver-propulsion-vehicle,Diver propulsion vehicle,skidoo,-1056824343,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/diver-propulsion-vehicle
+diving-fins,Diving Fins,diving.fins,296519935,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/diving-fins
+diving-mask,Diving Mask,diving.mask,-113413047,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/diving-mask
+diving-tank,Diving Tank,diving.tank,-2022172587,Clothes,1,1200,600,False,,,,,,,True,False,https://rusthelp.com/items/diving-tank
+documents,Documents,documents,-451310088,Tool,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/documents
+door-closer,Door Closer,door.closer,1409529282,Construction,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/door-closer
+door-controller,Door Controller,electric.doorcontroller,-502177121,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/door-controller
+door-key,Door Key,door.key,-1112793865,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/door-key
+double-barrel-shotgun,Double Barrel Shotgun,shotgun.double,-765183617,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/double-barrel-shotgun
+double-diving-tank,Double Diving Tank,diving.tank.double,-1559420426,Clothes,1,1200,1080,False,,,,,,,True,False,https://rusthelp.com/items/double-diving-tank
+double-horse-saddle,Double Horse Saddle,horse.saddle.double,-1323101799,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/double-horse-saddle
+double-sign-post,Double Sign Post,sign.post.double,1521286012,Items,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/double-sign-post
+dracula-cape,Dracula Cape,draculacape,-258574361,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/dracula-cape
+dracula-mask,Dracula Mask,draculamask,1865253052,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/dracula-mask
+dragon-door-knocker,Dragon Door Knocker,dragondoorknocker,-854270928,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/dragon-door-knocker
+dragon-mask,Dragon Mask,hat.dragonmask,-22883916,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/dragon-mask
+drone,Drone,drone,1588492232,Items,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/drone
+drop-box,Drop Box,dropbox,-1519126340,Items,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/drop-box
+duct-tape,Duct Tape,ducttape,1401987718,Component,20,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/duct-tape
+dung,Dung,horsedung,-1579932985,Resources,100,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/dung
+easter-door-wreath,Easter Door Wreath,easterdoorwreath,-979302481,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/easter-door-wreath
+efficiency-workbench-upgrade,Efficiency Workbench Upgrade,workbench.upgrade.efficiency,1215602244,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/efficiency-workbench-upgrade
+egg,Egg,egg,1858828593,Food,20,300,0,True,40,15,,48,spoiled-produce,,False,False,https://rusthelp.com/items/egg
+egg-basket,Egg Basket,easterbasket,1856217390,Misc,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/egg-basket
+egg-suit,Egg Suit,attire.egg.suit,-747743875,Clothes,1,2400,80,False,,,,,,,True,False,https://rusthelp.com/items/egg-suit
+electric-furnace,Electric Furnace,electric.furnace,-1196547867,Electrical,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/electric-furnace
+electric-fuse,Electric Fuse,fuse,-629028935,Component,10,2400,200,False,,,,,,,True,False,https://rusthelp.com/items/electric-fuse
+electric-heater,Electric Heater,electric.heater,-784870360,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/electric-heater
+electric-table-lamp,Electric Table Lamp,electric.tablelight,1717250161,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/electric-table-lamp
+electrical-branch,Electrical Branch,electrical.branch,-1448252298,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/electrical-branch
+elevator,Elevator,elevator,1177596584,Electrical,5,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/elevator
+empty-can-of-beans,Empty Can Of Beans,can.beans.empty,1655979682,Resources,10,300,0,False,,,,,,,True,False,https://rusthelp.com/items/empty-can-of-beans
+empty-propane-tank,Empty Propane Tank,propanetank,-1673693549,Component,20,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/empty-propane-tank
+empty-tuna-can,Empty Tuna Can,can.tuna.empty,-1557377697,Resources,10,300,0,False,,,,,,,True,False,https://rusthelp.com/items/empty-tuna-can
+engine-vehicle-module,Engine Vehicle Module,vehicle.1mod.engine,1559779253,Component,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/engine-vehicle-module
+engineering-workbench,Engineering Workbench,iotable,210787554,Items,1,2400,1,False,,,,,,4,True,True,https://rusthelp.com/items/engineering-workbench
+eoka-pistol,Eoka Pistol,pistol.eoka,-75944661,Weapons,1,300,50,False,,,,,,,True,False,https://rusthelp.com/items/eoka-pistol
+explosive-556-rifle-ammo,Explosive 5.56 Rifle Ammo,ammo.rifle.explosive,-1321651331,Ammo,128,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/explosive-556-rifle-ammo
+explosives,Explosives,explosives,-592016202,Resources,100,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/explosives
+extended-magazine,Extended Magazine,weapon.mod.extendedmags,2005491391,Weapons,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/extended-magazine
+f1-grenade,F1 Grenade,grenade.f1,143803535,Weapons,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/f1-grenade
+fairy-lights,Fairy Lights,electric.fairylights,54436981,Electrical,150,300,100,False,,,,,,,True,True,https://rusthelp.com/items/fairy-lights
+fertilizer,Fertilizer,fertilizer,-930193596,Resources,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/fertilizer
+festive-doorway-garland,Festive Doorway Garland,xmas.door.garland,674734128,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/festive-doorway-garland
+festive-double-doorway-garland,Festive Double Doorway Garland,xmas.double.door.garland,-1230433643,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/festive-double-doorway-garland
+festive-window-garland,Festive Window Garland,xmas.window.garland,-1379835144,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/festive-window-garland
+fire-arrow,Fire Arrow,arrow.fire,14241751,Ammo,64,300,0,False,,,,,,,True,False,https://rusthelp.com/items/fire-arrow
+firebomb,Firebomb,catapult.ammo.incendiary,-484006286,Ammo,4,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/firebomb
+firecracker-string,Firecracker String,lunar.firecrackers,-1961560162,Fun,5,300,0,False,,,,,,,True,False,https://rusthelp.com/items/firecracker-string
+fish-pie,Fish Pie,pie.fish,-1785248332,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/fish-pie
+fish-trophy,Fish Trophy,fishtrophy,-1913996738,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/fish-trophy
+fishing-tackle,Fishing Tackle,fishing.tackle,-1707425764,Tool,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/fishing-tackle
+flame-thrower,Flame Thrower,flamethrower,-1215753368,Weapons,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/flame-thrower
+flame-turret,Flame Turret,flameturret,528668503,Traps,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/flame-turret
+flare,Flare,flare,304481038,Tool,5,300,0,False,,,,,,,True,False,https://rusthelp.com/items/flare
+flashbang,Flashbang,grenade.flashbang,-936921910,Weapons,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/flashbang
+flasher-light,Flasher Light,electric.flasherlight,-939424778,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/flasher-light
+flashlight,Flashlight,flashlight.held,-196667575,Tool,1,300,50,False,,,,,,,True,False,https://rusthelp.com/items/flashlight
+flatbed-vehicle-module,Flatbed Vehicle Module,vehicle.1mod.flatbed,-1880231361,Component,1,2400,250,False,,,,,,,True,False,https://rusthelp.com/items/flatbed-vehicle-module
+floor-grill,Floor grill,floor.grill,936496778,Construction,10,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/floor-grill
+floor-triangle-grill,Floor triangle grill,floor.triangle.grill,1983621560,Construction,10,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/floor-triangle-grill
+flooring,Flooring,wallpaper.flooring,-551431036,Items,10,300,0,False,,,,,,,True,False,https://rusthelp.com/items/flooring
+fluid-combiner,Fluid Combiner,fluid.combiner,-265292885,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/fluid-combiner
+fluid-splitter,Fluid Splitter,fluid.splitter,-1166712463,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/fluid-splitter
+fluid-switch-pump,Fluid Switch & Pump,fluid.switch,443432036,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/fluid-switch-pump
+fluorescent-light,Fluorescent Light,electric.fluorescentlight,1892536031,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/fluorescent-light
+fogger-3000,Fogger-3000,fogmachine,-1973785141,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/fogger-3000
+fragmentation-mortar-shell,Fragmentation Mortar Shell,ammo.mortar.fragment,-486432631,Ammo,10,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/fragmentation-mortar-shell
+frankenstein-mask,Frankenstein Mask,frankensteinmask,-1647389398,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/frankenstein-mask
+frankenstein-table,Frankenstein Table,frankensteintable,1575635062,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/frankenstein-table
+fridge,Fridge,fridge,1413014235,Electrical,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/fridge
+frog-boots,Frog Boots,boots.frog,-1000573653,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/frog-boots
+frontier-bolts-single-item-rack,Frontier Bolts Single Item Rack,gunrack.single.1.horizontal,1973949960,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/frontier-bolts-single-item-rack
+frontier-horns-single-item-rack,Frontier Horns Single Item Rack,gunrack.single.3.horizontal,-52398594,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/frontier-horns-single-item-rack
+frontier-horseshoe-single-item-rack,Frontier Horseshoe Single Item Rack,gunrack.single.2.horizontal,-849373693,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/frontier-horseshoe-single-item-rack
+fuel-tank-vehicle-module,Fuel Tank Vehicle Module,vehicle.2mod.fuel.tank,1186655046,Component,1,2400,325,False,,,,,,,True,False,https://rusthelp.com/items/fuel-tank-vehicle-module
+furnace,Furnace,furnace,-1999722522,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/furnace
+garage-door,Garage Door,wall.frame.garagedoor,-148794216,Construction,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/garage-door
+garrys-mod-tool-gun,Garry's Mod Tool Gun,toolgun,1803831286,Tool,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/garrys-mod-tool-gun
+gas-compression-overdrive,Gas Compression Overdrive,weapon.mod.gascompressionovedrive,-1767794021,Weapons,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/gas-compression-overdrive
+gas-mask,Gas Mask,hat.gas.mask,1659114910,Clothes,1,300,200,False,,,,,,,True,False,https://rusthelp.com/items/gas-mask
+gears,Gears,gears,479143914,Component,20,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/gears
+geiger-counter,Geiger Counter,geiger.counter,999690781,Tool,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/geiger-counter
+gems,Gems,kickgems,-1622386500,Resources,5000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/gems
+ghost-costume,Ghost Costume,ghostsheet,-1043618880,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/ghost-costume
+giant-candy-decor,Giant Candy Decor,giantcandycanedecor,-695124222,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/giant-candy-decor
+giant-lollipop-decor,Giant Lollipop Decor,giantlollipops,282103175,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/giant-lollipop-decor
+gingerbread-suit,Gingerbread Suit,gingerbreadsuit,-558880549,Clothes,1,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/gingerbread-suit
+glowing-eyes,Glowing Eyes,gloweyes,-690276911,Clothes,1,300,100,False,,,,,,,False,False,https://rusthelp.com/items/glowing-eyes
+glue,Glue,glue,-1899491405,Component,10,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/glue
+gold-egg,Gold Egg,easter.goldegg,-1002156085,Misc,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/gold-egg
+granola-bar,Granola Bar,granolabar,-746030907,Food,10,300,0,True,60,,,-1,,,False,False,https://rusthelp.com/items/granola-bar
+gravestone,Gravestone,gravestone,809199956,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/gravestone
+graveyard-fence,Graveyard Fence,wall.graveyard.fence,-1679267738,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/graveyard-fence
+green-berry,Green Berry,green.berry,858486327,Food,20,1200,0,True,5,2,,48,spoiled-produce,,False,False,https://rusthelp.com/items/green-berry
+green-berry-clone,Green Berry Clone,clone.green.berry,-1305326964,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/green-berry-clone
+green-berry-seed,Green Berry Seed,seed.green.berry,-1776128552,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/green-berry-seed
+green-boomer,Green Boomer,firework.boomer.green,-656349006,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/green-boomer
+green-keycard,Green Keycard,keycard_green,37122747,Misc,1,1200,4,False,,,,,,,False,False,https://rusthelp.com/items/green-keycard
+green-roman-candle,Green Roman Candle,firework.romancandle.green,-1306288356,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/green-roman-candle
+grub,Grub,grub,-568419968,Food,25,300,0,True,3,-15,,-1,,,False,False,https://rusthelp.com/items/grub
+gun-powder,Gun Powder,gunpowder,-265876753,Resources,1000,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/gun-powder
+half-height-bamboo-shelves,Half Height Bamboo Shelves,half.bamboo.shelves,-1923843855,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/half-height-bamboo-shelves
+half-height-industrial-shelves,Half Height Industrial Shelves,halfheight.industrial.shelves,786458957,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/half-height-industrial-shelves
+halloween-candy,Halloween Candy,halloween.candy,-888153050,Misc,1000,300,0,True,25,,,-1,,,False,False,https://rusthelp.com/items/halloween-candy
+halloween-string-lights,Halloween String Lights,halloween.string.lights,139776459,Items,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/halloween-string-lights
+halloween-wreath,Halloween Wreath,halloweenwreath,1174330346,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/halloween-wreath
+hammer,Hammer,hammer,200773292,Tool,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/hammer
+hammerhead-bolt,Hammerhead Bolt,ballista.bolt.hammerhead,-19318653,Ammo,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/hammerhead-bolt
+handcuffs,Handcuffs,handcuffs,-839576748,Tool,1,1200,60,False,,,,,,,True,False,https://rusthelp.com/items/handcuffs
+handmade-fishing-rod,Handmade Fishing Rod,fishingrod.handmade,1569882109,Tool,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/handmade-fishing-rod
+handmade-shell,Handmade Shell,ammo.handmade.shell,588596902,Ammo,64,300,0,False,,,,,,,True,False,https://rusthelp.com/items/handmade-shell
+handmade-smg,Handmade SMG,t1_smg,2083256995,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/handmade-smg
+hatchet,Hatchet,hatchet,-1252059217,Tool,1,1200,400,False,,,,,,,True,False,https://rusthelp.com/items/hatchet
+hazmat-plushy,Hazmat Plushy,hazmat.plushy,1578317134,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/hazmat-plushy
+hazmat-suit,Hazmat Suit,hazmatsuit,1266491000,Clothes,1,2400,450,False,,,,,,,True,False,https://rusthelp.com/items/hazmat-suit
+hazmat-youtooz,Hazmat Youtooz,hazmatyoutooz,-1696379844,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/hazmat-youtooz
+hbhf-sensor,HBHF Sensor,electric.hbhfsensor,-1507239837,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/hbhf-sensor
+head-bag,Head Bag,head.bag,209218760,Misc,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/head-bag
+headset,Headset,twitch.headset,-1569700847,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/headset
+heart-balloon,Heart Balloon,heartballoon2025,362863314,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/heart-balloon
+heavy-frankenstein-head,Heavy Frankenstein Head,frankensteins.monster.03.head,-297099594,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/heavy-frankenstein-head
+heavy-frankenstein-legs,Heavy Frankenstein Legs,frankensteins.monster.03.legs,-2024549027,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/heavy-frankenstein-legs
+heavy-frankenstein-torso,Heavy Frankenstein Torso,frankensteins.monster.03.torso,1614528785,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/heavy-frankenstein-torso
+heavy-fuse,Heavy Fuse,fuse.highgrade,-945548410,Component,3,3600,1000,False,,,,,,,True,False,https://rusthelp.com/items/heavy-fuse
+heavy-plate-helmet,Heavy Plate Helmet,heavy.plate.helmet,1181207482,Clothes,1,2400,1000,False,,,,,,,True,False,https://rusthelp.com/items/heavy-plate-helmet
+heavy-plate-jacket,Heavy Plate Jacket,heavy.plate.jacket,-1102429027,Clothes,1,2400,1000,False,,,,,,,True,False,https://rusthelp.com/items/heavy-plate-jacket
+heavy-plate-pants,Heavy Plate Pants,heavy.plate.pants,-1778159885,Clothes,1,2400,1000,False,,,,,,,True,False,https://rusthelp.com/items/heavy-plate-pants
+heavy-scientist-plushie,Heavy Scientist Plushie,heavy.scientist.plushie,146221721,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/heavy-scientist-plushie
+heavy-scientist-suit,Heavy Scientist Suit,scientistsuit_heavy,-1772746857,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/heavy-scientist-suit
+heavy-scientist-youtooz,Heavy Scientist Youtooz,heavyscientistyoutooz,-722629980,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/heavy-scientist-youtooz
+hemp-clone,Hemp Clone,clone.hemp,-886280491,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/hemp-clone
+hemp-seed,Hemp Seed,seed.hemp,-237809779,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/hemp-seed
+herring,Herring,fish.herring,-1698937385,Food,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/herring
+hide-boots,Hide Boots,attire.hide.boots,794356786,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/hide-boots
+hide-halterneck,Hide Halterneck,attire.hide.helterneck,3222790,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/hide-halterneck
+hide-pants,Hide Pants,attire.hide.pants,1722154847,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/hide-pants
+hide-poncho,Hide Poncho,attire.hide.poncho,980333378,Clothes,1,300,250,False,,,,,,,True,False,https://rusthelp.com/items/hide-poncho
+hide-skirt,Hide Skirt,attire.hide.skirt,-1773144852,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/hide-skirt
+hide-vest,Hide Vest,attire.hide.vest,196700171,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/hide-vest
+high-caliber-revolver,High Caliber Revolver,revolver.hc,-92315244,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/high-caliber-revolver
+high-external-frontier-gate,High External Frontier Gate,gates.external.high.frontier,2137338174,Construction,1,300,0,False,,,,,,,False,True,https://rusthelp.com/items/high-external-frontier-gate
+high-external-frontier-wall,High External Frontier Wall,wall.external.high.frontier,63265850,Construction,10,300,0,False,,,,,,,False,True,https://rusthelp.com/items/high-external-frontier-wall
+high-external-stone-gate,High External Stone Gate,gates.external.high.stone,-691113464,Construction,1,3600,0,False,,,,,,,True,True,https://rusthelp.com/items/high-external-stone-gate
+high-external-stone-wall,High External Stone Wall,wall.external.high.stone,-967648160,Construction,10,3600,0,False,,,,,,,True,True,https://rusthelp.com/items/high-external-stone-wall
+high-external-wooden-gate,High External Wooden Gate,gates.external.high.wood,-335089230,Construction,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/high-external-wooden-gate
+high-external-wooden-wall,High External Wooden Wall,wall.external.high,99588025,Construction,10,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/high-external-wooden-wall
+high-ice-wall,High Ice Wall,wall.external.high.ice,-985781766,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/high-ice-wall
+high-quality-carburetor,High Quality Carburetor,carburetor3,656371026,Component,5,300,140,False,,,,,,,True,False,https://rusthelp.com/items/high-quality-carburetor
+high-quality-crankshaft,High Quality Crankshaft,crankshaft3,1158340332,Component,5,300,140,False,,,,,,,True,False,https://rusthelp.com/items/high-quality-crankshaft
+high-quality-horse-shoes,High Quality Horse Shoes,horse.shoes.advanced,1989785143,Clothes,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/high-quality-horse-shoes
+high-quality-metal,High Quality Metal,metal.refined,317398316,Resources,100,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/high-quality-metal
+high-quality-metal-ore,High Quality Metal Ore,hq.metal.ore,-1982036270,Resources,100,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/high-quality-metal-ore
+high-quality-pistons,High Quality Pistons,piston3,1883981800,Component,10,300,140,False,,,,,,,True,False,https://rusthelp.com/items/high-quality-pistons
+high-quality-spark-plugs,High Quality Spark Plugs,sparkplug3,1072924620,Component,20,300,140,False,,,,,,,True,False,https://rusthelp.com/items/high-quality-spark-plugs
+high-quality-valves,High Quality Valves,valve3,-1802083073,Component,15,300,140,False,,,,,,,True,False,https://rusthelp.com/items/high-quality-valves
+high-velocity-arrow,High Velocity Arrow,arrow.hv,-1023065463,Ammo,64,300,0,False,,,,,,,True,False,https://rusthelp.com/items/high-velocity-arrow
+high-velocity-rocket,High Velocity Rocket,ammo.rocket.hv,-1841918730,Ammo,3,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/high-velocity-rocket
+hitch-trough,Hitch & Trough,hitchtroughcombo,1160881421,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/hitch-trough
+hmlmg,HMLMG,hmlmg,-1214542497,Weapons,1,3600,350,False,,,,,,,True,False,https://rusthelp.com/items/hmlmg
+hobo-barrel,Hobo Barrel,hobobarrel,-1442559428,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/hobo-barrel
+hockey-mask,Hockey Mask,metal.facemask.hockey,-1334569149,Clothes,1,3600,320,False,,,,,,,True,False,https://rusthelp.com/items/hockey-mask
+holosight,Holosight,weapon.mod.holosight,442289265,Weapons,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/holosight
+homemade-landmine,Homemade Landmine,trap.landmine,-1663759755,Traps,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/homemade-landmine
+homing-missile,Homing Missile,ammo.rocket.seeker,1296788329,Ammo,4,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/homing-missile
+homing-missile-launcher,Homing Missile Launcher,homingmissile.launcher,-218009552,Weapons,1,2400,15,False,,,,,,,True,False,https://rusthelp.com/items/homing-missile-launcher
+honeycomb,Honeycomb,honeycomb,-1513203236,Food,20,300,0,True,5,,,-1,,,False,False,https://rusthelp.com/items/honeycomb
+hoodie,Hoodie,hoodie,1751045826,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/hoodie
+hopper,Hopper,hopper,1428574144,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/hopper
+horizontal-weapon-rack,Horizontal Weapon Rack,gunrack.horizontal,-246672609,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/horizontal-weapon-rack
+horse-costume,Horse Costume,horse.costume,1420547167,Clothes,1,300,80,False,,,,,,,True,False,https://rusthelp.com/items/horse-costume
+horse-mask,Horse Mask,hat.horsemask,-418359052,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/horse-mask
+hose-tool,Hose Tool,hosetool,363163265,Electrical,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/hose-tool
+hot-air-balloon-armor,Hot Air Balloon Armor,hab.armor,-1989600732,Clothes,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/hot-air-balloon-armor
+huge-wooden-sign,Huge Wooden Sign,sign.wooden.huge,-143132326,Items,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/huge-wooden-sign
+human-skull,Human Skull,skull.human,996293980,Resources,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/human-skull
+humane-world-charity-2026-plushie,Humane World Charity 2026 Plushie,charity.plushie.05,374496151,Items,1,300,0,False,,,,,,,False,True,https://rusthelp.com/items/humane-world-charity-2026-plushie
+hunters-pie,Hunters Pie,pie.hunters,320438357,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/hunters-pie
+hunting-bow,Hunting Bow,bow.hunting,1443579727,Weapons,1,300,50,False,,,,,,,True,False,https://rusthelp.com/items/hunting-bow
+hv-556-rifle-ammo,HV 5.56 Rifle Ammo,ammo.rifle.hv,1712070256,Ammo,128,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/hv-556-rifle-ammo
+hv-pistol-ammo,HV Pistol Ammo,ammo.pistol.hv,-1691396643,Ammo,128,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/hv-pistol-ammo
+ice-sculpture,Ice Sculpture,sculpture.ice,504109620,Fun,1,300,150,False,,,,,,,True,True,https://rusthelp.com/items/ice-sculpture
+igniter,Igniter,electric.igniter,-44876289,Electrical,3,300,100,False,,,,,,,True,True,https://rusthelp.com/items/igniter
+improvised-balaclava,Improvised Balaclava,mask.balaclava,-2012470695,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/improvised-balaclava
+improvised-shield,Improvised Shield,improvised.shield,196784377,Clothes,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/improvised-shield
+incapacitate-dart,Incapacitate Dart,dart.incapacitate,-963819285,Ammo,64,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/incapacitate-dart
+incendiary-556-rifle-ammo,Incendiary 5.56 Rifle Ammo,ammo.rifle.incendiary,605467368,Ammo,128,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/incendiary-556-rifle-ammo
+incendiary-bolt,Incendiary Bolt,ballista.bolt.incendiary,-1987565603,Ammo,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/incendiary-bolt
+incendiary-pistol-bullet,Incendiary Pistol Bullet,ammo.pistol.fire,51984655,Ammo,128,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/incendiary-pistol-bullet
+incendiary-rocket,Incendiary Rocket,ammo.rocket.fire,1638322904,Ammo,3,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/incendiary-rocket
+industrial-combiner,Industrial Combiner,industrial.combiner,1538126328,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/industrial-combiner
+industrial-conveyor,Industrial Conveyor,industrial.conveyor,610102428,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/industrial-conveyor
+industrial-crafter,Industrial Crafter,industrial.crafter,1430085198,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/industrial-crafter
+industrial-electric-furnace,Industrial Electric Furnace,industrial.electric.furnace,225892284,Electrical,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/industrial-electric-furnace
+industrial-splitter,Industrial Splitter,industrial.splitter,742745918,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/industrial-splitter
+industrial-storage-horizontal-barrel,Industrial Storage Horizontal Barrel,industrial.storage.horizontal,-1019111952,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/industrial-storage-horizontal-barrel
+industrial-storage-vertical-barrel,Industrial Storage Vertical Barrel,industrial.storage.vertical,-883975138,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/industrial-storage-vertical-barrel
+industrial-torch,Industrial Torch,industrial.torch,4474927,Tool,1,30,50,False,,,,,,,True,False,https://rusthelp.com/items/industrial-torch
+industrial-wall-light,Industrial Wall Light,industrial.wall.light,1623701499,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/industrial-wall-light
+industrial-wall-shelves,Industrial Wall Shelves,wall.shallow.industrial.shelves,-265202949,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/industrial-wall-shelves
+inner-tube,Inner Tube,innertube,-697981032,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/inner-tube
+instant-camera,Instant Camera,tool.instant_camera,-2001260025,Tool,1,3600,30,False,,,,,,,True,False,https://rusthelp.com/items/instant-camera
+jack-o-lantern-angry,Jack O Lantern Angry,jackolantern.angry,1242482355,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/jack-o-lantern-angry
+jack-o-lantern-happy,Jack O Lantern Happy,jackolantern.happy,-1824943010,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/jack-o-lantern-happy
+jacket,Jacket,jacket,-1163532624,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/jacket
+jackhammer,Jackhammer,jackhammer,1488979457,Tool,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/jackhammer
+jar-of-honey,Jar of Honey,honey,1601800933,Food,20,300,0,True,50,,,-1,,,False,False,https://rusthelp.com/items/jar-of-honey
+jerry-can-guitar,Jerry Can Guitar,fun.jerrycanguitar,-979951147,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/jerry-can-guitar
+jukebox,Jukebox,jukebox,-1018085504,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/jukebox
+jumpsuit,Jumpsuit,jumpsuit.suit,-97459906,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/jumpsuit
+junkyard-drum-kit,Junkyard Drum Kit,drumkit,-1330640246,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/junkyard-drum-kit
+kayak,Kayak,kayak,190184021,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/kayak
+key-lock,Key Lock,lock.key,-850982208,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/key-lock
+kick-hazmat,KICK Hazmat,hazmatsuit.kick,972302244,Clothes,1,2400,450,False,,,,,,,True,False,https://rusthelp.com/items/kick-hazmat
+krieg-storage-barrel,Krieg Storage Barrel,krieg.storage.vertical,1305765685,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/krieg-storage-barrel
+krieg-storage-crates,Krieg Storage Crates,krieg.storage.horizontal,652793345,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/krieg-storage-crates
+l96-rifle,L96 Rifle,rifle.l96,-778367295,Weapons,1,3600,60,False,,,,,,,True,False,https://rusthelp.com/items/l96-rifle
+ladder-hatch,Ladder Hatch,floor.ladder.hatch,1948067030,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/ladder-hatch
+landscape-photo-frame,Landscape Photo Frame,photoframe.landscape,1697996440,Fun,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/landscape-photo-frame
+landscape-picture-frame,Landscape Picture Frame,sign.pictureframe.landscape,-845557339,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/landscape-picture-frame
+lantern,Lantern,lantern,1658229558,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/lantern
+large-animated-neon-sign,Large Animated Neon Sign,sign.neon.xl.animated,1643667218,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/large-animated-neon-sign
+large-backpack,Large Backpack,largebackpack,-907422733,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/large-backpack
+large-banner-hanging,Large Banner Hanging,sign.hanging.banner.large,23352662,Items,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/large-banner-hanging
+large-banner-on-pole,Large Banner on pole,sign.pole.banner.large,2070189026,Items,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/large-banner-on-pole
+large-candle-set,Large Candle Set,largecandles,-489848205,Misc,1,300,180,False,,,,,,,True,True,https://rusthelp.com/items/large-candle-set
+large-flatbed-vehicle-module,Large Flatbed Vehicle Module,vehicle.2mod.flatbed,-1693832478,Component,1,2400,325,False,,,,,,,True,False,https://rusthelp.com/items/large-flatbed-vehicle-module
+large-furnace,Large Furnace,furnace.large,-1992717673,Items,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/large-furnace
+large-hunting-trophy,Large Hunting Trophy,huntingtrophylarge,960673498,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/large-hunting-trophy
+large-loot-bag,Large Loot Bag,halloween.lootbag.large,479292118,Misc,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/large-loot-bag
+large-medkit,Large Medkit,largemedkit,254522515,Medical,1,1200,0,True,,,-10,-1,,,True,False,https://rusthelp.com/items/large-medkit
+large-neon-sign,Large Neon Sign,sign.neon.xl,866332017,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/large-neon-sign
+large-photo-frame,Large Photo Frame,photoframe.large,1205084994,Fun,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/large-photo-frame
+large-planter-box,Large Planter Box,planter.large,1581210395,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/large-planter-box
+large-present,Large Present,xmas.present.large,-1622660759,Misc,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/large-present
+large-rechargeable-battery,Large Rechargeable Battery,electric.battery.rechargable.large,553270375,Electrical,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/large-rechargeable-battery
+large-solar-panel,Large Solar Panel,electric.solarpanel.large,2090395347,Electrical,3,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/large-solar-panel
+large-water-catcher,Large Water Catcher,water.catcher.large,-1100168350,Construction,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/large-water-catcher
+large-wood-box,Large Wood Box,box.wooden.large,833533164,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/large-wood-box
+large-wooden-sign,Large Wooden Sign,sign.wooden.large,1153652756,Items,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/large-wooden-sign
+laser-detector,Laser Detector,electric.laserdetector,-798293154,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/laser-detector
+laser-light,Laser Light,laserlight,853471967,Fun,5,300,100,False,,,,,,,True,True,https://rusthelp.com/items/laser-light
+latex-balloon,Latex Balloon,latexballoon2025,1295301598,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/latex-balloon
+lead-armor-insert,Lead Armor Insert,clothing.mod.armorinsert_lead,2047789913,Items,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/lead-armor-insert
+leather,Leather,leather,1381010055,Resources,1000,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/leather
+leather-gloves,Leather Gloves,burlap.gloves,1366282552,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/leather-gloves
+legacy-wood-shelter,Legacy Wood Shelter,legacy.shelter.wood,607400343,Construction,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/legacy-wood-shelter
+light-frankenstein-head,Light Frankenstein Head,frankensteins.monster.01.head,-134959124,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/light-frankenstein-head
+light-frankenstein-legs,Light Frankenstein Legs,frankensteins.monster.01.legs,106959911,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/light-frankenstein-legs
+light-frankenstein-torso,Light Frankenstein Torso,frankensteins.monster.01.torso,-1624770297,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/light-frankenstein-torso
+light-up-frame-medium,Light-Up Frame Medium,lightupframe.medium,-1294739579,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/light-up-frame-medium
+light-up-frame-small,Light-Up Frame Small,lightupframe.small,1691223771,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/light-up-frame-small
+light-up-frame-standing,Light-Up Frame Standing,lightupframe.standing,1950013766,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/light-up-frame-standing
+light-up-frame-xl,Light-Up Frame XL,lightup.xl,1801656689,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/light-up-frame-xl
+light-up-frame-xxl,Light-Up Frame XXL,lightup.xxl,1447138977,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/light-up-frame-xxl
+locker,Locker,locker,-110921842,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/locker
+longsleeve-t-shirt,Longsleeve T-Shirt,tshirt.long,935692442,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/longsleeve-t-shirt
+longsword,Longsword,longsword,-1469578201,Weapons,1,1200,250,False,,,,,,,True,False,https://rusthelp.com/items/longsword
+low-grade-fuel,Low Grade Fuel,lowgradefuel,-946369541,Resources,500,300,0,False,,,,,,,True,False,https://rusthelp.com/items/low-grade-fuel
+low-quality-carburetor,Low Quality Carburetor,carburetor1,656371028,Component,5,300,60,False,,,,,,,True,False,https://rusthelp.com/items/low-quality-carburetor
+low-quality-crankshaft,Low Quality Crankshaft,crankshaft1,1158340334,Component,5,300,60,False,,,,,,,True,False,https://rusthelp.com/items/low-quality-crankshaft
+low-quality-pistons,Low Quality Pistons,piston1,1883981798,Component,10,300,60,False,,,,,,,True,False,https://rusthelp.com/items/low-quality-pistons
+low-quality-spark-plugs,Low Quality Spark Plugs,sparkplug1,-89874794,Component,20,300,60,False,,,,,,,True,False,https://rusthelp.com/items/low-quality-spark-plugs
+low-quality-valves,Low Quality Valves,valve1,1330084809,Component,15,300,60,False,,,,,,,True,False,https://rusthelp.com/items/low-quality-valves
+lr,LR-300 Assault Rifle,rifle.lr300,-1812555177,Weapons,1,3600,150,False,,,,,,,True,False,https://rusthelp.com/items/lr
+lumberjack-hoodie,Lumberjack Hoodie,lumberjack hoodie,-763071910,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/lumberjack-hoodie
+lunar-new-year-horse-armor,Lunar New Year Horse Armor,horse.armor.lny26,-2068194497,Clothes,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/lunar-new-year-horse-armor
+lunar-new-year-spear,Lunar New Year Spear,spear.cny,695450239,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/lunar-new-year-spear
+lunar-wall-frame-inlay,Lunar Wall Frame Inlay,wall.frame.lunar2025_a,1115193056,Construction,10,300,100,False,,,,,,,True,True,https://rusthelp.com/items/lunar-wall-frame-inlay
+m15-semi-automatic-pistol,M15 Semi-Automatic Pistol,pistol.semiauto.a.m15,1673224590,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/m15-semi-automatic-pistol
+m16a2,M16A2,m16a2,599591861,Weapons,1,3600,200,False,,,,,,,True,False,https://rusthelp.com/items/m16a2
+m249,M249,lmg.m249,-2069578888,Weapons,1,3600,500,False,,,,,,,True,False,https://rusthelp.com/items/m249
+m39-rifle,M39 Rifle,rifle.m39,28201841,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/m39-rifle
+m4-shotgun,M4 Shotgun,shotgun.m4,678698219,Weapons,1,3600,100,False,,,,,,,True,False,https://rusthelp.com/items/m4-shotgun
+m92-pistol,M92 Pistol,pistol.m92,-852563019,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/m92-pistol
+mace,Mace,mace,-1966748496,Weapons,1,1200,200,False,,,,,,,True,False,https://rusthelp.com/items/mace
+machete,Machete,machete,-1137865085,Weapons,1,300,200,False,,,,,,,True,False,https://rusthelp.com/items/machete
+mail-box,Mail Box,mailbox,-586784898,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/mail-box
+medical-honey-bandage,Medical Honey Bandage,medical.honey.bandage,-75264812,Medical,3,300,0,True,,,-4,-1,,,True,False,https://rusthelp.com/items/medical-honey-bandage
+medical-syringe,Medical Syringe,syringe.medical,1079279582,Medical,2,1200,0,True,,,-5,-1,,,True,False,https://rusthelp.com/items/medical-syringe
+medieval-barricade,Medieval Barricade,barricade.medieval,-424687710,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/medieval-barricade
+medium-animated-neon-sign,Medium Animated Neon Sign,sign.neon.125x215.animated,42535890,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/medium-animated-neon-sign
+medium-frankenstein-head,Medium Frankenstein Head,frankensteins.monster.02.head,-1732475823,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/medium-frankenstein-head
+medium-frankenstein-legs,Medium Frankenstein Legs,frankensteins.monster.02.legs,835042040,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/medium-frankenstein-legs
+medium-frankenstein-torso,Medium Frankenstein Torso,frankensteins.monster.02.torso,1491753484,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/medium-frankenstein-torso
+medium-loot-bag,Medium Loot Bag,halloween.lootbag.medium,1899610628,Misc,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/medium-loot-bag
+medium-neon-sign,Medium Neon Sign,sign.neon.125x215,-1423304443,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/medium-neon-sign
+medium-present,Medium Present,xmas.present.medium,756517185,Misc,5,300,0,False,,,,,,,False,False,https://rusthelp.com/items/medium-present
+medium-quality-carburetor,Medium Quality Carburetor,carburetor2,656371027,Component,5,300,100,False,,,,,,,True,False,https://rusthelp.com/items/medium-quality-carburetor
+medium-quality-crankshaft,Medium Quality Crankshaft,crankshaft2,1158340331,Component,5,300,100,False,,,,,,,True,False,https://rusthelp.com/items/medium-quality-crankshaft
+medium-quality-pistons,Medium Quality Pistons,piston2,1883981801,Component,10,300,100,False,,,,,,,True,False,https://rusthelp.com/items/medium-quality-pistons
+medium-quality-spark-plugs,Medium Quality Spark Plugs,sparkplug2,-493159321,Component,20,300,100,False,,,,,,,True,False,https://rusthelp.com/items/medium-quality-spark-plugs
+medium-quality-valves,Medium Quality Valves,valve2,926800282,Component,15,300,100,False,,,,,,,True,False,https://rusthelp.com/items/medium-quality-valves
+medium-rechargeable-battery,Medium Rechargeable Battery,electric.battery.rechargable.medium,2023888403,Electrical,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/medium-rechargeable-battery
+medium-wooden-sign,Medium Wooden Sign,sign.wooden.medium,-1819233322,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/medium-wooden-sign
+megaphone,Megaphone,megaphone,-583379016,Fun,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/megaphone
+memory-cell,Memory Cell,electrical.memorycell,-746647361,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/memory-cell
+metal-armor-insert,Metal Armor Insert,clothing.mod.armorinsert_metal,1099611828,Items,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/metal-armor-insert
+metal-bar-stool,Metal Bar Stool,bar.stool.metal,-1639742441,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/metal-bar-stool
+metal-barricade,Metal Barricade,barricade.metal,1655650836,Construction,10,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/metal-barricade
+metal-blade,Metal Blade,metalblade,1882709339,Component,20,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/metal-blade
+metal-chest-plate,Metal Chest Plate,metal.plate.torso,1110385766,Clothes,1,3600,360,False,,,,,,,True,False,https://rusthelp.com/items/metal-chest-plate
+metal-detector,Metal Detector,metal.detector,1168856825,Tool,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/metal-detector
+metal-facemask,Metal Facemask,metal.facemask,-194953424,Clothes,1,3600,320,False,,,,,,,True,False,https://rusthelp.com/items/metal-facemask
+metal-fragments,Metal Fragments,metal.fragments,69511070,Resources,1000,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/metal-fragments
+metal-horizontal-embrasure,Metal horizontal embrasure,shutter.metal.embrasure.a,-1199897169,Construction,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/metal-horizontal-embrasure
+metal-ore,Metal Ore,metal.ore,-4031221,Resources,1000,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/metal-ore
+metal-pipe,Metal Pipe,metalpipe,95950017,Component,20,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/metal-pipe
+metal-shield,Metal Shield,metal.shield,625599716,Clothes,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/metal-shield
+metal-shop-front,Metal Shop Front,wall.frame.shopfront.metal,-148229307,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/metal-shop-front
+metal-spring,Metal Spring,metalspring,-1021495308,Component,20,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/metal-spring
+metal-vertical-embrasure,Metal Vertical embrasure,shutter.metal.embrasure.b,-1199897172,Construction,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/metal-vertical-embrasure
+metal-window-bars,Metal Window Bars,wall.window.bars.metal,-819720157,Construction,10,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/metal-window-bars
+microphone-stand,Microphone Stand,microphonestand,39600618,Fun,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/microphone-stand
+military-flame-thrower,Military Flame Thrower,military flamethrower,703057617,Weapons,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/military-flame-thrower
+milk,Milk,milk,325350919,Food,10,300,0,True,60,45,,48,spoiled-produce,,False,False,https://rusthelp.com/items/milk
+milky-pure-anti-rad-tea,Milky Pure Anti-Rad Tea,radiationresisttea.pure.milky,-1341272471,Food,10,3600,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-anti-rad-tea
+milky-pure-cooling-tea,Milky Pure Cooling Tea,purecoolingtea.milky,1738714421,Food,10,1200,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-cooling-tea
+milky-pure-harvesting-tea,Milky Pure Harvesting Tea,pureharvestingtea.milky,789540413,Food,10,1200,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-harvesting-tea
+milky-pure-healing-tea,Milky Pure Healing Tea,healingtea.pure.milky,-1644292642,Food,10,3600,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-healing-tea
+milky-pure-max-health-tea,Milky Pure Max Health Tea,maxhealthtea.pure.milky,-1388103748,Food,10,3600,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-max-health-tea
+milky-pure-ore-tea,Milky Pure Ore Tea,oretea.pure.milky,1243083208,Food,10,3600,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-ore-tea
+milky-pure-scrap-tea,Milky Pure Scrap Tea,scraptea.pure.milky,-1057052157,Food,10,3600,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-scrap-tea
+milky-pure-warming-tea,Milky Pure Warming Tea,purewarmingtea.milky,91167975,Food,10,1200,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-warming-tea
+milky-pure-wood-tea,Milky Pure Wood Tea,woodtea.pure.milky,777041831,Food,10,3600,0,True,90,45,,-1,,,False,False,https://rusthelp.com/items/milky-pure-wood-tea
+minecart-planter,Minecart Planter,minecart.planter,1361520181,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/minecart-planter
+miners-hat,Miners Hat,hat.miner,-1539025626,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/miners-hat
+mini-crossbow,Mini Crossbow,minicrossbow,-482348853,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/mini-crossbow
+mini-fridge,Mini Fridge,minifridge,1174484438,Electrical,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/mini-fridge
+minigun,Minigun,minigun,935606207,Weapons,1,3600,390,False,,,,,,,True,False,https://rusthelp.com/items/minigun
+mining-quarry,Mining Quarry,mining.quarry,1052926200,Construction,1,300,0,False,,,,,,,False,True,https://rusthelp.com/items/mining-quarry
+minnows,Minnows,fish.minnows,-542577259,Food,10,300,0,True,10,1,,-1,,,False,False,https://rusthelp.com/items/minnows
+mixing-table,Mixing Table,mixingtable,1259919256,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/mixing-table
+mlrs-rocket,MLRS Rocket,ammo.rocket.mlrs,-1843426638,Ammo,6,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/mlrs-rocket
+mobile-phone,Mobile Phone,mobilephone,-20045316,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/mobile-phone
+modular-car-lift,Modular Car Lift,modularcarlift,1696050067,Electrical,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/modular-car-lift
+molotov-cocktail,Molotov Cocktail,grenade.molotov,1556365900,Weapons,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/molotov-cocktail
+mortar,Mortar,mortar.deployable,1459828804,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/mortar
+mortar-shell,Mortar Shell,ammo.mortar.basic,963150711,Ammo,10,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/mortar-shell
+mounted-ballista,Mounted Ballista,ballista.mounted,-759279626,Weapons,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/mounted-ballista
+movember-moustache,Movember Moustache,movembermoustache,-2047081330,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/movember-moustache
+mp5a4,MP5A4,smg.mp5,1318558775,Weapons,1,3600,150,False,,,,,,,True,False,https://rusthelp.com/items/mp5a4
+mr-spice-can,Mr Spice Can,mrspice.can,-648077743,Food,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/mr-spice-can
+multiple-grenade-launcher,Multiple Grenade Launcher,multiplegrenadelauncher,-1123473824,Weapons,1,3600,200,False,,,,,,,True,False,https://rusthelp.com/items/multiple-grenade-launcher
+mummy-mask,Mummy Mask,mummymask,809689733,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/mummy-mask
+mummy-suit,Mummy Suit,halloween.mummysuit,277730763,Clothes,1,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/mummy-suit
+mushroom,Mushroom,mushroom,-1962971928,Food,10,300,0,True,15,5,,48,spoiled-produce,,False,False,https://rusthelp.com/items/mushroom
+muzzle-boost,Muzzle Boost,weapon.mod.muzzleboost,-1405508498,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/muzzle-boost
+muzzle-brake,Muzzle Brake,weapon.mod.muzzlebrake,1478091698,Weapons,1,2400,200,False,,,,,,,True,False,https://rusthelp.com/items/muzzle-brake
+nailgun,Nailgun,pistol.nailgun,1953903201,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/nailgun
+nailgun-nails,Nailgun Nails,ammo.nailgun.nails,-2097376851,Ammo,64,300,0,False,,,,,,,True,False,https://rusthelp.com/items/nailgun-nails
+naval-scientist-suit,Naval Scientist Suit,hazmatsuit_scientist_naval,-1937799374,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/naval-scientist-suit
+nest-hat,Nest Hat,attire.nesthat,1081315464,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/nest-hat
+netting,Netting,wall.frame.netting,1516985844,Construction,5,300,100,False,,,,,,,True,True,https://rusthelp.com/items/netting
+new-year-gong,New Year Gong,newyeargong,-961457160,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/new-year-gong
+night-vision-goggles,Night Vision Goggles,nightvisiongoggles,-1518883088,Clothes,1,2400,900,False,,,,,,,True,False,https://rusthelp.com/items/night-vision-goggles
+ninja-suit,Ninja Suit,attire.ninja.suit,-1506417026,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/ninja-suit
+note,Note,note,1414245162,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/note
+nvgm-scientist-suit,NVGM Scientist Suit,hazmatsuit_scientist_nvgm,86840834,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/nvgm-scientist-suit
+oil-filter-silencer,Oil Filter Silencer,weapon.mod.oilfiltersilencer,-781866273,Weapons,1,1200,60,False,,,,,,,True,False,https://rusthelp.com/items/oil-filter-silencer
+one-sided-town-sign-post,One Sided Town Sign Post,sign.post.town,-1832422579,Items,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/one-sided-town-sign-post
+or-switch,OR Switch,electric.orswitch,-1286302544,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/or-switch
+orange-boomer,Orange Boomer,firework.boomer.orange,-7270019,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/orange-boomer
+orange-roughy,Orange Roughy,fish.orangeroughy,-1904821376,Food,5,300,0,False,,,,,,,False,False,https://rusthelp.com/items/orange-roughy
+orchid,Orchid,orchid,734320711,Food,20,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/orchid
+orchid-clone,Orchid Clone,clone.orchid,-798662404,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/orchid-clone
+orchid-seed,Orchid Seed,seed.orchid,1004843240,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/orchid-seed
+ornate-frame-large,Ornate Frame large,goldframe.large,-996235148,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/ornate-frame-large
+ornate-frame-medium,Ornate Frame Medium,goldframe.medium,-1901993050,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/ornate-frame-medium
+ornate-frame-small,Ornate Frame Small,goldframe.small,-1836526520,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/ornate-frame-small
+ornate-frame-standing,Ornate Frame Standing,goldframe.standing,-1528767189,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/ornate-frame-standing
+ornate-frame-xl,Ornate Frame XL,goldframe.xl,-1430299277,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/ornate-frame-xl
+ornate-frame-xxl,Ornate Frame XXL,goldframe.xxl,-1322332389,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/ornate-frame-xxl
+outbreak-scientist-suit,Outbreak Scientist Suit,oubreak_scientist,-2133781216,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/outbreak-scientist-suit
+ox-mask,Ox Mask,hat.oxmask,1315082560,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/ox-mask
+paddle,Paddle,paddle,1491189398,Weapons,1,300,300,False,,,,,,,True,False,https://rusthelp.com/items/paddle
+paddling-pool,Paddling Pool,paddlingpool,-733625651,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/paddling-pool
+paintball,Paintball,ammo.paintball,385645417,Ammo,128,300,0,False,,,,,,,True,False,https://rusthelp.com/items/paintball
+paintball-gun,Paintball Gun,paintballgun,-707792719,Weapons,1,3600,150,False,,,,,,,True,False,https://rusthelp.com/items/paintball-gun
+paintball-overalls,Paintball Overalls,paintballoveralls.suit,-1014934560,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/paintball-overalls
+painted-egg,Painted Egg,easter.paintedeggs,-126305173,Misc,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/painted-egg
+pan-flute,Pan Flute,fun.flute,-2040817543,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/pan-flute
+pants,Pants,pants,237239288,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/pants
+paper-map,Paper Map,map,696029452,Items,1,30,0,False,,,,,,,True,False,https://rusthelp.com/items/paper-map
+parachute,Parachute,parachute,602628465,Clothes,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/parachute
+party-hat,Party Hat,partyhat,-575744869,Clothes,1,30,0,False,,,,,,,False,False,https://rusthelp.com/items/party-hat
+passenger-vehicle-module,Passenger Vehicle Module,vehicle.2mod.passengers,895374329,Component,1,2400,525,False,,,,,,,True,False,https://rusthelp.com/items/passenger-vehicle-module
+pattern-boomer,Pattern Boomer,firework.boomer.pattern,-379734527,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/pattern-boomer
+photograph,Photograph,photo,62577426,Misc,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/photograph
+pickaxe,Pickaxe,pickaxe,-1302129395,Tool,1,1200,400,False,,,,,,,True,False,https://rusthelp.com/items/pickaxe
+pickles,Pickles,jar.pickle,286193827,Food,10,300,0,True,50,20,,-1,,,False,False,https://rusthelp.com/items/pickles
+piercer-bolt,Piercer Bolt,ballista.bolt.piercer,-1127003365,Ammo,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/piercer-bolt
+pinata,Pinata,pinata,-1442496789,Fun,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/pinata
+pipe-tool,Pipe Tool,pipetool,-144513264,Electrical,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/pipe-tool
+pistol-bullet,Pistol Bullet,ammo.pistol,785728077,Ammo,128,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/pistol-bullet
+pitchfork,Pitchfork,pitchfork,1090916276,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/pitchfork
+pitchfork-bolt,Pitchfork Bolt,ballista.bolt.pitchfork,-357442017,Ammo,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/pitchfork-bolt
+plague-doctor-hazmat-suit,Plague Doctor Hazmat Suit,hazmat.plague,-1587608109,Clothes,1,2400,450,False,,,,,,,True,False,https://rusthelp.com/items/plague-doctor-hazmat-suit
+plank,Plank,plank,-952411326,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/plank
+plant-fiber,Plant Fiber,plantfiber,-804769727,Resources,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/plant-fiber
+plumbers-trumpet,Plumber's Trumpet,fun.trumpet,273172220,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/plumbers-trumpet
+pookie-bear,Pookie Bear,pookie.bear,-1651220691,Items,1,300,0,False,,,,,,,False,True,https://rusthelp.com/items/pookie-bear
+pool-table,Pool Table,pooltable,-1748166144,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/pool-table
+pork-pie,Pork Pie,pie.pork,1467878256,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/pork-pie
+portable-boom-box,Portable Boom Box,fun.boomboxportable,576509618,Fun,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/portable-boom-box
+portable-easel,Portable Easel,easel,-1779203452,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/portable-easel
+portrait-photo-frame,Portrait Photo Frame,photoframe.portrait,1729712564,Fun,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/portrait-photo-frame
+portrait-picture-frame,Portrait Picture Frame,sign.pictureframe.portrait,-1370759135,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/portrait-picture-frame
+potato,Potato,potato,-2086926071,Food,20,1200,0,True,125,5,,48,spoiled-produce,,False,False,https://rusthelp.com/items/potato
+potato-clone,Potato Clone,clone.potato,1512054436,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/potato-clone
+potato-seed,Potato Seed,seed.potato,-2084071424,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/potato-seed
+powered-water-purifier,Powered Water Purifier,powered.water.purifier,-365097295,Electrical,3,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/powered-water-purifier
+pressure-pad,Pressure Pad,electric.pressurepad,-2049214035,Electrical,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/pressure-pad
+prison-cell-gate,Prison Cell Gate,wall.frame.cell.gate,-956706906,Construction,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/prison-cell-gate
+prison-cell-wall,Prison Cell Wall,wall.frame.cell,-1429456799,Construction,10,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/prison-cell-wall
+prisoner-hood,Prisoner Hood,prisonerhood,-892718768,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/prisoner-hood
+propane-explosive-bomb,Propane Explosive Bomb,catapult.ammo.explosive,-1827561369,Ammo,4,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/propane-explosive-bomb
+prototype-17,Prototype 17,pistol.prototype17,1914691295,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/prototype-17
+prototype-workbench-upgrade,Prototype Workbench Upgrade,workbench.upgrade.prototype,-180862419,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/prototype-workbench-upgrade
+ptz-cctv-camera,PTZ CCTV Camera,ptz.cctv.camera,140006625,Electrical,5,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/ptz-cctv-camera
+pump-jack,Pump Jack,mining.pumpjack,-1130709577,Construction,1,300,0,False,,,,,,,False,True,https://rusthelp.com/items/pump-jack
+pump-shotgun,Pump Shotgun,shotgun.pump,795371088,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/pump-shotgun
+pumpkin,Pumpkin,pumpkin,-567909622,Food,20,1200,0,True,80,30,,48,spoiled-produce,,False,False,https://rusthelp.com/items/pumpkin
+pumpkin-basket,Pumpkin Basket,pumpkinbasket,1346158228,Misc,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/pumpkin-basket
+pumpkin-pie,Pumpkin Pie,pie.pumpkin,-1488408786,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/pumpkin-pie
+pumpkin-plant-clone,Pumpkin Plant Clone,clone.pumpkin,1898094925,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/pumpkin-plant-clone
+pumpkin-seed,Pumpkin Seed,seed.pumpkin,-1511285251,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/pumpkin-seed
+pure-anti-rad-tea,Pure Anti-Rad Tea,radiationresisttea.pure,-33009419,Food,10,3600,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-anti-rad-tea
+pure-cooling-tea,Pure Cooling Tea,purecoolingtea,1121416193,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-cooling-tea
+pure-crafting-quality-tea,Pure Crafting Quality Tea,purecraftingtea_quality,97903330,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-crafting-quality-tea
+pure-harvesting-tea,Pure Harvesting Tea,pureharvestingtea,377750553,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-harvesting-tea
+pure-healing-tea,Pure Healing Tea,healingtea.pure,-1677315902,Food,10,3600,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-healing-tea
+pure-max-health-tea,Pure Max Health Tea,maxhealthtea.pure,1712261904,Food,10,3600,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-max-health-tea
+pure-ore-tea,Pure Ore Tea,oretea.pure,1729374708,Food,10,3600,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-ore-tea
+pure-scrap-tea,Pure Scrap Tea,scraptea.pure,2024467711,Food,10,3600,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-scrap-tea
+pure-warming-tea,Pure Warming Tea,purewarmingtea,-1476814093,Food,10,1200,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-warming-tea
+pure-wood-tea,Pure Wood Tea,woodtea.pure,-557539629,Food,10,3600,0,True,,30,,-1,,,False,False,https://rusthelp.com/items/pure-wood-tea
+purple-sunglasses,Purple Sunglasses,twitchsunglasses,20489901,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/purple-sunglasses
+python-revolver,Python Revolver,pistol.python,1373971859,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/python-revolver
+rabbit-mask,Rabbit Mask,hat.rabbitmask,-986782031,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/rabbit-mask
+radiation-dart,Radiation Dart,dart.radiation,-594596146,Ammo,64,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/radiation-dart
+radioactive-water,Radioactive Water,water.radioactive,1811780502,Resources,2147483647,300,0,True,,10,5,-1,,,False,False,https://rusthelp.com/items/radioactive-water
+rand-switch,RAND Switch,electric.random.switch,492357192,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/rand-switch
+range-workbench-upgrade,Range Workbench Upgrade,workbench.upgrade.range,1470387662,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/range-workbench-upgrade
+rat-mask,Rat Mask,hat.ratmask,271048478,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/rat-mask
+raw-bear-meat,Raw Bear Meat,bearmeat,-1520560807,Food,20,1200,0,True,10,3,5,6,bearmeat-spoiled,,False,False,https://rusthelp.com/items/raw-bear-meat
+raw-beef,Raw Beef,beefmeat,-201824959,Food,20,1200,0,True,10,3,5,6,beefmeat-spoiled,,False,False,https://rusthelp.com/items/raw-beef
+raw-big-cat-meat,Raw Big Cat Meat,bigcatmeat,-2095813057,Food,20,1200,0,True,10,3,5,6,bigcatmeat-spoiled,,False,False,https://rusthelp.com/items/raw-big-cat-meat
+raw-chicken-breast,Raw Chicken Breast,chicken.raw,-1440987069,Food,20,1200,0,True,20,,10,6,chicken-spoiled,,False,False,https://rusthelp.com/items/raw-chicken-breast
+raw-crocodile-meat,Raw Crocodile Meat,crocodilemeat,-1081599445,Food,20,1200,0,True,10,3,5,6,crocodilemeat-spoiled,,False,False,https://rusthelp.com/items/raw-crocodile-meat
+raw-deer-meat,Raw Deer Meat,deermeat.raw,1422530437,Food,20,1200,0,True,20,,10,6,deermeat-spoiled,,False,False,https://rusthelp.com/items/raw-deer-meat
+raw-fish,Raw Fish,fish.raw,989925924,Food,20,300,0,True,5,1,,6,fish-spoiled,,False,False,https://rusthelp.com/items/raw-fish
+raw-horse-meat,Raw Horse Meat,horsemeat.raw,-1130350864,Food,20,1200,0,True,20,,10,6,horsemeat-spoiled,,False,False,https://rusthelp.com/items/raw-horse-meat
+raw-human-meat,Raw Human Meat,humanmeat.raw,-1709878924,Food,20,300,0,True,5,-3,10,6,humanmeat-spoiled,,False,False,https://rusthelp.com/items/raw-human-meat
+raw-mutton,Raw Mutton,muttonmeat,-1957595450,Food,20,1200,0,True,10,3,5,6,muttonmeat-spoiled,,False,False,https://rusthelp.com/items/raw-mutton
+raw-pork,Raw Pork,meat.boar,621915341,Food,20,1200,0,True,60,,5,6,porkmeat-spoiled,,False,False,https://rusthelp.com/items/raw-pork
+raw-snake-meat,Raw Snake Meat,snakemeat,-2100458529,Food,20,1200,0,True,10,3,5,6,snakemeat-spoiled,,False,False,https://rusthelp.com/items/raw-snake-meat
+raw-wolf-meat,Raw Wolf Meat,wolfmeat.raw,-395377963,Food,20,1200,0,True,20,,10,6,wolfmeat-spoiled,,False,False,https://rusthelp.com/items/raw-wolf-meat
+reactive-target,Reactive Target,target.reactive,-1736356576,Electrical,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/reactive-target
+rear-seats-vehicle-module,Rear Seats Vehicle Module,vehicle.1mod.rear.seats,1376065505,Component,1,2400,275,False,,,,,,,True,False,https://rusthelp.com/items/rear-seats-vehicle-module
+recycle-bin-workbench-upgrade,Recycle Bin Workbench Upgrade,workbench.upgrade.recyclebin,-286541059,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/recycle-bin-workbench-upgrade
+red-berry,Red Berry,red.berry,1272194103,Food,20,1200,0,True,5,2,,48,spoiled-produce,,False,False,https://rusthelp.com/items/red-berry
+red-berry-clone,Red Berry Clone,clone.red.berry,2133269020,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/red-berry-clone
+red-berry-seed,Red Berry Seed,seed.red.berry,830839496,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/red-berry-seed
+red-boomer,Red Boomer,firework.boomer.red,-1553999294,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/red-boomer
+red-keycard,Red Keycard,keycard_red,-1880870149,Misc,1,3600,2,False,,,,,,,False,False,https://rusthelp.com/items/red-keycard
+red-roman-candle,Red Roman Candle,firework.romancandle.red,-1486461488,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/red-roman-candle
+red-volcano-firework,Red Volcano Firework,firework.volcano.red,-454370658,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/red-volcano-firework
+reindeer-antlers,Reindeer Antlers,attire.reindeer.headband,-324675402,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/reindeer-antlers
+reinforced-glass-window,Reinforced Glass Window,wall.window.bars.toptier,671706427,Construction,10,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/reinforced-glass-window
+reinforced-wooden-shield,Reinforced Wooden Shield,reinforced.wooden.shield,969768382,Clothes,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/reinforced-wooden-shield
+reinforced-workbench-upgrade,Reinforced Workbench Upgrade,workbench.upgrade.reinforced,112268546,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/reinforced-workbench-upgrade
+repair-bench,Repair Bench,box.repair.bench,803222026,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/repair-bench
+research-table,Research Table,research.table,-1861522751,Items,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/research-table
+revolver,Revolver,pistol.revolver,649912614,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/revolver
+rf-broadcaster,RF Broadcaster,electric.rf.broadcaster,-1044468317,Electrical,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/rf-broadcaster
+rf-pager,RF Pager,rf_pager,-566907190,Electrical,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/rf-pager
+rf-receiver,RF Receiver,electric.rf.receiver,888415708,Electrical,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/rf-receiver
+rf-transmitter,RF Transmitter,rf.detonator,596469572,Tool,1,300,50,False,,,,,,,True,False,https://rusthelp.com/items/rf-transmitter
+rich-apple-pie,Rich Apple Pie,pie.apple.rich,-1846744758,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-apple-pie
+rich-bear-pie,Rich Bear Pie,pie.bear.rich,1883513936,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-bear-pie
+rich-beef-pie,Rich Beef Pie,pie.beef.rich,-867055736,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-beef-pie
+rich-big-cat-pie,Rich Big Cat Pie,pie.bigcat.rich,1469787676,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-big-cat-pie
+rich-chicken-pie,Rich Chicken Pie,pie.chicken.rich,2006264797,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-chicken-pie
+rich-crocodile-pie,Rich Crocodile Pie,pie.crocodile.rich,-1540865198,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-crocodile-pie
+rich-fish-pie,Rich Fish Pie,pie.fish.rich,1427291780,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-fish-pie
+rich-hunters-pie,Rich Hunters Pie,pie.hunters.rich,-1188678681,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-hunters-pie
+rich-pork-pie,Rich Pork Pie,pie.pork.rich,1988640176,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-pork-pie
+rich-pumpkin-pie,Rich Pumpkin Pie,pie.pumpkin.rich,1364112542,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-pumpkin-pie
+rich-shepherds-pie,Rich Shepherds Pie,pie.mutton.rich,1468691829,Food,3,300,0,True,100,19,,-1,,,False,False,https://rusthelp.com/items/rich-shepherds-pie
+rifle-body,Rifle Body,riflebody,176787552,Component,10,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/rifle-body
+riot-helmet,Riot Helmet,riot.helmet,671063303,Clothes,1,1200,150,False,,,,,,,True,False,https://rusthelp.com/items/riot-helmet
+road-sign-jacket,Road Sign Jacket,roadsign.jacket,-2002277461,Clothes,1,1200,500,False,,,,,,,True,False,https://rusthelp.com/items/road-sign-jacket
+road-sign-kilt,Road Sign Kilt,roadsign.kilt,1850456855,Clothes,1,1200,150,False,,,,,,,True,False,https://rusthelp.com/items/road-sign-kilt
+road-signs,Road Signs,roadsigns,1199391518,Component,20,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/road-signs
+roadsign-gloves,Road Sign Gloves,roadsign.gloves,-699558439,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/roadsign-gloves
+roadsign-horse-armor,Roadsign Horse Armor,horse.armor.roadsign,60528587,Clothes,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/roadsign-horse-armor
+rock,Rock,rock,963906841,Tool,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/rock
+rocket,Rocket,ammo.rocket.basic,-742865266,Ammo,3,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/rocket
+rocket-launcher,Rocket Launcher,rocket.launcher,442886268,Weapons,1,3600,100,False,,,,,,,True,False,https://rusthelp.com/items/rocket-launcher
+rocking-chair,Rocking Chair,rockingchair,-1863063690,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/rocking-chair
+ronald-mcdonald-house-uk-2026-plushie,Ronald McDonald House UK 2026 Plushie,charity.plushy.03,2130820934,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/ronald-mcdonald-house-uk-2026-plushie
+ronald-mcdonald-house-uk-plushie,Ronald McDonald House UK Plushie,charity.plushy.02,2130820933,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/ronald-mcdonald-house-uk-plushie
+root-combiner,Root Combiner,electrical.combiner,-458565393,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/root-combiner
+rope,Rope,rope,1414245522,Component,50,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/rope
+rose,Rose,rose,1414245519,Food,20,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/rose
+rose-clone,Rose Clone,clone.rose,-19360132,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/rose-clone
+rose-seed,Rose Seed,seed.rose,-1037472336,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/rose-seed
+rotten-apple,Rotten Apple,apple.spoiled,352130972,Food,1,300,0,True,15,2,,-1,,,False,False,https://rusthelp.com/items/rotten-apple
+rpg-launcher,RPG Launcher,rocket.launcher.rpg7,494161326,Weapons,1,3600,100,False,,,,,,,True,False,https://rusthelp.com/items/rpg-launcher
+rug,Rug,rug,-1985799200,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/rug
+rug-bear-skin,Bear Skin Rug,rug.bear,-1104881824,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/rug-bear-skin
+rustige-egg-amethyst,Rustigé Egg - Amethyst,rustige_egg_h,-173268138,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-amethyst
+rustige-egg-blue,Rustigé Egg - Blue,rustige_egg_b,-173268132,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-blue
+rustige-egg-cerulean,Rustigé Egg - Cerulean,rustige_egg_g,-173268127,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-cerulean
+rustige-egg-green,Rustigé Egg - Green,rustige_egg_e,-173268125,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-green
+rustige-egg-ivory,Rustigé Egg - Ivory,rustige_egg_d,-173268126,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-ivory
+rustige-egg-purple,Rustigé Egg - Purple,rustige_egg_c,-173268131,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-purple
+rustige-egg-red,Rustigé Egg - Red,rustige_egg_a,-173268129,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-red
+rustige-egg-white,Rustigé Egg - White,rustige_egg_f,-173268128,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/rustige-egg-white
+saddle-bag,Saddle bag,horse.saddlebag,1400460850,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/saddle-bag
+sail,Sail,sail,405905095,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/sail
+salmon,Salmon,fish.salmon,-851988960,Food,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/salmon
+salt-water,Salt Water,water.salt,-277057363,Resources,2147483647,300,0,True,-15,-20,5,-1,,,False,False,https://rusthelp.com/items/salt-water
+salvage-workbench-upgrade,Salvage Workbench Upgrade,workbench.upgrade.salvage,-160105346,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/salvage-workbench-upgrade
+salvaged-axe,Salvaged Axe,axe.salvaged,-262590403,Tool,1,2400,500,False,,,,,,,True,False,https://rusthelp.com/items/salvaged-axe
+salvaged-cleaver,Salvaged Cleaver,salvaged.cleaver,-1978999529,Weapons,1,1200,250,False,,,,,,,True,False,https://rusthelp.com/items/salvaged-cleaver
+salvaged-hammer,Salvaged Hammer,hammer.salvaged,-1506397857,Tool,1,1200,500,False,,,,,,,True,False,https://rusthelp.com/items/salvaged-hammer
+salvaged-icepick,Salvaged Icepick,icepick.salvaged,-1780802565,Tool,1,2400,500,False,,,,,,,True,False,https://rusthelp.com/items/salvaged-icepick
+salvaged-industrial-shelves,Salvaged Industrial Shelves,salvaged.industrial.shelves,-1018026008,Items,10,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/salvaged-industrial-shelves
+salvaged-shelves,Salvaged Shelves,shelves,1950721418,Items,10,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/salvaged-shelves
+salvaged-sword,Salvaged Sword,salvaged.sword,1326180354,Weapons,1,300,350,False,,,,,,,True,False,https://rusthelp.com/items/salvaged-sword
+sam-ammo,SAM Ammo,ammo.rocket.sam,-384243979,Ammo,1000,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/sam-ammo
+sam-site,SAM Site,samsite,-1009359066,Traps,1,3600,100,False,,,,,,,True,True,https://rusthelp.com/items/sam-site
+sandbag-barricade,Sandbag Barricade,barricade.sandbags,-559599960,Construction,20,300,0,False,,,,,,,True,True,https://rusthelp.com/items/sandbag-barricade
+santa-beard,Santa Beard,santabeard,2126889441,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/santa-beard
+santa-hat,Santa Hat,santahat,-575483084,Clothes,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/santa-hat
+sar,Semi-Automatic Rifle,rifle.semiauto,-904863145,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/sar
+sardine,Sardine,fish.sardine,-1654233406,Food,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/sardine
+satchel-charge,Satchel Charge,explosive.satchel,-1878475007,Tool,10,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/satchel-charge
+scarecrow,Scarecrow,scarecrow,177226991,Items,5,300,100,False,,,,,,,True,True,https://rusthelp.com/items/scarecrow
+scarecrow-suit,Scarecrow Suit,scarecrow.suit,273951840,Clothes,1,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/scarecrow-suit
+scarecrow-wrap,Scarecrow Wrap,scarecrowhead,809942731,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/scarecrow-wrap
+scatter-dart,Scatter Dart,dart.scatter,2036395619,Ammo,64,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/scatter-dart
+scattershot,Scattershot,catapult.ammo.boulder,1831249347,Ammo,4,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/scattershot
+scientist-plushie,Scientist Plushie,scientist.plushie,445662288,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/scientist-plushie
+scientist-suit,Scientist Suit,hazmatsuit_scientist,-253079493,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/scientist-suit
+scientist-suit-peacekeeper,Scientist Suit,hazmatsuit_scientist_peacekeeper,-1958316066,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/scientist-suit-peacekeeper
+scrap,Scrap,scrap,-932201673,Resources,1000,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/scrap
+search-light,Search Light,searchlight,2087678962,Electrical,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/search-light
+secret-lab-chair,Secretlab Chair,secretlabchair,567871954,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/secret-lab-chair
+seismic-sensor,Seismic Sensor,electric.seismicsensor,-948291630,Electrical,10,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/seismic-sensor
+semi-automatic-body,Semi Automatic Body,semibody,573926264,Component,10,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/semi-automatic-body
+semi-automatic-pistol,Semi-Automatic Pistol,pistol.semiauto,818877484,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/semi-automatic-pistol
+sewing-kit,Sewing Kit,sewingkit,1234880403,Component,20,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/sewing-kit
+shears,Shears,shears,-1953695556,Tool,1,300,200,False,,,,,,,True,False,https://rusthelp.com/items/shears
+sheet-metal,Sheet Metal,sheetmetal,-1994909036,Component,20,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/sheet-metal
+sheet-metal-door,Sheet Metal Door,door.hinged.metal,-2067472972,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/sheet-metal-door
+sheet-metal-double-door,Sheet Metal Double Door,door.double.hinged.metal,1390353317,Construction,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/sheet-metal-double-door
+shepherds-pie,Shepherds Pie,pie.mutton,939198535,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/shepherds-pie
+shirt,Shirt,shirt.collared,-2025184684,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/shirt
+shop-front,Shop Front,wall.frame.shopfront,-796583652,Construction,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/shop-front
+short-ice-wall,Short Ice Wall,wall.ice.wall,1327005675,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/short-ice-wall
+shorts,Shorts,pants.shorts,-1695367501,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/shorts
+shotgun-trap,Shotgun Trap,guntrap,352499047,Traps,1,2400,200,False,,,,,,,True,True,https://rusthelp.com/items/shotgun-trap
+shovel,Shovel,shovel,-1536855921,Tool,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/shovel
+shovel-bass,Shovel Bass,fun.bass,-2107018088,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/shovel-bass
+shutter-frame-large,Shutter Frame large,scrapframe.large,-1094453063,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/shutter-frame-large
+shutter-frame-medium,Shutter Frame Medium,scrapframe.medium,-1060567807,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/shutter-frame-medium
+shutter-frame-small,Shutter Frame Small,scrapframe.small,-498301781,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/shutter-frame-small
+shutter-frame-standing,Shutter Frame Standing,scrapframe.standing,-1774190142,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/shutter-frame-standing
+shutter-frame-xl,Shutter Frame XL,scrapframe.xl,-1244287686,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/shutter-frame-xl
+shutter-frame-xxl,Shutter Frame XXL,scrapframe.xxl,-1211801774,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/shutter-frame-xxl
+sickle,Sickle,sickle,-1368584029,Misc,1,300,400,False,,,,,,,True,False,https://rusthelp.com/items/sickle
+siege-tower,Siege Tower,siegetower,-1290278434,Weapons,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/siege-tower
+silencer,Military Silencer,weapon.mod.silencer,-1850571427,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/silencer
+silly-horse-mask,Silly Horse Mask,silly.horse.mask,1849409072,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/silly-horse-mask
+silver-egg,Silver Egg,easter.silveregg,1757265204,Misc,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/silver-egg
+simple-handmade-sight,Simple Handmade Sight,weapon.mod.simplesight,-855748505,Weapons,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/simple-handmade-sight
+simple-light,Simple Light,electric.simplelight,-282113991,Electrical,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/simple-light
+single-horse-saddle,Single Horse Saddle,horse.saddle.single,1559915778,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/single-horse-saddle
+single-plant-pot,Single Plant Pot,plantpot.single,-430416124,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/single-plant-pot
+single-sign-post,Single Sign Post,sign.post.single,1542290441,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/single-sign-post
+siren-light,Siren Light,electric.sirenlight,762289806,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/siren-light
+skimmed-milk,Skimmed Milk,skimmedmilk,-1019639625,Food,10,300,0,True,30,36,,48,spoiled-produce,,False,False,https://rusthelp.com/items/skimmed-milk
+skinning-knife,Skinning Knife,knife.skinning,-2073432256,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/skinning-knife
+sks,SKS,rifle.sks,-348232115,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/sks
+skull-door-knocker,Skull Door Knocker,skulldoorknocker,-216116642,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/skull-door-knocker
+skull-fire-pit,Skull Fire Pit,skull_fire_pit,553887414,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/skull-fire-pit
+skull-spikes,Skull Spikes,skullspikes,-1073015016,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/skull-spikes
+skull-trophy,Skull Trophy,skull.trophy,-769647921,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/skull-trophy
+skull-wall-lamp,Skull Wall Lamp,tunalight.skull,-1716340729,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/skull-wall-lamp
+sky-lantern,Sky Lantern,skylantern,1819863051,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/sky-lantern
+sled,Sled,sled,-333406828,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/sled
+sled-xmas,Sled,sled.xmas,-135252633,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/sled-xmas
+sleeping-bag,Sleeping Bag,sleepingbag,-1754948969,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/sleeping-bag
+small-backpack,Small Backpack,smallbackpack,2068884361,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/small-backpack
+small-boat-engine,Small Boat Engine,smallengine,-2115299615,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-boat-engine
+small-candle-set,Small Candle Set,smallcandles,-2058362263,Misc,1,300,60,False,,,,,,,True,True,https://rusthelp.com/items/small-candle-set
+small-generator,Small Generator,electric.fuelgenerator.small,1849887541,Electrical,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/small-generator
+small-hunting-trophy,Small Hunting Trophy,huntingtrophysmall,-869598982,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/small-hunting-trophy
+small-loot-bag,Small Loot Bag,halloween.lootbag.small,1319617282,Misc,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/small-loot-bag
+small-neon-sign,Small Neon Sign,sign.neon.125x125,1305578813,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-neon-sign
+small-oil-refinery,Small Oil Refinery,small.oil.refinery,-1293296287,Items,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/small-oil-refinery
+small-planter-box,Small Planter Box,planter.small,1903654061,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-planter-box
+small-present,Small Present,xmas.present.small,-722241321,Misc,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/small-present
+small-ramp,Small Ramp,small_ramp,-158718378,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-ramp
+small-rechargeable-battery,Small Rechargeable Battery,electric.battery.rechargable.small,-692338819,Electrical,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/small-rechargeable-battery
+small-shark,Small Shark,fish.smallshark,-1768880890,Food,5,300,0,False,,,,,,,False,False,https://rusthelp.com/items/small-shark
+small-spike-trap,Small Spike Trap,spikes.trap,-1850297170,Traps,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-spike-trap
+small-stash,Small Stash,stash.small,-369760990,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-stash
+small-stocking,Small Stocking,stocking.small,1668858301,Items,5,300,0,False,,,,,,,False,True,https://rusthelp.com/items/small-stocking
+small-trout,Small Trout,fish.troutsmall,-1878764039,Food,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/small-trout
+small-water-bottle,Small Water Bottle,smallwaterbottle,-1039528932,Food,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/small-water-bottle
+small-water-catcher,Small Water Catcher,water.catcher.small,-132247350,Construction,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-water-catcher
+small-wooden-sign,Small Wooden Sign,sign.wooden.small,-1138208076,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/small-wooden-sign
+smart-alarm,Smart Alarm,smart.alarm,-695978112,Electrical,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/smart-alarm
+smart-switch,Smart Switch,smart.switch,988652725,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/smart-switch
+smg-body,SMG Body,smgbody,1230323789,Component,10,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/smg-body
+smoke-grenade,Smoke Grenade,grenade.smoke,1263920163,Tool,3,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/smoke-grenade
+snake-mask,Snake mask,hat.snakemask,-1314079879,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/snake-mask
+snake-venom,Snake Venom,venom.snake,-870140677,Items,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/snake-venom
+snap-trap,Snap Trap,trap.bear,-582782051,Traps,3,1200,200,False,,,,,,,True,True,https://rusthelp.com/items/snap-trap
+snow-jacket,Snow Jacket,jacket.snow,-48090175,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/snow-jacket
+snow-machine,Snow Machine,snowmachine,1358643074,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/snow-machine
+snowball,Snowball,snowball,-363689972,Weapons,1,300,100,False,,,,,,,False,False,https://rusthelp.com/items/snowball
+snowball-gun,Snowball Gun,snowballgun,1103488722,Weapons,1,300,200,False,,,,,,,True,False,https://rusthelp.com/items/snowball-gun
+snowman,Snowman,snowman,1629293099,Items,5,300,100,False,,,,,,,True,True,https://rusthelp.com/items/snowman
+snowman-helmet,Snowman Helmet,attire.snowman.helmet,-842267147,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/snowman-helmet
+soda-can-silencer,Soda Can Silencer,weapon.mod.sodacansilencer,-1659598760,Weapons,1,1200,15,False,,,,,,,True,False,https://rusthelp.com/items/soda-can-silencer
+sofa,Sofa,sofa,-555122905,Items,2,300,0,False,,,,,,,True,True,https://rusthelp.com/items/sofa
+sound-light,Sound Light,soundlight,-343857907,Fun,5,300,100,False,,,,,,,True,True,https://rusthelp.com/items/sound-light
+sousaphone,Sousaphone,fun.tuba,1784406797,Fun,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/sousaphone
+space-lr-300-assault-rifle,Space LR-300 Assault Rifle,rifle.lr300.space,533993281,Weapons,1,3600,150,False,,,,,,,True,False,https://rusthelp.com/items/space-lr-300-assault-rifle
+spas-12-shotgun,Spas-12 Shotgun,shotgun.spas12,-41440462,Weapons,1,3600,100,False,,,,,,,True,False,https://rusthelp.com/items/spas-12-shotgun
+speargun,Speargun,speargun,-1517740219,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/speargun
+speargun-spear,Speargun Spear,speargun.spear,-1800345240,Ammo,64,300,0,False,,,,,,,True,False,https://rusthelp.com/items/speargun-spear
+speech-bubble-balloon,Speech Bubble Balloon,speechbubbleballoon2025,963400638,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/speech-bubble-balloon
+spider-webs,Spider Webs,spiderweb,882559853,Misc,10,300,0,False,,,,,,,False,True,https://rusthelp.com/items/spider-webs
+spinning-wheel,Spinning Wheel,spinner.wheel,-1100422738,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/spinning-wheel
+splitter,Splitter,electric.splitter,-563624462,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/splitter
+spoiled-bear-meat,Spoiled Bear Meat,bearmeat.spoiled,1348294923,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-bear-meat
+spoiled-beef,Spoiled Beef,beefmeat.spoiled,1412100395,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-beef
+spoiled-big-cat-meat,Spoiled Big Cat Meat,bigcatmeat.spoiled,248643189,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-big-cat-meat
+spoiled-chicken,Spoiled Chicken,chicken.spoiled,-751151717,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-chicken
+spoiled-crocodile-meat,Spoiled Crocodile Meat,crocodilemeat.spoiled,-1796837031,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-crocodile-meat
+spoiled-deer-meat,Spoiled Deer Meat,deermeat.spoiled,-2035449523,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-deer-meat
+spoiled-fish-meat,Spoiled Fish Meat,fish.spoiled,1130729138,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-fish-meat
+spoiled-horse-meat,Spoiled Horse Meat,horsemeat.spoiled,-724146494,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-horse-meat
+spoiled-human-meat,Spoiled Human Meat,humanmeat.spoiled,1272768630,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-human-meat
+spoiled-mutton,Spoiled Mutton,muttonmeat.spoiled,1751463672,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-mutton
+spoiled-pork-meat,Spoiled Pork Meat,porkmeat.spoiled,1925646349,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-pork-meat
+spoiled-produce,Spoiled Produce,spoiled.produce,1184215560,Food,20,300,0,True,-50,-50,10,-1,,,False,False,https://rusthelp.com/items/spoiled-produce
+spoiled-snake-meat,Spoiled Snake Meat,snakemeat.spoiled,-1616704051,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-snake-meat
+spoiled-wolf-meat,Spoiled Wolf Meat,wolfmeat.spoiled,-1167031859,Food,20,300,0,True,10,2,10,-1,,,False,False,https://rusthelp.com/items/spoiled-wolf-meat
+spooky-speaker,Spooky Speaker,spookyspeaker,1885488976,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/spooky-speaker
+spot-light,Spot Light,electric.spotlight,-1258821205,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/spot-light
+spray-can,Spray Can,spraycan,-596876839,Tool,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/spray-can
+sprinkler,Sprinkler,electric.sprinkler,-781014061,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/sprinkler
+star-balloon,Star Balloon,starballoon2025,-1782127806,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/star-balloon
+star-tree-topper,Star Tree Topper,xmas.decoration.star,-1331212963,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/star-tree-topper
+steering-wheel,Steering Wheel,steeringwheel.boat,-1866909924,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/steering-wheel
+sticks,Sticks,sticks,642482233,Component,100,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/sticks
+stone-barricade,Stone Barricade,barricade.stone,15388698,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/stone-barricade
+stone-fireplace,Stone Fireplace,fireplace.stone,-1535621066,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/stone-fireplace
+stone-hatchet,Stone Hatchet,stonehatchet,-1583967946,Tool,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/stone-hatchet
+stone-pickaxe,Stone Pickaxe,stone.pickaxe,171931394,Tool,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/stone-pickaxe
+stone-sculpture,Stone Sculpture,sculpture.rock,1852905808,Fun,1,300,150,False,,,,,,,True,True,https://rusthelp.com/items/stone-sculpture
+stone-spear,Stone Spear,spear.stone,1602646136,Weapons,1,300,80,False,,,,,,,True,False,https://rusthelp.com/items/stone-spear
+stones,Stones,stones,-2099697608,Resources,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/stones
+storage-adaptor,Storage Adaptor,storageadaptor,-1049172752,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/storage-adaptor
+storage-barrel-horizontal,Storage Barrel Horizontal,storage_barrel_c,-1421257350,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/storage-barrel-horizontal
+storage-barrel-vertical,Storage Barrel Vertical,storage_barrel_b,1307626005,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/storage-barrel-vertical
+storage-monitor,Storage Monitor,storage.monitor,1149964039,Electrical,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/storage-monitor
+storage-vehicle-module,Storage Vehicle Module,vehicle.1mod.storage,268565518,Component,1,2400,275,False,,,,,,,True,False,https://rusthelp.com/items/storage-vehicle-module
+strengthened-glass-window,Strengthened Glass Window,wall.window.glass.reinforced,-1614955425,Construction,10,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/strengthened-glass-window
+strobe-light,Strobe Light,strobelight,2104517339,Misc,1,300,60,False,,,,,,,True,True,https://rusthelp.com/items/strobe-light
+sulfur,Sulfur,sulfur,-1581843485,Resources,1000,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/sulfur
+sulfur-ore,Sulfur Ore,sulfur.ore,-1157596551,Resources,1000,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/sulfur-ore
+sunflower,Sunflower,sunflower,-611118083,Food,20,1200,0,False,,,,,,,False,False,https://rusthelp.com/items/sunflower
+sunflower-clone,Sunflower Clone,clone.sunflower,912235912,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/sunflower-clone
+sunflower-seed,Sunflower Seed,seed.sunflower,1412103380,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/sunflower-seed
+super-serum,Super Serum,supertea,-1003665711,Food,1,300,0,True,500,500,,-1,,,False,False,https://rusthelp.com/items/super-serum
+super-stocking,SUPER Stocking,stocking.large,-465682601,Items,1,300,0,False,,,,,,,False,True,https://rusthelp.com/items/super-stocking
+supply-signal,Supply Signal,supply.signal,1397052267,Tool,1,3600,0,False,,,,,,,False,False,https://rusthelp.com/items/supply-signal
+surgeon-scrubs,Surgeon Scrubs,halloween.surgeonsuit,-1785231475,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/surgeon-scrubs
+surplus-workbench-upgrade,Surplus Workbench Upgrade,workbench.upgrade.surplus,-1536343135,Component,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/surplus-workbench-upgrade
+survey-charge,Survey Charge,surveycharge,1975934948,Tool,10,300,0,False,,,,,,,True,False,https://rusthelp.com/items/survey-charge
+survival-fish-trap,Survival Fish Trap,fishtrap.small,559147458,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/survival-fish-trap
+survivors-pie,Survivor's Pie,pie.survivors,-963820355,Food,3,300,0,True,80,15,,-1,,,False,False,https://rusthelp.com/items/survivors-pie
+switch,Switch,electric.switch,1951603367,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/switch
+t-shirt,T-Shirt,tshirt,223891266,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/t-shirt
+table,Table,table,593465182,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/table
+tactical-gloves,Tactical Gloves,tactical.gloves,-1108136649,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/tactical-gloves
+tall-picture-frame,Tall Picture Frame,sign.pictureframe.tall,121049755,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/tall-picture-frame
+tall-weapon-rack,Tall Weapon Rack,gunrack_tall.horizontal,240752557,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/tall-weapon-rack
+tank-top,Tank Top,shirt.tanktop,1608640313,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/tank-top
+targeting-attachment,Targeting Attachment,weapon.mod.targetingattachment,1719587208,Weapons,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/targeting-attachment
+targeting-computer,Targeting Computer,targeting.computer,1523195708,Resources,64,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/targeting-computer
+tarp,Tarp,tarp,2019042823,Component,20,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/tarp
+taxi-vehicle-module,Taxi Vehicle Module,vehicle.1mod.taxi,-626174997,Component,1,2400,295,False,,,,,,,True,False,https://rusthelp.com/items/taxi-vehicle-module
+tech-trash,Tech Trash,techparts,73681876,Component,50,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/tech-trash
+telephone,Telephone,telephone,1234878710,Fun,1,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/telephone
+tesla-coil,Tesla Coil,electric.teslacoil,1371909803,Electrical,3,300,100,False,,,,,,,True,True,https://rusthelp.com/items/tesla-coil
+test-generator,Test Generator,electric.generator.small,-295829489,Electrical,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/test-generator
+thompson,Thompson,smg.thompson,-1758372725,Weapons,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/thompson
+thruster-module,Thruster Module,thruster.module,1754952075,Component,1,2400,100,False,,,,,,,True,False,https://rusthelp.com/items/thruster-module
+tiger-mask,Tiger Mask,hat.tigermask,709206314,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/tiger-mask
+timed-explosive-charge,Timed Explosive Charge,explosive.timed,1248356124,Tool,10,3600,0,False,,,,,,,True,False,https://rusthelp.com/items/timed-explosive-charge
+timer,Timer,electric.timer,665332906,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/timer
+tin-can-alarm,Tin Can Alarm,tincan.alarm,962186730,Traps,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/tin-can-alarm
+tool-cupboard,Tool Cupboard,cupboard.tool,-97956382,Construction,1,300,1,False,,,,,,,True,True,https://rusthelp.com/items/tool-cupboard
+torch,Torch,torch,795236088,Tool,1,30,50,False,,,,,,,True,False,https://rusthelp.com/items/torch
+torch-holder,Torch Holder,torchholder,446206234,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/torch-holder
+torpedo,Torpedo,submarine.torpedo.straight,-1671551935,Ammo,100,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/torpedo
+tree-lights,Tree Lights,xmas.decoration.lights,1723747470,Misc,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/tree-lights
+triangle-ladder-hatch,Triangle Ladder Hatch,floor.triangle.ladder.hatch,2041899972,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/triangle-ladder-hatch
+triangle-planter-box,Triangle Planter Box,planter.triangle,-280812482,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/triangle-planter-box
+tripod-spot-light,Tripod Spot Light,electric.spotlight.tripod,-2134097299,Electrical,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/tripod-spot-light
+tuna-can-lamp,Tuna Can Lamp,tunalight,-1478445584,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/tuna-can-lamp
+twitch-rivals-2025-sofa,Twitch Rivals 2025 Sofa,twitchrivals2025sofa,1604092540,Items,2,300,0,False,,,,,,,True,True,https://rusthelp.com/items/twitch-rivals-2025-sofa
+twitch-rivals-flag,Twitch Rivals Flag,twitchrivalsflag,-739993590,Clothes,1,2400,0,False,,,,,,,False,False,https://rusthelp.com/items/twitch-rivals-flag
+twitch-rivals-neon-sign,Twitch Rivals Neon Sign,neonsigntr,381595627,Electrical,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/twitch-rivals-neon-sign
+twitch-rivals-trophy,Twitch Rivals Trophy,trophy,975983052,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/twitch-rivals-trophy
+twitch-rivals-trophy-2023,Twitch Rivals Trophy 2023,trophy2023,-901370585,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/twitch-rivals-trophy-2023
+two-sided-hanging-sign,Two Sided Hanging Sign,sign.hanging,1205607945,Items,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/two-sided-hanging-sign
+two-sided-ornate-hanging-sign,Two Sided Ornate Hanging Sign,sign.hanging.ornate,-1647846966,Items,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/two-sided-ornate-hanging-sign
+two-sided-town-sign-post,Two Sided Town Sign Post,sign.post.town.roof,826309791,Items,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/two-sided-town-sign-post
+uzi,Uzi,smg.uzi,2125127001,Weapons,1,2400,200,False,,,,,,,True,False,https://rusthelp.com/items/uzi
+vampire-stake,Vampire Stake,vampire.stake,-885833256,Weapons,1,300,0.1,False,,,,,,,True,False,https://rusthelp.com/items/vampire-stake
+variable-zoom-scope,Variable Zoom Scope,weapon.mod.8x.scope,174866732,Weapons,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/variable-zoom-scope
+vending-machine,Vending Machine,vending.machine,198438816,Items,1,1200,100,False,,,,,,,True,True,https://rusthelp.com/items/vending-machine
+violet-boomer,Violet Boomer,firework.boomer.violet,-280223496,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/violet-boomer
+violet-roman-candle,Violet Roman Candle,firework.romancandle.violet,-99886070,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/violet-roman-candle
+violet-volcano-firework,Violet Volcano Firework,firework.volcano.violet,-1538109120,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/violet-volcano-firework
+vodka-bottle,Vodka Bottle,bottle.vodka,755224797,Food,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/vodka-bottle
+walkie-talkie,Walkie Talkie,walkietalkie,-1416322465,Items,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/walkie-talkie
+wall-cabinet,Wall Cabinet,electric.wallcabinet,656829501,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wall-cabinet
+wallpaper,Wallpaper,wallpaper.wall,553967074,Tool,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/wallpaper
+wallpaper-ceiling,Wallpaper Ceiling,wallpaper.ceiling,1730664641,Items,10,300,0,False,,,,,,,True,False,https://rusthelp.com/items/wallpaper-ceiling
+wallpaper-tool,Wallpaper Tool,wallpaper.tool,1629564540,Tool,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/wallpaper-tool
+wanted-poster,Wanted Poster,wantedposter,-1344017968,Fun,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wanted-poster
+watch-tower,Watch Tower,watchtower.wood,-463122489,Construction,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/watch-tower
+water,Water,water,-1779180711,Resources,2147483647,300,0,True,,30,-3,-1,,,False,False,https://rusthelp.com/items/water
+water-barrel,Water Barrel,water.barrel,-1863559151,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/water-barrel
+water-bucket,Water Bucket,bucket.water,1424075905,Tool,1,300,150,False,,,,,,,True,False,https://rusthelp.com/items/water-bucket
+water-gun,Water Gun,gun.water,722955039,Weapons,1,300,50,False,,,,,,,True,False,https://rusthelp.com/items/water-gun
+water-jug,Water Jug,waterjug,-119235651,Items,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/water-jug
+water-pistol,Water Pistol,pistol.water,-1815301988,Weapons,1,300,50,False,,,,,,,True,False,https://rusthelp.com/items/water-pistol
+water-pump,Water Pump,waterpump,-1284169891,Electrical,3,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/water-pump
+water-purifier,Water Purifier,water.purifier,2114754781,Items,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/water-purifier
+water-wheel,Water Wheel,generator.water,-379403794,Electrical,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/water-wheel
+waterpipe-shotgun,Waterpipe Shotgun,shotgun.waterpipe,-1367281941,Weapons,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/waterpipe-shotgun
+waterwell-npc-jumpsuit,Waterwell NPC Jumpsuit,jumpsuit.waterwellnpc,-874908751,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/waterwell-npc-jumpsuit
+weapon-flashlight,Weapon flashlight,weapon.mod.flashlight,952603248,Weapons,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/weapon-flashlight
+weapon-lasersight,Weapon Lasersight,weapon.mod.lasersight,-132516482,Weapons,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/weapon-lasersight
+weapon-rack-stand,Weapon Rack Stand,gunrack_stand,1132603396,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/weapon-rack-stand
+wellipets-hat,Wellipets Hat,hat.wellipets,-507248640,Clothes,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/wellipets-hat
+wetsuit,Wetsuit,diving.wetsuit,-1101924344,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/wetsuit
+wheat,Wheat,wheat,1178325727,Food,20,1200,0,True,75,10,,-1,,,False,False,https://rusthelp.com/items/wheat
+wheat-clone,Wheat Clone,clone.wheat,924598634,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/wheat-clone
+wheat-seed,Wheat Seed,seed.wheat,-1790885730,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/wheat-seed
+wheelbarrow-piano,Wheelbarrow Piano,piano,1272430949,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/wheelbarrow-piano
+white-berry,White Berry,white.berry,854447607,Food,20,1200,0,True,5,2,,48,spoiled-produce,,False,False,https://rusthelp.com/items/white-berry
+white-berry-clone,White Berry Clone,clone.white.berry,1533551194,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/white-berry-clone
+white-berry-seed,White Berry Seed,seed.white.berry,-992286106,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/white-berry-seed
+white-boomer,White Boomer,firework.boomer.white,-18034684,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/white-boomer
+white-volcano-firework,White Volcano Firework,firework.volcano,261913429,Fun,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/white-volcano-firework
+wicker-barrel,Wicker Barrel,wicker.barrel,-526026171,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wicker-barrel
+wide-weapon-rack,Wide Weapon Rack,gunrack_wide.horizontal,-96256997,Items,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/wide-weapon-rack
+wind-turbine,Wind Turbine,generator.wind.scrap,-1819763926,Electrical,1,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/wind-turbine
+wire-tool,Wire Tool,wiretool,-144417939,Electrical,1,300,0,False,,,,,,,True,False,https://rusthelp.com/items/wire-tool
+wolf-headdress,Wolf Headdress,hat.wolf,-1478212975,Clothes,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/wolf-headdress
+wolf-skull,Wolf Skull,skull.wolf,2048317869,Resources,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/wolf-skull
+wood,Wood,wood,-151838493,Resources,1000,300,0,False,,,,,,,False,False,https://rusthelp.com/items/wood
+wood-armor-gloves,Wood Armor Gloves,woodarmor.gloves,-459159118,Clothes,1,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/wood-armor-gloves
+wood-armor-helmet,Wood Armor Helmet,wood.armor.helmet,-2094954543,Clothes,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/wood-armor-helmet
+wood-armor-pants,Wood Armor Pants,wood.armor.pants,832133926,Clothes,1,1200,100,False,,,,,,,True,False,https://rusthelp.com/items/wood-armor-pants
+wood-chestplate,Wood Chestplate,wood.armor.jacket,418081930,Clothes,1,1200,75,False,,,,,,,True,False,https://rusthelp.com/items/wood-chestplate
+wood-dart,Wood Dart,dart.wood,-274709858,Ammo,64,1200,0,False,,,,,,,True,False,https://rusthelp.com/items/wood-dart
+wood-double-door,Wood Double Door,door.double.hinged.wood,-1336109173,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/wood-double-door
+wood-frame-large,Wood Frame Large,woodframe.large,-635951327,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/wood-frame-large
+wood-frame-medium,Wood Frame Medium,woodframe.medium,-1541706279,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/wood-frame-medium
+wood-frame-small,Wood Frame Small,woodframe.small,-1476278729,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/wood-frame-small
+wood-frame-standing,Wood Frame Standing,woodframe.standing,1769475390,Fun,5,1200,0,False,,,,,,,True,True,https://rusthelp.com/items/wood-frame-standing
+wood-shutters,Wood Shutters,shutter.wood.a,-1023374709,Construction,20,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wood-shutters
+wood-storage-box,Wood Storage Box,box.wooden,-180129657,Items,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wood-storage-box
+wooden-armor-insert,Wooden Armor Insert,clothing.mod.armorinsert_wood,-593892112,Items,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/wooden-armor-insert
+wooden-arrow,Wooden Arrow,arrow.wooden,-1234735557,Ammo,64,300,0,False,,,,,,,True,False,https://rusthelp.com/items/wooden-arrow
+wooden-bar-stool,Wooden Bar Stool,bar.stool.wood,-1444366079,Items,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/wooden-bar-stool
+wooden-barricade,Wooden Barricade,barricade.wood,866889860,Construction,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/wooden-barricade
+wooden-barricade-cover,Wooden Barricade Cover,barricade.wood.cover,1373240771,Construction,3,300,0,False,,,,,,,True,True,https://rusthelp.com/items/wooden-barricade-cover
+wooden-cross,Wooden Cross,woodcross,699075597,Misc,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wooden-cross
+wooden-door,Wooden Door,door.hinged.wood,1729120840,Construction,1,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wooden-door
+wooden-floor-spikes,Wooden Floor Spikes,spikes.floor,-92759291,Traps,10,300,0,False,,,,,,,True,True,https://rusthelp.com/items/wooden-floor-spikes
+wooden-frontier-bar-doors,Wooden Frontier Bar Doors,door.double.hinged.bardoors,-1151332840,Construction,1,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/wooden-frontier-bar-doors
+wooden-horse-armor,Wooden Horse Armor,horse.armor.wood,1659447559,Clothes,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/wooden-horse-armor
+wooden-ladder,Wooden Ladder,ladder.wooden.wall,-316250604,Construction,5,2400,100,False,,,,,,,True,True,https://rusthelp.com/items/wooden-ladder
+wooden-shield,Wooden Shield,wooden.shield,1604837581,Clothes,1,2400,300,False,,,,,,,True,False,https://rusthelp.com/items/wooden-shield
+wooden-spear,Wooden Spear,spear.wooden,1540934679,Weapons,1,300,100,False,,,,,,,True,False,https://rusthelp.com/items/wooden-spear
+wooden-window-bars,Wooden Window Bars,wall.window.bars.wood,-1183726687,Construction,10,300,100,False,,,,,,,True,True,https://rusthelp.com/items/wooden-window-bars
+wool,Wool,wool,204391867,Resources,100,300,0,False,,,,,,,True,False,https://rusthelp.com/items/wool
+wool-armor-insert,Wool Armor Insert,clothing.mod.armorinsert_wool,-593892104,Items,1,2400,0,False,,,,,,,True,False,https://rusthelp.com/items/wool-armor-insert
+workbench-level-1,Workbench Level 1,workbench1,1524187186,Items,1,2400,1,False,,,,,,1,True,True,https://rusthelp.com/items/workbench-level-1
+workbench-level-2,Workbench Level 2,workbench2,-41896755,Items,1,1200,1,False,,,,,,2,True,True,https://rusthelp.com/items/workbench-level-2
+workbench-level-3,Workbench Level 3,workbench3,-1607980696,Items,1,1200,1,False,,,,,,3,True,True,https://rusthelp.com/items/workbench-level-3
+worm,Worm,worm,1770475779,Food,25,300,0,True,1,-10,,-1,,,False,False,https://rusthelp.com/items/worm
+wrapped-gift,Wrapped Gift,wrappedgift,204970153,Fun,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/wrapped-gift
+wrapping-paper,Wrapping Paper,wrappingpaper,1094293920,Fun,1,300,0,False,,,,,,,False,False,https://rusthelp.com/items/wrapping-paper
+wumpus-plush,Wumpus Plush,discord.plushie,-1800102806,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/wumpus-plush
+xl-picture-frame,XL Picture Frame,sign.pictureframe.xl,-996185386,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/xl-picture-frame
+xor-switch,XOR Switch,electric.xorswitch,1293102274,Electrical,5,300,0,False,,,,,,,True,True,https://rusthelp.com/items/xor-switch
+xxl-picture-frame,XXL Picture Frame,sign.pictureframe.xxl,98508942,Fun,5,2400,0,False,,,,,,,True,True,https://rusthelp.com/items/xxl-picture-frame
+xylobone,Xylobone,xylophone,-211235948,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/xylobone
+yellow-berry,Yellow Berry,yellow.berry,1660145984,Food,20,1200,0,True,5,2,,48,spoiled-produce,,False,False,https://rusthelp.com/items/yellow-berry
+yellow-berry-clone,Yellow Berry Clone,clone.yellow.berry,390728933,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/yellow-berry-clone
+yellow-berry-seed,Yellow Berry Seed,seed.yellow.berry,-520133715,Food,50,300,0,False,,,,,,,False,True,https://rusthelp.com/items/yellow-berry-seed
+yellow-perch,Yellow Perch,fish.yellowperch,680234026,Food,10,300,0,False,,,,,,,False,False,https://rusthelp.com/items/yellow-perch
+zombie-wumpus-plush,Zombie Wumpus Plush,discord.zombie.plushie,-570638754,Fun,1,300,0,False,,,,,,,True,True,https://rusthelp.com/items/zombie-wumpus-plush
