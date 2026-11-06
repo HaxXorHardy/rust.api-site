@@ -205,7 +205,8 @@ export class RustApi {
       (body) => body.data,
       async () => {
         if (!this._searcher) {
-          const index = (await this.#cached('/v1/search/index.json')).data;
+          // Der Suchindex ist ein eigenes Dokument (ohne data/meta-Huelle).
+          const index = await this.#cached('/v1/search/index.json');
           this._searcher = createSearcher(index);
         }
         return this._searcher.search(query, options);
