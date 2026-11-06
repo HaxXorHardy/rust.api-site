@@ -1,9 +1,9 @@
 ﻿/**
- * Client fuer die statische API mit optionalem Worker-Fallback.
+ * Client for the static API with an optional worker fallback.
  *
- * Alle Methoden funktionieren ohne Worker (dann lokal gefiltert) und mit
- * Worker (dann serverseitig). Bei 429/5xx faellt der Client automatisch auf
- * die lokale Auswertung zurueck.
+ * Every method works without a worker (filtered locally) and with a worker
+ * (server-side). On 429/5xx the client automatically falls back to local
+ * evaluation.
  */
 
 import { createSearcher } from './shared/search-core.js';
@@ -49,7 +49,7 @@ export class RustApi {
       } catch (error) {
         if (response.ok) {
           throw new RustApiError(
-            `Ungueltige JSON-Antwort von ${url}: ${text.slice(0, 80)}`,
+            `Invalid JSON response from ${url}: ${text.slice(0, 80)}`,
             response.status,
             null,
           );
@@ -66,7 +66,7 @@ export class RustApi {
   async #cached(path) {
     if (!this._cache.has(path)) {
       const promise = this.#json(`${this.staticBase}${path}`).catch((error) => {
-        // Fehlgeschlagene Anfragen duerfen den Cache nicht vergiften.
+        // Failed requests must not poison the cache.
         this._cache.delete(path);
         throw error;
       });
@@ -91,7 +91,7 @@ export class RustApi {
   }
 
   /**
-   * Bevorzugt den Worker, faellt bei 429/5xx auf die lokale Auswertung zurueck.
+   * Prefers the worker and falls back to local evaluation on 429/5xx.
    * @param {string} path
    * @param {Record<string, any>} params
    * @param {(body: any) => any} fromDynamic
@@ -195,7 +195,7 @@ export class RustApi {
   }
 
   /**
-   * Gewichtete Suche. Nutzt den Worker, sonst den lokalen Index.
+   * Weighted search. Uses the worker when available, the local index otherwise.
    * @returns {Promise<Array<{type: string, slug: string, name: string, category: string|null, path: string, score: number}>>}
    */
   async search(query, options = {}) {
@@ -205,7 +205,7 @@ export class RustApi {
       (body) => body.data,
       async () => {
         if (!this._searcher) {
-          // Der Suchindex ist ein eigenes Dokument (ohne data/meta-Huelle).
+          // The search index is its own document (no data/meta envelope).
           const index = await this.#cached('/v1/search/index.json');
           this._searcher = createSearcher(index);
         }

@@ -331,20 +331,20 @@
     }
   },
   "info": {
-    "description": "Read-only API auf Basis eines archivierten Snapshots von rusthelp.com.\nStatische Ressourcen liegen als JSON-Dateien auf einem CDN, dynamische Filter\nlaufen optional ueber einen Cloudflare Worker.\n\nDatenquelle: https://rusthelp.com - inoffiziell, keine Verbindung zu Facepunch oder rusthelp.com.\nAttribution ist erforderlich; Bilder werden nur verlinkt, nicht gespiegelt.",
+    "description": "Read-only API for Rust game data, served as static JSON files from a CDN.\nDynamic filtering and search are available through an optional Cloudflare Worker.\n\nData source: https://rusthelp.com - unofficial, not affiliated with Facepunch or rusthelp.com.\nAttribution is required; images are linked, not mirrored.",
     "license": {
       "identifier": "MIT",
-      "name": "MIT (Code) / Quell-Daten: siehe Attribution"
+      "name": "MIT (code) / source data: see attribution"
     },
-    "summary": "Statische API fuer Rust-Spieldaten (Snapshot 1099 Items).",
-    "title": "Rust API (inoffiziell)",
+    "summary": "Static API for Rust game data (dataset 1099 items).",
+    "title": "Rust API (unofficial)",
     "version": "v1.1"
   },
   "openapi": "3.1.0",
   "paths": {
     "/v1/building/index.json": {
       "get": {
-        "description": "Alle Bauteile mit Grade, Health und Pfad.",
+        "description": "All building blocks with grade, health and path.",
         "parameters": [],
         "responses": {
           "200": {
@@ -365,10 +365,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -378,7 +378,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -388,7 +388,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -398,7 +398,7 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
         "summary": "Building",
@@ -409,7 +409,7 @@
     },
     "/v1/building/raid-costs.json": {
       "get": {
-        "description": "Raid-Tabelle ueber alle Bauteile (requiredItems aus dem Upstream).",
+        "description": "Raid table across all building blocks (requiredItems from upstream).",
         "parameters": [],
         "responses": {
           "200": {
@@ -430,10 +430,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -443,7 +443,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -453,7 +453,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -463,10 +463,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Raid-Kosten",
+        "summary": "Raid costs",
         "tags": [
           "Building"
         ]
@@ -474,7 +474,7 @@
     },
     "/v1/building/raid-costs/by-damage-type/{type}.json": {
       "get": {
-        "description": "explosive, bullet oder melee.",
+        "description": "explosive, bullet or melee.",
         "parameters": [
           {
             "in": "path",
@@ -504,10 +504,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -517,7 +517,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -527,7 +527,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -537,10 +537,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Raid-Kosten je Schadensart",
+        "summary": "Raid costs by damage type",
         "tags": [
           "Building"
         ]
@@ -548,7 +548,7 @@
     },
     "/v1/building/{slug}.json": {
       "get": {
-        "description": "Bauteil inkl. Baukosten, Upkeep, Reparatur und Raid-Tabelle.",
+        "description": "Building block including build cost, upkeep, repair and raid table.",
         "parameters": [
           {
             "in": "path",
@@ -578,10 +578,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -591,7 +591,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -601,7 +601,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -611,10 +611,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Building-Detail",
+        "summary": "Building detail",
         "tags": [
           "Building"
         ]
@@ -622,7 +622,7 @@
     },
     "/v1/catalog.json": {
       "get": {
-        "description": "Alle Katalogeintraege inklusive unveroeffentlichter Prefabs.",
+        "description": "All catalog entries including unreleased prefabs.",
         "parameters": [],
         "responses": {
           "200": {
@@ -643,10 +643,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -656,7 +656,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -666,7 +666,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -676,10 +676,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Item-Katalog",
+        "summary": "Item catalog",
         "tags": [
           "Meta"
         ]
@@ -687,7 +687,7 @@
     },
     "/v1/categories.json": {
       "get": {
-        "description": "Kategoriebaum mit Item-Counts.",
+        "description": "Category tree with item counts.",
         "parameters": [],
         "responses": {
           "200": {
@@ -708,10 +708,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -721,7 +721,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -731,7 +731,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -741,10 +741,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Kategorien",
+        "summary": "Categories",
         "tags": [
           "Meta"
         ]
@@ -752,7 +752,7 @@
     },
     "/v1/changes.json": {
       "get": {
-        "description": "Neue, entfernte und geaenderte Items gegenueber der Vorgaengerversion.",
+        "description": "Items added, removed and changed against the previous version.",
         "parameters": [],
         "responses": {
           "200": {
@@ -773,10 +773,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -786,7 +786,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -796,7 +796,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -806,10 +806,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Aenderungen",
+        "summary": "Changes",
         "tags": [
           "Meta"
         ]
@@ -817,7 +817,7 @@
     },
     "/v1/commands/all.json": {
       "get": {
-        "description": "Alle Befehle mit Beschreibung, Default und Flags.",
+        "description": "All commands with description, default and flags.",
         "parameters": [],
         "responses": {
           "200": {
@@ -838,10 +838,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -851,7 +851,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -861,7 +861,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -871,10 +871,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Befehle (vollstaendig)",
+        "summary": "Commands (full)",
         "tags": [
           "Meta"
         ]
@@ -882,7 +882,7 @@
     },
     "/v1/commands/command-list.txt": {
       "get": {
-        "description": "Alle fullNames, eine pro Zeile.",
+        "description": "All fullNames, one per line.",
         "parameters": [],
         "responses": {
           "200": {
@@ -893,10 +893,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -906,7 +906,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -916,7 +916,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -926,10 +926,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Befehlsliste",
+        "summary": "Command list",
         "tags": [
           "Meta"
         ]
@@ -937,7 +937,7 @@
     },
     "/v1/commands/duplicates.json": {
       "get": {
-        "description": "Doppelte fullNames aus dem Upstream.",
+        "description": "Duplicate fullNames from the upstream data.",
         "parameters": [],
         "responses": {
           "200": {
@@ -958,10 +958,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -971,7 +971,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -981,7 +981,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -991,10 +991,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Befehls-Dubletten",
+        "summary": "Command duplicates",
         "tags": [
           "Meta"
         ]
@@ -1002,7 +1002,7 @@
     },
     "/v1/commands/index.json": {
       "get": {
-        "description": "Alle Konsolenbefehle als kompakte Liste.",
+        "description": "All console commands as a compact list.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1023,10 +1023,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1036,7 +1036,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1046,7 +1046,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1056,10 +1056,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Befehle",
+        "summary": "Commands",
         "tags": [
           "Meta"
         ]
@@ -1067,7 +1067,7 @@
     },
     "/v1/datasets.json": {
       "get": {
-        "description": "Alle Snapshot-Versionen mit Counts und Veroeffentlichungsstatus.",
+        "description": "All dataset versions with counts and publication state.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1088,10 +1088,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1101,7 +1101,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1111,7 +1111,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1121,10 +1121,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Versionen",
+        "summary": "Datasets",
         "tags": [
           "Meta"
         ]
@@ -1132,7 +1132,7 @@
     },
     "/v1/export/items.csv": {
       "get": {
-        "description": "Flache Item-Tabelle (UTF-8 mit BOM).",
+        "description": "Flat item table (UTF-8 with BOM).",
         "parameters": [],
         "responses": {
           "200": {
@@ -1143,10 +1143,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1156,7 +1156,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1166,7 +1166,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1176,10 +1176,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "CSV-Export",
+        "summary": "CSV export",
         "tags": [
           "Meta"
         ]
@@ -1187,7 +1187,7 @@
     },
     "/v1/export/upstream/{file}": {
       "get": {
-        "description": "Unveraenderte Snapshot-Datei (gzip). (nur mit --raw bulk|items|all)",
+        "description": "Unmodified snapshot file (gzip). (only with --raw bulk|items|all)",
         "parameters": [
           {
             "in": "path",
@@ -1217,10 +1217,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1230,7 +1230,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1240,7 +1240,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1250,10 +1250,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Rohdaten",
+        "summary": "Raw data",
         "tags": [
           "Meta"
         ]
@@ -1261,7 +1261,7 @@
     },
     "/v1/items/by-category/{category}.json": {
       "get": {
-        "description": "Summaries einer Kategorie.",
+        "description": "Summaries of one category.",
         "parameters": [
           {
             "in": "path",
@@ -1291,10 +1291,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1304,7 +1304,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1314,7 +1314,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1324,10 +1324,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Items je Kategorie",
+        "summary": "Items by category",
         "tags": [
           "Items"
         ]
@@ -1335,7 +1335,7 @@
     },
     "/v1/items/by-tech-tree/{tree}.json": {
       "get": {
-        "description": "Items eines Tech-Trees.",
+        "description": "Items of one tech tree.",
         "parameters": [
           {
             "in": "path",
@@ -1365,10 +1365,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1378,7 +1378,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1388,7 +1388,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1398,10 +1398,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Items je Tech-Tree",
+        "summary": "Items by tech tree",
         "tags": [
           "Items"
         ]
@@ -1409,7 +1409,7 @@
     },
     "/v1/items/craftable.json": {
       "get": {
-        "description": "Alle Items mit Crafting-Rezept.",
+        "description": "All items with a crafting recipe.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1430,10 +1430,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1443,7 +1443,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1453,7 +1453,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1463,10 +1463,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Craftbare Items",
+        "summary": "Craftable items",
         "tags": [
           "Items"
         ]
@@ -1474,7 +1474,7 @@
     },
     "/v1/items/deployable.json": {
       "get": {
-        "description": "Alle platzierbaren Items.",
+        "description": "All placeable items.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1495,10 +1495,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1508,7 +1508,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1518,7 +1518,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1528,7 +1528,7 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
         "summary": "Deployables",
@@ -1539,7 +1539,7 @@
     },
     "/v1/items/index.json": {
       "get": {
-        "description": "Alle Item-Summaries, nach Name sortiert.",
+        "description": "All item summaries, sorted by name.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1550,10 +1550,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1563,7 +1563,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1573,7 +1573,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1583,7 +1583,7 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
         "summary": "Items",
@@ -1594,7 +1594,7 @@
     },
     "/v1/items/recyclable.json": {
       "get": {
-        "description": "Alle Items, die im Recycler verwertbar sind.",
+        "description": "All items that can be processed in a recycler.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1615,10 +1615,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1628,7 +1628,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1638,7 +1638,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1648,10 +1648,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Recycelbare Items",
+        "summary": "Recyclable items",
         "tags": [
           "Items"
         ]
@@ -1659,7 +1659,7 @@
     },
     "/v1/items/{slug}.json": {
       "get": {
-        "description": "Vollstaendiges Item inkl. Crafting, Recycling, Loot und Flags.",
+        "description": "Full item including crafting, recycling, loot and flags.",
         "parameters": [
           {
             "in": "path",
@@ -1679,10 +1679,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1692,7 +1692,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1702,7 +1702,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1712,10 +1712,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Item-Detail",
+        "summary": "Item detail",
         "tags": [
           "Items"
         ]
@@ -1723,7 +1723,7 @@
     },
     "/v1/items/{slug}.raw.json": {
       "get": {
-        "description": "Unveraenderter Upstream-Datensatz. (nur mit --raw items|all)",
+        "description": "Unmodified upstream record. (only with --raw items|all)",
         "parameters": [
           {
             "in": "path",
@@ -1753,10 +1753,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1766,7 +1766,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1776,7 +1776,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1786,10 +1786,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Item-Rohdaten",
+        "summary": "Raw item",
         "tags": [
           "Items"
         ]
@@ -1797,7 +1797,7 @@
     },
     "/v1/meta.json": {
       "get": {
-        "description": "Dataset-Version, Counts, Endpunkte und Attribution.",
+        "description": "Dataset version, counts, endpoints and attribution.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1808,10 +1808,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1821,7 +1821,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1831,7 +1831,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1841,10 +1841,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Metadaten",
+        "summary": "Metadata",
         "tags": [
           "Meta"
         ]
@@ -1852,7 +1852,7 @@
     },
     "/v1/monuments/index.json": {
       "get": {
-        "description": "Alle Monumente mit Kategorie und Typ.",
+        "description": "All monuments with category and type.",
         "parameters": [],
         "responses": {
           "200": {
@@ -1873,10 +1873,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1886,7 +1886,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1896,7 +1896,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1906,10 +1906,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Monumente",
+        "summary": "Monuments",
         "tags": [
           "Monuments"
         ]
@@ -1917,7 +1917,7 @@
     },
     "/v1/monuments/{slug}.json": {
       "get": {
-        "description": "Monument inkl. Stats, Spawns und Verweisen.",
+        "description": "Monument including stats, spawns and references.",
         "parameters": [
           {
             "in": "path",
@@ -1947,10 +1947,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -1960,7 +1960,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -1970,7 +1970,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -1980,10 +1980,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Monument-Detail",
+        "summary": "Monument detail",
         "tags": [
           "Monuments"
         ]
@@ -1991,7 +1991,7 @@
     },
     "/v1/recycler/index.json": {
       "get": {
-        "description": "Recycler-Items und verfuegbare Recycler.",
+        "description": "Recyclable items and available recyclers.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2012,10 +2012,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2025,7 +2025,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2035,7 +2035,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2045,7 +2045,7 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
         "summary": "Recycler",
@@ -2056,7 +2056,7 @@
     },
     "/v1/recycler/{item}.json": {
       "get": {
-        "description": "Ausbeute je Recycler.",
+        "description": "Yield per recycler.",
         "parameters": [
           {
             "in": "path",
@@ -2086,10 +2086,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2099,7 +2099,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2109,7 +2109,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2119,10 +2119,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Recycler-Item",
+        "summary": "Recycler item",
         "tags": [
           "Meta"
         ]
@@ -2130,7 +2130,7 @@
     },
     "/v1/resolve.json": {
       "get": {
-        "description": "slug/id/shortName/ingameId sowie Building- und World-Slugs auf Pfade abbilden.",
+        "description": "Map slug/id/shortName/ingameId plus building and world slugs to paths.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2151,10 +2151,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2164,7 +2164,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2174,7 +2174,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2184,10 +2184,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "ID-Landkarte",
+        "summary": "ID map",
         "tags": [
           "Meta"
         ]
@@ -2195,7 +2195,7 @@
     },
     "/v1/search/index.json": {
       "get": {
-        "description": "Docs, Tokens und Postings fuer die Client-Suche.",
+        "description": "Docs, tokens and postings for client-side search.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2216,10 +2216,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2229,7 +2229,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2239,7 +2239,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2249,10 +2249,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Suchindex",
+        "summary": "Search index",
         "tags": [
           "Meta"
         ]
@@ -2260,7 +2260,7 @@
     },
     "/v1/skins/by-item/{item}.json": {
       "get": {
-        "description": "Alle Skins eines Items.",
+        "description": "All skins of one item.",
         "parameters": [
           {
             "in": "path",
@@ -2290,10 +2290,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2303,7 +2303,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2313,7 +2313,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2323,10 +2323,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Skins je Item",
+        "summary": "Skins by item",
         "tags": [
           "Skins"
         ]
@@ -2334,7 +2334,7 @@
     },
     "/v1/skins/index.json": {
       "get": {
-        "description": "Alle Skins mit Preis, Item-Verknuepfung und Flags.",
+        "description": "All skins with price, item link and flags.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2355,10 +2355,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2368,7 +2368,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2378,7 +2378,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2388,7 +2388,7 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
         "summary": "Skins",
@@ -2399,7 +2399,7 @@
     },
     "/v1/skins/unmatched.json": {
       "get": {
-        "description": "Bundles und Packs ohne eindeutige Item-Zuordnung.",
+        "description": "Bundles and packs without an unambiguous item match.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2420,10 +2420,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2433,7 +2433,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2443,7 +2443,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2453,10 +2453,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Skins ohne Item",
+        "summary": "Skins without item",
         "tags": [
           "Skins"
         ]
@@ -2464,7 +2464,7 @@
     },
     "/v1/store/rotation.json": {
       "get": {
-        "description": "Aktuelle Rotation mit Skins, Preisen und Item-Verweisen.",
+        "description": "Current rotation with skins, prices and item links.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2485,10 +2485,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2498,7 +2498,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2508,7 +2508,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2518,10 +2518,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Store-Rotation",
+        "summary": "Store rotation",
         "tags": [
           "Skins"
         ]
@@ -2529,7 +2529,7 @@
     },
     "/v1/store/rotations.json": {
       "get": {
-        "description": "Alle Rotations-IDs mit Startzeit.",
+        "description": "All rotation ids with start time.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2550,10 +2550,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2563,7 +2563,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2573,7 +2573,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2583,10 +2583,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Rotationshistorie",
+        "summary": "Rotation history",
         "tags": [
           "Skins"
         ]
@@ -2594,7 +2594,7 @@
     },
     "/v1/tech-tree/index.json": {
       "get": {
-        "description": "Workbench1-3 und IoTable mit Knotenzahl.",
+        "description": "Workbench1-3 and IoTable with node counts.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2615,10 +2615,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2628,7 +2628,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2638,7 +2638,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2648,10 +2648,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Tech-Trees",
+        "summary": "Tech trees",
         "tags": [
           "Meta"
         ]
@@ -2659,7 +2659,7 @@
     },
     "/v1/tech-tree/{tree}.json": {
       "get": {
-        "description": "Knoten inkl. Kosten, Ein- und Ausgaben.",
+        "description": "Nodes including costs, inputs and outputs.",
         "parameters": [
           {
             "in": "path",
@@ -2689,10 +2689,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2702,7 +2702,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2712,7 +2712,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2722,10 +2722,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Tech-Tree",
+        "summary": "Tech tree",
         "tags": [
           "Meta"
         ]
@@ -2733,7 +2733,7 @@
     },
     "/v1/updates/index.json": {
       "get": {
-        "description": "Devblogs mit Datum und Item-Anzahl.",
+        "description": "Devblogs with date and item count.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2754,10 +2754,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2767,7 +2767,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2777,7 +2777,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2787,7 +2787,7 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
         "summary": "Updates",
@@ -2798,7 +2798,7 @@
     },
     "/v1/updates/{id}.json": {
       "get": {
-        "description": "Devblog inkl. aller Item-Verweise.",
+        "description": "Devblog including all item references.",
         "parameters": [
           {
             "in": "path",
@@ -2828,10 +2828,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2841,7 +2841,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2851,7 +2851,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2861,10 +2861,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "Update-Detail",
+        "summary": "Update detail",
         "tags": [
           "Meta"
         ]
@@ -2872,7 +2872,7 @@
     },
     "/v1/world/index.json": {
       "get": {
-        "description": "NPCs, Loot-Container, Ressourcen, Fahrzeuge, Missionen.",
+        "description": "NPCs, loot containers, resources, vehicles, missions.",
         "parameters": [],
         "responses": {
           "200": {
@@ -2893,10 +2893,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2906,7 +2906,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2916,7 +2916,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -2926,7 +2926,7 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
         "summary": "World",
@@ -2937,7 +2937,7 @@
     },
     "/v1/world/{slug}.json": {
       "get": {
-        "description": "World-Eintrag mit aufgeloesten Verweisen.",
+        "description": "World entry with resolved references.",
         "parameters": [
           {
             "in": "path",
@@ -2967,10 +2967,10 @@
                 }
               }
             },
-            "description": "Erfolg"
+            "description": "Success"
           },
           "304": {
-            "description": "Unveraendert (If-None-Match)"
+            "description": "Not modified (If-None-Match)"
           },
           "400": {
             "content": {
@@ -2980,7 +2980,7 @@
                 }
               }
             },
-            "description": "Ungueltige Anfrage"
+            "description": "Bad request"
           },
           "404": {
             "content": {
@@ -2990,7 +2990,7 @@
                 }
               }
             },
-            "description": "Nicht gefunden"
+            "description": "Not found"
           },
           "429": {
             "content": {
@@ -3000,10 +3000,10 @@
                 }
               }
             },
-            "description": "Rate-Limit erreicht (nur Worker)"
+            "description": "Rate limit exceeded (worker only)"
           }
         },
-        "summary": "World-Detail",
+        "summary": "World detail",
         "tags": [
           "World"
         ]
@@ -3012,33 +3012,33 @@
   },
   "servers": [
     {
-      "description": "Statische API (CDN)",
+      "description": "Static API (CDN)",
       "url": "https://haxxorhardy.github.io/rust.api-site"
     }
   ],
   "tags": [
     {
-      "description": "Items, Crafting, Recycling, Loot",
+      "description": "Items, crafting, recycling, loot",
       "name": "Items"
     },
     {
-      "description": "Bauteile und Raid-Kosten",
+      "description": "Building blocks and raid costs",
       "name": "Building"
     },
     {
-      "description": "NPCs, Loot, Fahrzeuge, Ressourcen",
+      "description": "NPCs, loot, vehicles, resources",
       "name": "World"
     },
     {
-      "description": "Monumente",
+      "description": "Monuments",
       "name": "Monuments"
     },
     {
-      "description": "Skins und Store-Preise",
+      "description": "Skins and store prices",
       "name": "Skins"
     },
     {
-      "description": "Versionen, Aenderungen, Katalog",
+      "description": "Versions, changes, catalog",
       "name": "Meta"
     }
   ]

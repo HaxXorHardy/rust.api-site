@@ -36,7 +36,7 @@ export function parseBoolean(value) {
   return undefined;
 }
 
-/** Ganzzahl mit Grenzen; `undefined` bei ungueltiger Eingabe. */
+/** Integer with bounds; `undefined` for invalid input. */
 export function parseInteger(value, { min = -Infinity, max = Infinity } = {}) {
   if (value === undefined || value === null || value === '') {
     return undefined;
@@ -126,7 +126,7 @@ export const COMMAND_QUERY_SPEC = {
 };
 
 /**
- * Liest erlaubte Parameter aus `URLSearchParams`.
+ * Reads allowed parameters from `URLSearchParams`.
  * @param {URLSearchParams} params
  * @param {Record<string, 'string'|'boolean'|'int'>} spec
  */
@@ -147,14 +147,14 @@ export function readQuery(params, spec) {
     } else if (type === 'boolean') {
       const value = parseBoolean(raw);
       if (value === undefined) {
-        errors.push(`${key} muss true oder false sein`);
+        errors.push(`${key} must be true or false`);
       } else {
         options[key] = value;
       }
     } else if (type === 'int') {
       const value = parseInteger(raw);
       if (value === undefined) {
-        errors.push(`${key} muss eine Ganzzahl sein`);
+        errors.push(`${key} must be an integer`);
       } else {
         options[key] = value;
       }
@@ -165,10 +165,10 @@ export function readQuery(params, spec) {
   const page = parseInteger(pageRaw, { min: 1 });
   const perPage = parseInteger(perPageRaw, { min: 1, max: LIMITS.maxPerPage });
   if (pageRaw !== null && pageRaw !== '' && page === undefined) {
-    errors.push('page muss eine Ganzzahl >= 1 sein');
+    errors.push('page must be an integer >= 1');
   }
   if (perPageRaw !== null && perPageRaw !== '' && perPage === undefined) {
-    errors.push(`perPage muss zwischen 1 und ${LIMITS.maxPerPage} liegen`);
+    errors.push(`perPage must be between 1 and ${LIMITS.maxPerPage}`);
   }
   options.page = page || 1;
   options.perPage = perPage || LIMITS.defaultPerPage;
@@ -176,7 +176,7 @@ export function readQuery(params, spec) {
   if (fields) {
     const paths = fields.split(',').map((entry) => entry.trim()).filter(Boolean);
     if (paths.length > LIMITS.maxFields) {
-      errors.push(`fields erlaubt maximal ${LIMITS.maxFields} Pfade`);
+      errors.push(`fields allows at most ${LIMITS.maxFields} paths`);
     } else {
       options.fields = paths;
     }
@@ -228,7 +228,7 @@ const SORT_KEYS = {
   stackSize: (item) => item.stackSize ?? 0,
 };
 
-/** Sortiert nach erlaubten Schluesseln, stabil und ohne `Intl`. */
+/** Sorts by allowed keys, stable and without `Intl`. */
 export function sortItems(items, sort = 'name', order = 'asc') {
   const key = SORT_KEYS[sort] || SORT_KEYS.name;
   const direction = order === 'desc' ? -1 : 1;
@@ -272,7 +272,7 @@ const RAID_SORT_KEYS = {
   requiredItems: (block) => block.attacks?.[0]?.requiredItems ?? Number.MAX_SAFE_INTEGER,
 };
 
-/** Sortiert Raid-Bloecke nach erlaubten Schluesseln. */
+/** Sorts raid blocks by allowed keys. */
 export function sortRaidBlocks(blocks, sort = 'name', order = 'asc') {
   const key = RAID_SORT_KEYS[sort] || RAID_SORT_KEYS.name;
   const direction = order === 'desc' ? -1 : 1;
@@ -334,7 +334,7 @@ export function paginate(items, page = 1, perPage = LIMITS.defaultPerPage) {
   };
 }
 
-/** Feldauswahl mit Punktpfaden (`craft.cost`); unbekannte Pfade entfallen. */
+/** Field selection with dot paths (`craft.cost`); unknown paths are dropped. */
 export function projectFields(value, fields) {
   if (!Array.isArray(fields) || fields.length === 0) {
     return value;

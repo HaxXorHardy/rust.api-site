@@ -1,13 +1,13 @@
-"""Kleiner Client fuer die statische Rust-API (nur Standardbibliothek).
+"""Small client for the static Rust API (standard library only).
 
-Beispiele::
+Examples::
 
     python client/rustapi.py item raw-beef
     python client/rustapi.py search beef --types item --limit 5
     python client/rustapi.py items --category Food --per-page 3
     python client/rustapi.py raid --damage-type explosive --sort requiredItems
 
-Ohne ``--base`` wird die API unter ``http://127.0.0.1:8000`` erwartet
+Without ``--base`` the client expects the API at ``http://127.0.0.1:8000``
 (``npm run api:serve``).
 """
 
@@ -26,7 +26,7 @@ from typing import Any
 
 
 class RustApiError(Exception):
-    """Fehler mit HTTP-Status und Problem-Details."""
+    """Error carrying the HTTP status and problem details."""
 
     def __init__(self, message: str, status: int | None = None, problem: Any = None) -> None:
         super().__init__(message)
@@ -35,7 +35,7 @@ class RustApiError(Exception):
 
 
 # --------------------------------------------------------------------------- #
-# Suchranking (Spiegel von web/search-core.js, ohne Fuzzy)
+# Search ranking (mirror of web/search-core.js, without fuzzy)
 # --------------------------------------------------------------------------- #
 
 TYPE_CODES = {
@@ -91,7 +91,7 @@ def _doc_path(doc: dict[str, Any]) -> str:
 
 
 # --------------------------------------------------------------------------- #
-# Query-Semantik (Spiegel von web/query-core.js)
+# Query semantics (mirror of web/query-core.js)
 # --------------------------------------------------------------------------- #
 
 
@@ -295,13 +295,13 @@ class RustApi:
                 body = json.loads(error.read().decode("utf-8"))
             except Exception:  # noqa: BLE001 - Fehlerkoerper ist optional
                 body = None
-            raise RustApiError(f"HTTP {error.code} fuer {url}", error.code, body) from error
+            raise RustApiError(f"HTTP {error.code} for {url}", error.code, body) from error
         except urllib.error.URLError as error:
             raise RustApiError(f"Verbindung fehlgeschlagen: {error.reason}") from error
         try:
             return json.loads(body.decode("utf-8"))
         except (UnicodeDecodeError, json.JSONDecodeError) as error:
-            raise RustApiError(f"Ungueltige JSON-Antwort fuer {url}") from error
+            raise RustApiError(f"Invalid JSON response for {url}") from error
 
     def _static(self, path: str, **params: Any) -> Any:
         url = f"{self.static_base}{path}"
@@ -348,7 +348,7 @@ class RustApi:
         return self._static(f"/v1/skins/by-item/{urllib.parse.quote(slug)}.json")["data"]
 
     # ------------------------------------------------------------------ #
-    # Listen und Suche (Worker, sonst statisch)
+    # Lists and search (worker when available, static otherwise)
     # ------------------------------------------------------------------ #
     def items(self, **query: Any) -> dict[str, Any]:
         if self.dynamic_base:
@@ -402,7 +402,7 @@ class RustApi:
             except RustApiError as error:
                 if error.status is not None and error.status != 429 and error.status < 500:
                     raise
-        # Ohne Worker: Suchindex mit identischem Ranking (ohne Fuzzy).
+        # Without a worker: use the search index with identical ranking (no fuzzy).
         index = self._search_index()
         tokens: list[str] = index.get("tokens") or []
         postings: dict[str, list[int]] = index.get("postings") or {}
@@ -461,7 +461,7 @@ class RustApi:
 
     def _search_index(self) -> dict[str, Any]:
         if not hasattr(self, "_index"):
-            # Der Suchindex ist ein eigenes Dokument ohne data/meta-Huelle.
+            # The search index is its own document without a data/meta envelope.
             self._index = self._static("/v1/search/index.json")
         return self._index
 
@@ -509,29 +509,29 @@ class RustApi:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Client fuer die statische Rust-API")
-    parser.add_argument("--base", default="http://127.0.0.1:8000", help="statische Basis-URL")
-    parser.add_argument("--dynamic", default="", help="Worker-Basis-URL (optional)")
+    parser = argparse.ArgumentParser(description="Client for the static Rust API")
+    parser.add_argument("--base", default="http://127.0.0.1:8000", help="static base URL")
+    parser.add_argument("--dynamic", default="", help="worker base URL (optional)")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    item = sub.add_parser("item", help="Item-Detail")
+    item = sub.add_parser("item", help="item detail")
     item.add_argument("slug")
 
-    sub.add_parser("meta", help="Metadaten")
-    sub.add_parser("categories", help="Kategorien")
+    sub.add_parser("meta", help="metadata")
+    sub.add_parser("categories", help="categories")
 
-    search = sub.add_parser("search", help="Suche")
+    search = sub.add_parser("search", help="search")
     search.add_argument("query")
     search.add_argument("--types", default="")
     search.add_argument("--limit", type=int, default=10)
 
-    items = sub.add_parser("items", help="Item-Liste")
+    items = sub.add_parser("items", help="item list")
     items.add_argument("--q", default="")
     items.add_argument("--category", default="")
     items.add_argument("--page", type=int, default=1)
     items.add_argument("--per-page", type=int, default=10)
 
-    raid = sub.add_parser("raid", help="Raid-Kosten")
+    raid = sub.add_parser("raid", help="raid costs")
     raid.add_argument("--damage-type", default="explosive")
     raid.add_argument("--sort", default="name")
     raid.add_argument("--order", default="asc")
@@ -564,10 +564,10 @@ def main(argv: list[str] | None = None) -> int:
                 order=args.order,
                 perPage=args.per_page,
             )
-        else:  # pragma: no cover - argparse deckt alles ab
+        else:  # pragma: no cover - argparse covers every case
             return 2
     except RustApiError as error:
-        print(f"FEHLER: {error}", file=sys.stderr)
+        print(f"ERROR: {error}", file=sys.stderr)
         if error.problem:
             print(json.dumps(error.problem, indent=2, ensure_ascii=False), file=sys.stderr)
         return 1

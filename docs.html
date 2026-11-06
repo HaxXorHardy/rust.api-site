@@ -1,97 +1,99 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Rust API - Referenz</title>
+<title>Rust API - reference</title>
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 <header>
-  <h1>Referenz</h1>
-  <p class="badge">Snapshot 2026-11</p>
-  <p class="muted"><a href="./index.html">Zurueck zur Uebersicht</a> -
+  <h1>Reference</h1>
+  <p class="badge">Dataset 2026-11</p>
+  <p class="muted"><a href="./index.html">Back to overview</a> -
   <a href="./openapi.json">openapi.json</a></p>
 </header>
 
 <main>
 <section>
-  <h2>Konventionen</h2>
+  <h2>Conventions</h2>
   <ul>
-    <li>Jede Ressource ist eine JSON-Datei und endet auf <code>.json</code>.</li>
-    <li>Antwortform: <code>{"data": ..., "meta": {...}}</code> mit
+    <li>Every resource is a JSON file and ends in <code>.json</code>.</li>
+    <li>Response shape: <code>{"data": ..., "meta": {...}}</code> with
       <code>apiVersion</code>, <code>schemaVersion</code>, <code>dataset.version</code>.</li>
-    <li>Enumerationen und Verweise enthalten <code>{id, slug, name, path}</code>; unbekannte
-      Ziele bleiben als <code>{id, "resolved": false}</code> sichtbar.</li>
-    <li>Fehler: <code>application/problem+json</code> nach RFC 9457.</li>
-    <li>Caching: <code>ETag</code> und <code>304</code>; statisch <code>max-age=600</code>,
-      dynamisch <code>max-age=60</code>.</li>
+    <li>References and enumerations use <code>{id, slug, name, path}</code>; unknown
+      targets stay visible as <code>{id, "resolved": false}</code>.</li>
+    <li>Errors: <code>application/problem+json</code> (RFC 9457).</li>
+    <li>Caching: <code>ETag</code> and <code>304</code>; static <code>max-age=600</code>,
+      dynamic <code>max-age=60</code>.</li>
+    <li><code>path</code> is relative to the API base (<code>meta.endpoints.static</code>),
+      not to the host.</li>
   </ul>
 </section>
 
 <section>
-  <h2>Die vier Item-IDs</h2>
+  <h2>The four item identifiers</h2>
   <table>
-    <thead><tr><th>Feld</th><th>Beispiel</th><th>Bedeutung</th></tr></thead>
+    <thead><tr><th>Field</th><th>Example</th><th>Meaning</th></tr></thead>
     <tbody>
-      <tr><td><code>slug</code></td><td><code>raw-beef</code></td><td>Seitenname, wird im Pfad verwendet</td></tr>
-      <tr><td><code>id</code></td><td><code>beefmeat</code></td><td>Entity-ID, wird in Rezepten referenziert</td></tr>
-      <tr><td><code>shortName</code></td><td><code>beefmeat</code></td><td>technischer Kurzname</td></tr>
-      <tr><td><code>ingameId</code></td><td><code>-201824959</code></td><td>numerische Spiel-ID</td></tr>
+      <tr><td><code>slug</code></td><td><code>raw-beef</code></td><td>page slug, used in paths</td></tr>
+      <tr><td><code>id</code></td><td><code>beefmeat</code></td><td>entity id, referenced by recipes</td></tr>
+      <tr><td><code>shortName</code></td><td><code>beefmeat</code></td><td>technical short name</td></tr>
+      <tr><td><code>ingameId</code></td><td><code>-201824959</code></td><td>numeric game id</td></tr>
     </tbody>
   </table>
-  <p class="muted"><code>v1/resolve.json</code> bildet alle vier Raeume auf Pfade ab.</p>
+  <p class="muted"><code>v1/resolve.json</code> maps all four namespaces to paths.</p>
 </section>
 
 <section>
-  <h2>Statische Endpunkte</h2>
-  <table><thead><tr><th>Methode</th><th>Pfad</th><th>Beschreibung</th></tr></thead><tbody><tr><td><code>GET</code></td><td><code>/v1/meta.json</code></td><td>Dataset-Version, Counts, Endpunkte und Attribution.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/changes.json</code></td><td>Neue, entfernte und geaenderte Items gegenueber der Vorgaengerversion.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/datasets.json</code></td><td>Alle Snapshot-Versionen mit Counts und Veroeffentlichungsstatus.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/resolve.json</code></td><td>slug/id/shortName/ingameId sowie Building- und World-Slugs auf Pfade abbilden.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/catalog.json</code></td><td>Alle Katalogeintraege inklusive unveroeffentlichter Prefabs.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/categories.json</code></td><td>Kategoriebaum mit Item-Counts.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/index.json</code></td><td>Alle Item-Summaries, nach Name sortiert.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/{slug}.json</code></td><td>Vollstaendiges Item inkl. Crafting, Recycling, Loot und Flags.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/{slug}.raw.json</code></td><td>Unveraenderter Upstream-Datensatz. (nur mit --raw items|all)</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/by-category/{category}.json</code></td><td>Summaries einer Kategorie.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/craftable.json</code></td><td>Alle Items mit Crafting-Rezept.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/recyclable.json</code></td><td>Alle Items, die im Recycler verwertbar sind.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/deployable.json</code></td><td>Alle platzierbaren Items.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/items/by-tech-tree/{tree}.json</code></td><td>Items eines Tech-Trees.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/building/index.json</code></td><td>Alle Bauteile mit Grade, Health und Pfad.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/building/{slug}.json</code></td><td>Bauteil inkl. Baukosten, Upkeep, Reparatur und Raid-Tabelle.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/building/raid-costs.json</code></td><td>Raid-Tabelle ueber alle Bauteile (requiredItems aus dem Upstream).</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/building/raid-costs/by-damage-type/{type}.json</code></td><td>explosive, bullet oder melee.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/world/index.json</code></td><td>NPCs, Loot-Container, Ressourcen, Fahrzeuge, Missionen.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/world/{slug}.json</code></td><td>World-Eintrag mit aufgeloesten Verweisen.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/monuments/index.json</code></td><td>Alle Monumente mit Kategorie und Typ.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/monuments/{slug}.json</code></td><td>Monument inkl. Stats, Spawns und Verweisen.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/skins/index.json</code></td><td>Alle Skins mit Preis, Item-Verknuepfung und Flags.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/skins/by-item/{item}.json</code></td><td>Alle Skins eines Items.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/skins/unmatched.json</code></td><td>Bundles und Packs ohne eindeutige Item-Zuordnung.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/tech-tree/index.json</code></td><td>Workbench1-3 und IoTable mit Knotenzahl.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/tech-tree/{tree}.json</code></td><td>Knoten inkl. Kosten, Ein- und Ausgaben.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/recycler/index.json</code></td><td>Recycler-Items und verfuegbare Recycler.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/recycler/{item}.json</code></td><td>Ausbeute je Recycler.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/store/rotation.json</code></td><td>Aktuelle Rotation mit Skins, Preisen und Item-Verweisen.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/store/rotations.json</code></td><td>Alle Rotations-IDs mit Startzeit.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/updates/index.json</code></td><td>Devblogs mit Datum und Item-Anzahl.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/updates/{id}.json</code></td><td>Devblog inkl. aller Item-Verweise.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/commands/index.json</code></td><td>Alle Konsolenbefehle als kompakte Liste.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/commands/all.json</code></td><td>Alle Befehle mit Beschreibung, Default und Flags.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/commands/duplicates.json</code></td><td>Doppelte fullNames aus dem Upstream.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/commands/command-list.txt</code></td><td>Alle fullNames, eine pro Zeile.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/search/index.json</code></td><td>Docs, Tokens und Postings fuer die Client-Suche.</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/export/items.csv</code></td><td>Flache Item-Tabelle (UTF-8 mit BOM).</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/export/upstream/{file}</code></td><td>Unveraenderte Snapshot-Datei (gzip). (nur mit --raw bulk|items|all)</td></tr></tbody></table>
+  <h2>Static endpoints</h2>
+  <table><thead><tr><th>Method</th><th>Path</th><th>Description</th></tr></thead><tbody><tr><td><code>GET</code></td><td><code>/v1/meta.json</code></td><td>Dataset version, counts, endpoints and attribution.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/changes.json</code></td><td>Items added, removed and changed against the previous version.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/datasets.json</code></td><td>All dataset versions with counts and publication state.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/resolve.json</code></td><td>Map slug/id/shortName/ingameId plus building and world slugs to paths.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/catalog.json</code></td><td>All catalog entries including unreleased prefabs.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/categories.json</code></td><td>Category tree with item counts.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/index.json</code></td><td>All item summaries, sorted by name.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/{slug}.json</code></td><td>Full item including crafting, recycling, loot and flags.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/{slug}.raw.json</code></td><td>Unmodified upstream record. (only with --raw items|all)</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/by-category/{category}.json</code></td><td>Summaries of one category.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/craftable.json</code></td><td>All items with a crafting recipe.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/recyclable.json</code></td><td>All items that can be processed in a recycler.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/deployable.json</code></td><td>All placeable items.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/items/by-tech-tree/{tree}.json</code></td><td>Items of one tech tree.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/building/index.json</code></td><td>All building blocks with grade, health and path.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/building/{slug}.json</code></td><td>Building block including build cost, upkeep, repair and raid table.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/building/raid-costs.json</code></td><td>Raid table across all building blocks (requiredItems from upstream).</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/building/raid-costs/by-damage-type/{type}.json</code></td><td>explosive, bullet or melee.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/world/index.json</code></td><td>NPCs, loot containers, resources, vehicles, missions.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/world/{slug}.json</code></td><td>World entry with resolved references.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/monuments/index.json</code></td><td>All monuments with category and type.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/monuments/{slug}.json</code></td><td>Monument including stats, spawns and references.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/skins/index.json</code></td><td>All skins with price, item link and flags.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/skins/by-item/{item}.json</code></td><td>All skins of one item.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/skins/unmatched.json</code></td><td>Bundles and packs without an unambiguous item match.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/tech-tree/index.json</code></td><td>Workbench1-3 and IoTable with node counts.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/tech-tree/{tree}.json</code></td><td>Nodes including costs, inputs and outputs.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/recycler/index.json</code></td><td>Recyclable items and available recyclers.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/recycler/{item}.json</code></td><td>Yield per recycler.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/store/rotation.json</code></td><td>Current rotation with skins, prices and item links.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/store/rotations.json</code></td><td>All rotation ids with start time.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/updates/index.json</code></td><td>Devblogs with date and item count.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/updates/{id}.json</code></td><td>Devblog including all item references.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/commands/index.json</code></td><td>All console commands as a compact list.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/commands/all.json</code></td><td>All commands with description, default and flags.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/commands/duplicates.json</code></td><td>Duplicate fullNames from the upstream data.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/commands/command-list.txt</code></td><td>All fullNames, one per line.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/search/index.json</code></td><td>Docs, tokens and postings for client-side search.</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/export/items.csv</code></td><td>Flat item table (UTF-8 with BOM).</td></tr>
+<tr><td><code>GET</code></td><td><code>/v1/export/upstream/{file}</code></td><td>Unmodified snapshot file (gzip). (only with --raw bulk|items|all)</td></tr></tbody></table>
 </section>
 
 <section>
-  <h2>Dynamische Endpunkte (optional)</h2>
-  <p>Falls ein Worker deployed ist (<code></code>):</p>
+  <h2>Dynamic endpoints (optional)</h2>
+  <p>Available only when a worker is deployed (<code></code>):</p>
   <table>
-    <thead><tr><th>Methode</th><th>Pfad</th><th>Parameter</th></tr></thead>
+    <thead><tr><th>Method</th><th>Path</th><th>Parameters</th></tr></thead>
     <tbody>
       <tr><td><code>GET</code></td><td><code>/v1/items</code></td><td><code>q, category, craftable, recyclable, deployable, hasSkins, minStackSize, maxStackSize, sort, order, page, perPage, fields</code></td></tr>
       <tr><td><code>GET</code></td><td><code>/v1/search</code></td><td><code>q, types, limit, fuzzy</code></td></tr>
@@ -103,36 +105,36 @@
 </section>
 
 <section>
-  <h2>Beispiele</h2>
-  <pre><code># Item inkl. Crafting und Recycling
+  <h2>Examples</h2>
+  <pre><code># Item including crafting and recycling
 curl -s https://haxxorhardy.github.io/rust.api-site/v1/items/explosives.json | jq .data.craft
 
-# Nur Name, Stack und Pfad
+# Name, stack size and path only
 curl -s https://haxxorhardy.github.io/rust.api-site/v1/items/index.json | jq '.data[0] | {name, stackSize, path}'
 
-# Raid-Kosten eines Bauteils (8 C4 fuer eine Armored Wall)
+# Raid cost for one building block (8 C4 for an armored wall)
 curl -s https://haxxorhardy.github.io/rust.api-site/v1/building/armored-wall.json | jq .data.raid.explosive[0]
 
-# Suche im Client (Python)
+# Search via the Python client
 python client/rustapi.py search beef --types item</code></pre>
 </section>
 
 <section>
-  <h2>Grenzen</h2>
+  <h2>Limits</h2>
   <ul>
-    <li>Read-only: es gibt keine Schreib-, Auth- oder Upload-Endpunkte.</li>
-    <li>Statisch sind keine Query-Parameter moeglich; dafuer gibt es vorgebaute Ansichten.</li>
-    <li><code>requiredItems</code> in Raid-Kosten stammt aus dem Upstream; nur
-      <code>crafts</code> und <code>totalCost</code> sind abgeleitet und markiert.</li>
-    <li>Skin-zu-Item-Zuordnung erfolgt ueber den Anzeigenamen und ist nur bei eindeutigen
-      Treffern gesetzt (<code>matchedBy</code>).</li>
+    <li>Read-only: there are no write, auth or upload endpoints.</li>
+    <li>Static hosting cannot evaluate query parameters; precomputed views cover the common cases.</li>
+    <li><code>requiredItems</code> in raid costs comes from the upstream data; only
+      <code>crafts</code> and <code>totalCost</code> are derived and marked as such.</li>
+    <li>Skin-to-item matching uses the display name and is only set for unambiguous
+      matches (<code>matchedBy</code>).</li>
   </ul>
 </section>
 </main>
 
 <footer>
-  <p>Daten: <a href="https://rusthelp.com" rel="noopener">rusthelp.com</a> - Attribution erforderlich.
-  Inoffiziell, keine Verbindung zu Facepunch.</p>
+  <p>Data: <a href="https://rusthelp.com" rel="noopener">rusthelp.com</a> - attribution required.
+  Unofficial, not affiliated with Facepunch.</p>
 </footer>
 </body>
 </html>
