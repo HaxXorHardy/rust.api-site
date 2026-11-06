@@ -461,7 +461,8 @@ class RustApi:
 
     def _search_index(self) -> dict[str, Any]:
         if not hasattr(self, "_index"):
-            self._index = self._static("/v1/search/index.json")["data"]
+            # Der Suchindex ist ein eigenes Dokument ohne data/meta-Huelle.
+            self._index = self._static("/v1/search/index.json")
         return self._index
 
     def raid_costs(self, **query: Any) -> dict[str, Any]:
