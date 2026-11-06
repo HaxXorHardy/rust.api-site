@@ -213,19 +213,6 @@
           "schemaVersion": {
             "const": 1,
             "type": "integer"
-          },
-          "source": {
-            "properties": {
-              "name": {
-                "example": "rusthelp.com",
-                "type": "string"
-              },
-              "url": {
-                "format": "uri",
-                "type": "string"
-              }
-            },
-            "type": "object"
           }
         },
         "required": [
@@ -331,10 +318,10 @@
     }
   },
   "info": {
-    "description": "Read-only API for Rust game data, served as static JSON files from a CDN.\nDynamic filtering and search are available through an optional Cloudflare Worker.\n\nData source: https://rusthelp.com - unofficial, not affiliated with Facepunch or rusthelp.com.\nAttribution is required; images are linked, not mirrored.",
+    "description": "Read-only API for Rust game data, served as static JSON files from a CDN.\nDynamic filtering and search are available through an optional Cloudflare Worker.\n\nUnofficial project, not affiliated with Facepunch. Images are linked, not mirrored.",
     "license": {
       "identifier": "MIT",
-      "name": "MIT (code) / source data: see attribution"
+      "name": "MIT"
     },
     "summary": "Static API for Rust game data (dataset 1099 items).",
     "title": "Rust API (unofficial)",
@@ -1797,7 +1784,7 @@
     },
     "/v1/meta.json": {
       "get": {
-        "description": "Dataset version, counts, endpoints and attribution.",
+        "description": "Dataset version, counts and endpoints.",
         "parameters": [],
         "responses": {
           "200": {

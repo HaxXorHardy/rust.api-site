@@ -2,14 +2,14 @@
   "data": {
     "apiVersion": "v1",
     "build": {
-      "bytes": 59781471,
+      "bytes": 59648094,
       "files": 2177,
       "largest": {
         "bytes": 4662971,
         "path": "v1/export/upstream/items.jsonl.gz"
       }
     },
-    "buildId": "a447fedba14af1f9",
+    "buildId": "115ccb62cb5d5d51",
     "counts": {
       "buildings": 113,
       "catalog": 1317,
@@ -54,13 +54,6 @@
         "world": 217
       }
     },
-    "source": {
-      "attribution": "Data from rusthelp.com. Unofficial, not affiliated with Facepunch or rusthelp.com.",
-      "name": "rusthelp.com",
-      "note": "Unofficial, read-only API. Attribution required.",
-      "reference": "NOTES-API.md",
-      "url": "https://rusthelp.com"
-    },
     "versioning": {
       "policy": "Additive changes only within v1; breaking changes require v2.",
       "schemaVersion": 1
@@ -73,10 +66,6 @@
       "previousVersion": "2026-10",
       "version": "2026-11"
     },
-    "schemaVersion": 1,
-    "source": {
-      "name": "rusthelp.com",
-      "url": "https://rusthelp.com"
-    }
+    "schemaVersion": 1
   }
 }
