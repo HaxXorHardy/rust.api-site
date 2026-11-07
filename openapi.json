@@ -3664,7 +3664,7 @@
     },
     {
       "description": "Dynamic API (Cloudflare Worker)",
-      "url": "https://rust-api.<subdomain>.workers.dev"
+      "url": "https://rust-api.haxxorhardy.workers.dev"
     }
   ],
   "tags": [

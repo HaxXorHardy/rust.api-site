@@ -9,7 +9,7 @@
         "path": "v1/export/upstream/items.jsonl.gz"
       }
     },
-    "buildId": "0bcf0af59d76aa2a",
+    "buildId": "804f49c3405b6dff",
     "counts": {
       "buildings": 113,
       "catalog": 1317,
@@ -33,7 +33,7 @@
       "version": "2026-11"
     },
     "endpoints": {
-      "dynamic": "https://rust-api.<subdomain>.workers.dev/v1",
+      "dynamic": "https://rust-api.haxxorhardy.workers.dev/v1",
       "static": "https://haxxorhardy.github.io/rust.api-site/v1"
     },
     "generator": {
