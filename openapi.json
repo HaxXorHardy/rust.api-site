@@ -318,7 +318,7 @@
     }
   },
   "info": {
-    "description": "Read-only API for Rust game data, served as static JSON files from a CDN.\nDynamic filtering and search are available through an optional Cloudflare Worker.\n\nUnofficial project, not affiliated with Facepunch. Images are linked, not mirrored.",
+    "description": "Read-only API for Rust game data, served as static JSON files from a CDN.\nDynamic filtering and search are available through an optional Cloudflare Worker.\n\nUnofficial project, not affiliated with Facepunch. Item icons are mirrored locally.",
     "license": {
       "identifier": "MIT",
       "name": "MIT"
@@ -1174,7 +1174,7 @@
     },
     "/v1/export/upstream/{file}": {
       "get": {
-        "description": "Unmodified snapshot file (gzip). (only with --raw bulk|items|all)",
+        "description": "Snapshot file (gzip, source links removed). (only with --raw bulk|items|all)",
         "parameters": [
           {
             "in": "path",

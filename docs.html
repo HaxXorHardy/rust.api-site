@@ -86,7 +86,7 @@
 <tr><td><code>GET</code></td><td><code>/v1/commands/command-list.txt</code></td><td>All fullNames, one per line.</td></tr>
 <tr><td><code>GET</code></td><td><code>/v1/search/index.json</code></td><td>Docs, tokens and postings for client-side search.</td></tr>
 <tr><td><code>GET</code></td><td><code>/v1/export/items.csv</code></td><td>Flat item table (UTF-8 with BOM).</td></tr>
-<tr><td><code>GET</code></td><td><code>/v1/export/upstream/{file}</code></td><td>Unmodified snapshot file (gzip). (only with --raw bulk|items|all)</td></tr></tbody></table>
+<tr><td><code>GET</code></td><td><code>/v1/export/upstream/{file}</code></td><td>Snapshot file (gzip, source links removed). (only with --raw bulk|items|all)</td></tr></tbody></table>
 </section>
 
 <section>
@@ -133,8 +133,8 @@ python client/rustapi.py search beef --types item</code></pre>
 </main>
 
 <footer>
-  <p>Unofficial project, not affiliated with Facepunch. Images are linked,
-  not mirrored.</p>
+  <p>Unofficial project, not affiliated with Facepunch. Item icons are mirrored
+  locally, other images stay linked.</p>
 </footer>
 </body>
 </html>
