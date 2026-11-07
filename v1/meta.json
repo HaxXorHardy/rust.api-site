@@ -2,14 +2,14 @@
   "data": {
     "apiVersion": "v1",
     "build": {
-      "bytes": 72743219,
+      "bytes": 72760247,
       "files": 3484,
       "largest": {
         "bytes": 4658908,
         "path": "v1/export/upstream/items.jsonl.gz"
       }
     },
-    "buildId": "a6bcc8c46426e79a",
+    "buildId": "0bcf0af59d76aa2a",
     "counts": {
       "buildings": 113,
       "catalog": 1317,
@@ -33,7 +33,7 @@
       "version": "2026-11"
     },
     "endpoints": {
-      "dynamic": null,
+      "dynamic": "https://rust-api.<subdomain>.workers.dev/v1",
       "static": "https://haxxorhardy.github.io/rust.api-site/v1"
     },
     "generator": {
