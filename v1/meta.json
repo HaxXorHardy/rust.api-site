@@ -2,14 +2,14 @@
   "data": {
     "apiVersion": "v1",
     "build": {
-      "bytes": 72732922,
-      "files": 3482,
+      "bytes": 72637885,
+      "files": 3483,
       "largest": {
-        "bytes": 4658905,
+        "bytes": 4658848,
         "path": "v1/export/upstream/items.jsonl.gz"
       }
     },
-    "buildId": "cbd4bc6ad729c790",
+    "buildId": "90feb563fd4a0d43",
     "counts": {
       "buildings": 113,
       "catalog": 1317,
@@ -19,8 +19,8 @@
       "items": 1099,
       "monuments": 60,
       "recyclerItems": 17,
-      "searchDocuments": 12209,
-      "skins": 6445,
+      "searchDocuments": 12212,
+      "skins": 6448,
       "storeItems": 14,
       "storeRotations": 528,
       "techTrees": 4,
@@ -28,7 +28,7 @@
       "world": 217
     },
     "dataset": {
-      "createdAt": "2026-11-10T05:52:11+00:00",
+      "createdAt": "2026-11-11T05:51:23+00:00",
       "previousVersion": "2026-10",
       "version": "2026-11"
     },
@@ -49,7 +49,7 @@
         "command": 3919,
         "item": 1099,
         "monument": 60,
-        "skin": 6445,
+        "skin": 6448,
         "update": 356,
         "world": 217
       }
@@ -62,7 +62,7 @@
   "meta": {
     "apiVersion": "v1",
     "dataset": {
-      "createdAt": "2026-11-10T05:52:11+00:00",
+      "createdAt": "2026-11-11T05:51:23+00:00",
       "previousVersion": "2026-10",
       "version": "2026-11"
     },
